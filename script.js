@@ -59,6 +59,27 @@ IMGS = ["assets/storebound.jpg",
 "assets/Duneawakening .jpg"
 ];
 
+const games = document.getElementById("games");
+
+for(i = 0; i < NAMES.length; i++){
+    fig = document.createElement('figure');
+    
+    title = document.createElement('figcaption');
+    title.innerHTML = NAMES[i];
+    fig.appendChild(title)
+
+    image = document.createElement('img');
+    image.src = IMGS[i];
+    image.alt = NAMES[i];
+    fig.appendChild(image);
+
+    but = document.createElement('button');
+    but.innerHTML = "learn more";
+    fig.appendChild(but);
+
+    games.appendChild(fig);
+}
+
 b1.addEventListener("click", function(){
     console.log("b1 clicked");
     window.open("https://store.steampowered.com/app/3417410/Storebound/https://store.steampowered.com/app/3417410/Storebound/","_blank");
@@ -135,8 +156,3 @@ b19.addEventListener("click", function(){
     console.log("b19 clicked");
     window.open("https://store.steampowered.com/app/1172710/Dune_Awakening/","_blank");
 });
-
-//clippath tool allows you to mask a picture
-//shape outside fits the text to the new shape
-//lenier gradiant: background-image: lienier gradiant();
-// use box sizing border or min-height: 100vh;
