@@ -62,6 +62,10 @@ IMGS = ["assets/storebound.jpg",
 const games = document.getElementById("games");
 
 for(i = 0; i < NAMES.length; i++){
+    const time = setTimeout(() =>figBuilder(i), i * 100);
+}
+
+function figBuilder(i){
     fig = document.createElement('figure');
     
     title = document.createElement('figcaption');
