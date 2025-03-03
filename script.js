@@ -61,8 +61,8 @@ IMGS = ["assets/storebound.jpg",
 
 const games = document.getElementById("games");
 
-for(i = 0; i < NAMES.length; i++){
-    const time = setTimeout(() =>figBuilder(i), i * 100);
+for (let i = 0; i < NAMES.length; i++) {
+    setTimeout((index) => figBuilder(index), i * 100, i);
 }
 
 function figBuilder(i){
