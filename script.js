@@ -75,6 +75,7 @@ for(i = 0; i < NAMES.length; i++){
 
     but = document.createElement('button');
     but.innerHTML = "learn more";
+    but.setAttribute("onclick", "goToLink(" + i + ")");
     fig.appendChild(but);
 
     games.appendChild(fig);
@@ -156,3 +157,8 @@ b19.addEventListener("click", function(){
     console.log("b19 clicked");
     window.open("https://store.steampowered.com/app/1172710/Dune_Awakening/","_blank");
 });
+
+function goToLink(number){
+    console.log("b" + number + " clicked");
+    window.open(LINKS[number],"_blank");
+}
