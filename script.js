@@ -17,8 +17,47 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
 "https://store.steampowered.com/app/3079190/PACS__Post_Apocalypse_Courier_Service_Coop_Delivery_Simulator/",
 "https://store.steampowered.com/app/2929250/over_the_hill/",
 "https://store.steampowered.com/app/1172710/Dune_Awakening/"];
-NAMES = [];
-IMGS = [];
+
+NAMES = ["Storebound",
+"Long Drive North",
+"Gas Station Manager",
+"Beat Around The Bush",
+"SAND",
+"Space Engineers 2",
+"DuneCrawl",
+"Lost Skies",
+"Nuclear Nightmare",
+"REPO",
+"Begone Beast",
+"Outbound",
+"Squirreled Away",
+"Forever Skies",
+"Jump Ship",
+"StarRupture",
+"PACS",
+"over the hill",
+"Dune Awakening"];
+
+IMGS = ["assets/storebound.jpg",
+"assets/longdriven.jpg",
+"assets/gasstation.jpg",
+"assets/beatthebush.jpg",
+"assets/sand.jpg",
+"assets/space.jpg",
+"assets/DuneCrawl.jpg",
+"assets/lostskys.jpg",
+"assets/nnightmare.jpg",
+"assets/repo.jpg",
+"assets/beast.jpg",
+"assets/outbound.jpg",
+"assets/Squirreled.jpg",
+"assets/ForeverSkies.jpg",
+"assets/JumpShip.jpg",
+"assets/starrapture.jpg",
+"assets/pacs.jpg",
+"assets/overthehill.jpg",
+"assets/Duneawakening .jpg"
+];
 
 b1.addEventListener("click", function(){
     console.log("b1 clicked");
@@ -96,3 +135,8 @@ b19.addEventListener("click", function(){
     console.log("b19 clicked");
     window.open("https://store.steampowered.com/app/1172710/Dune_Awakening/","_blank");
 });
+
+//clippath tool allows you to mask a picture
+//shape outside fits the text to the new shape
+//lenier gradiant: background-image: lienier gradiant();
+// use box sizing border or min-height: 100vh;
