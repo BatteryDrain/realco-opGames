@@ -58,6 +58,28 @@ IMGS = ["assets/storebound.jpg",
 "assets/overthehill.jpg",
 "assets/Duneawakening .jpg"
 ];
+STATUS = ["coming",
+"none",
+"demo",
+"full",
+"coming",
+"ex",
+"coming",
+"demo",
+"ex",
+"ex",
+"coming",
+"coming",
+"demo",
+"ex",
+"coming",
+"coming",
+"coming",
+"coming",
+"coming"
+];
+let FIGURES = [];
+let FILTER = "all";
 
 const games = document.getElementById("games");
 
@@ -67,6 +89,7 @@ for (let i = 0; i < NAMES.length; i++) {
 
 function figBuilder(i){
     fig = document.createElement('figure');
+    fig.setAttribute("data-stat", STATUS[i]);
     
     title = document.createElement('figcaption');
     title.innerHTML = NAMES[i];
@@ -83,9 +106,65 @@ function figBuilder(i){
     fig.appendChild(but);
 
     games.appendChild(fig);
+
+    if((i + 1) == NAMES.length){
+        setFigures();
+    }
 }
 
 function goToLink(number){
     console.log("b" + number + " clicked");
     window.open(LINKS[number],"_blank");
 }
+
+function setFigures(){
+    FIGURES = document.querySelectorAll("figure");
+    console.log(FIGURES);
+}
+const filter = document.getElementById("filter");
+
+filter.addEventListener("change", () => {
+    FILTER = filter.value;
+    console.log(FILTER);
+
+    for(i = 0; i < FIGURES.length; i++){
+        if(FIGURES[i].classList.contains("hide")){
+            FIGURES[i].classList.toggle("hide");
+        }
+    }
+    if(FILTER == "none"){
+        for(i = 0; i < FIGURES.length; i++){
+            if(FIGURES[i].dataset.stat != FILTER){
+                FIGURES[i].classList.toggle("hide");
+            }
+        }
+    }
+    if(FILTER == "demo"){
+        for(i = 0; i < FIGURES.length; i++){
+            if(FIGURES[i].dataset.stat != FILTER){
+                FIGURES[i].classList.toggle("hide");
+            }
+        }
+    }
+    if(FILTER == "ex"){
+        for(i = 0; i < FIGURES.length; i++){
+            if(FIGURES[i].dataset.stat != FILTER){
+                FIGURES[i].classList.toggle("hide");
+            }
+        }
+    }
+    if(FILTER == "coming"){
+        for(i = 0; i < FIGURES.length; i++){
+            if(FIGURES[i].dataset.stat != FILTER){
+                FIGURES[i].classList.toggle("hide");
+            }
+        }
+    }
+    if(FILTER == "full"){
+        for(i = 0; i < FIGURES.length; i++){
+            if(FIGURES[i].dataset.stat != FILTER){
+                FIGURES[i].classList.toggle("hide");
+            }
+        }
+    }
+});

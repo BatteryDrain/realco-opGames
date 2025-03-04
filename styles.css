@@ -32,4 +32,6 @@ figure img {
     width: auto;
     height: auto;
 }
-
+.hide {
+    display: none;
+}
