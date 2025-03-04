@@ -139,6 +139,13 @@ filter.addEventListener("change", () => {
             }
         }
     }
+    if(FILTER == "coming"){
+        for(i = 0; i < FIGURES.length; i++){
+            if(FIGURES[i].dataset.stat != FILTER){
+                FIGURES[i].classList.toggle("hide");
+            }
+        }
+    }
     if(FILTER == "demo"){
         for(i = 0; i < FIGURES.length; i++){
             if(FIGURES[i].dataset.stat != FILTER){
@@ -147,13 +154,6 @@ filter.addEventListener("change", () => {
         }
     }
     if(FILTER == "ex"){
-        for(i = 0; i < FIGURES.length; i++){
-            if(FIGURES[i].dataset.stat != FILTER){
-                FIGURES[i].classList.toggle("hide");
-            }
-        }
-    }
-    if(FILTER == "coming"){
         for(i = 0; i < FIGURES.length; i++){
             if(FIGURES[i].dataset.stat != FILTER){
                 FIGURES[i].classList.toggle("hide");
