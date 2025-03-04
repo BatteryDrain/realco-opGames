@@ -59,7 +59,7 @@ IMGS = ["assets/storebound.jpg",
 "assets/Duneawakening .jpg"
 ];
 STATUS = ["coming",
-"none",
+"coming",
 "demo",
 "full",
 "coming",
