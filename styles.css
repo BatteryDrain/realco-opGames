@@ -39,3 +39,7 @@ header {
     background: linear-gradient(90deg, red, blue);
     padding: 10px;
 }
+select {
+    border: 0;
+    border-radius: 25px;
+}
