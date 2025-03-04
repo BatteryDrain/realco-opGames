@@ -38,6 +38,7 @@ figure img {
 header {
     background: linear-gradient(90deg, red, blue);
     padding: 10px;
+    color: white;
 }
 select {
     border: 0;
