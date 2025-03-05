@@ -79,7 +79,7 @@ STATUS = ["coming",
     "none",
     "ex"
     ];
-ICONS = ["assets/Windows.svg.png","assets/Apple.svg.png","assets/Linux.svg.png"];
+ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/Linux.svg.png"];
 SYSTEM = "all";
 let FIGURES = [];
 let FILTER = "all";
