@@ -60,24 +60,24 @@ IMGS = ["assets/storebound.jpg",
     "assets/Duneawakening .jpg"
     ];
 STATUS = ["coming",
-    "coming",
+    "coming ex",
     "demo",
     "full",
-    "coming",
+    "coming ex",
     "ex",
     "coming",
     "demo",
     "ex",
     "ex",
-    "coming",
+    "ex",
     "coming",
     "demo",
     "ex",
-    "coming",
-    "coming",
-    "coming",
-    "coming",
-    "coming"
+    "coming ex",
+    "coming ex",
+    "coming ex",
+    "none",
+    "ex"
     ];
 ICONS = ["assets/Windows.svg.png","assets/Apple.svg.png","assets/Linux.svg.png"];
 SYSTEM = "all";
@@ -158,7 +158,7 @@ filter.addEventListener("change", () => {
             }
         }
     }
-    if(FILTER == "coming"){
+    if(FILTER == "coming ex"){
         for(i = 0; i < FIGURES.length; i++){
             if(FIGURES[i].dataset.stat != FILTER){
                 FIGURES[i].classList.toggle("hide");
@@ -173,6 +173,13 @@ filter.addEventListener("change", () => {
         }
     }
     if(FILTER == "ex"){
+        for(i = 0; i < FIGURES.length; i++){
+            if(FIGURES[i].dataset.stat != FILTER){
+                FIGURES[i].classList.toggle("hide");
+            }
+        }
+    }
+    if(FILTER == "coming"){
         for(i = 0; i < FIGURES.length; i++){
             if(FIGURES[i].dataset.stat != FILTER){
                 FIGURES[i].classList.toggle("hide");
