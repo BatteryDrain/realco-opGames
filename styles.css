@@ -29,6 +29,8 @@ figure button {
     border: 0;
     background-color: white;
     border-radius: 25px;
+    margin: 10px;
+    margin-left: 0;
 }
 figure img {
     width: auto;
@@ -54,7 +56,14 @@ select {
 .icon-container {
     display: flex;
 }
-button {
-    margin: 10px;
-    margin-left: 0;
+@media screen and (max-width: 400px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    select {
+        width: 100px;
+    }
 }
