@@ -64,6 +64,8 @@ select {
         text-align: center;
     }
     select {
-        width: 100px;
+        min-width: 100px;
+        width: fit-content;
+
     }
 }
