@@ -22,6 +22,7 @@ figure {
     padding-right: 5px;
     padding-bottom: 20px;
     max-width: 450px;
+    filter: drop-shadow(18px 18px 10px black);
 }
 figure button {
     width: 100px;
