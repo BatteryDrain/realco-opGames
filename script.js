@@ -156,10 +156,31 @@ function setFigures(){
 }
 const filter = document.getElementById("filter");
 
+sselect.addEventListener("change", () => {
+    SYSTEM = sselect.value;
+    console.log(SYSTEM);
+    sort();
+    if(SYSTEM == "linux"){
+        iconIndicator.src = "assets/linux-white-logo.png";
+    }
+    if(SYSTEM == "apple"){
+        iconIndicator.src = "assets/Apple_white.svg.png";
+    }
+    if(SYSTEM == "windows"){
+        iconIndicator.src = "assets/Windows.svg.png";
+    }
+    if(SYSTEM == "all"){
+        iconIndicator.src = "assets/null.png";
+    }
+})
+
 filter.addEventListener("change", () => {
     FILTER = filter.value;
     console.log(FILTER);
+    sort();
+});
 
+function sort(){
     for(i = 0; i < FIGURES.length; i++){
         if(FIGURES[i].classList.contains("hide")){
             FIGURES[i].classList.toggle("hide");
@@ -207,7 +228,30 @@ filter.addEventListener("change", () => {
             }
         }
     }
-});
+    if(SYSTEM == "linux"){
+        for(i = 0; i < FIGURES.length; i++){
+            if(FIGURES[i].dataset.linux == "0" && !FIGURES[i].classList.contains("hide")){
+                FIGURES[i].classList.toggle("hide");
+            }
+        }
+    }
+    if(SYSTEM == "apple"){
+        for(i = 0; i < FIGURES.length; i++){
+            if(FIGURES[i].dataset.apple == "0" && !FIGURES[i].classList.contains("hide")){
+                FIGURES[i].classList.toggle("hide");
+            }
+        }
+    }
+    if(SYSTEM == "windows"){
+        for(i = 0; i < FIGURES.length; i++){
+            if(FIGURES[i].dataset.apple == "0" && !FIGURES[i].classList.contains("hide")){
+                FIGURES[i].classList.toggle("hide");
+            }
+        }
+    }
+}
+
+
 document.addEventListener("mousemove", (event) => {
     console.log(`Mouse X: ${event.clientX}, Mouse Y: ${event.clientY}`);
     MOUSEX = event.clientX;
