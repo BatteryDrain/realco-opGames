@@ -54,6 +54,9 @@ select {
     border: 0;
     border-radius: 25px;
 }
+label {
+    margin-left: 10px;
+}
 .icon img {
     width: 20px;
     height: auto;
