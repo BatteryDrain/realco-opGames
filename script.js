@@ -18,7 +18,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/2929250/over_the_hill/",
     "https://store.steampowered.com/app/1172710/Dune_Awakening/",
     "https://store.steampowered.com/app/905340/Heave_Ho/",
-    "https://store.steampowered.com/app/418530/Spelunky_2/"
+    "https://store.steampowered.com/app/418530/Spelunky_2/",
+    "https://store.steampowered.com/app/661940/Regular_Human_Basketball/"
     ];
 NAMES = [["Storebound", 1, 0, 0],
     ["Long Drive North", 1, 0, 0],
@@ -40,7 +41,8 @@ NAMES = [["Storebound", 1, 0, 0],
     ["over the hill", 1, 0, 0],
     ["Dune Awakening", 1, 0, 0],
     ["Heave Ho", 1, 1, 0],
-    ["Spelunky 2", 1, 0, 0]
+    ["Spelunky 2", 1, 0, 0],
+    ["Regular Human Basketball", 1, 1, 1]
     ]; // name, windows, apple, linux
 IMGS = ["assets/storebound.jpg",
     "assets/longdriven.jpg",
@@ -62,7 +64,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/overthehill.jpg",
     "assets/Duneawakening .jpg",
     "assets/HeaveHo.jpg",
-    "assets/Spelunky.jpg"
+    "assets/Spelunky.jpg",
+    "assets/RegularHumanBasketball.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -84,9 +87,10 @@ STATUS = ["coming",
     "none",
     "ex",
     "full",
+    "full",
     "full"
     ];
-ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/Linux.svg.png"];
+ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/linux-white-logo.png"];
 SYSTEM = "all";
 let FIGURES = [];
 let FILTER = "all";
