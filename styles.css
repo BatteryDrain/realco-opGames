@@ -41,7 +41,7 @@ figure img {
     display: none;
 }
 header {
-    background: linear-gradient(90deg, red, purple, blue);
+    background: linear-gradient(90deg, hsl(0, 100%, 50%), hsl(300, 100%, 25%), hsl(240, 100%, 50%));
     padding: 10px;
     color: white;
 }

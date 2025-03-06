@@ -16,10 +16,11 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/1631270/StarRupture/",
     "https://store.steampowered.com/app/3079190/PACS__Post_Apocalypse_Courier_Service_Coop_Delivery_Simulator/",
     "https://store.steampowered.com/app/2929250/over_the_hill/",
-    "https://store.steampowered.com/app/1172710/Dune_Awakening/"];
-
-NAMES = [
-    ["Storebound", 1, 0, 0],
+    "https://store.steampowered.com/app/1172710/Dune_Awakening/",
+    "https://store.steampowered.com/app/905340/Heave_Ho/",
+    "https://store.steampowered.com/app/418530/Spelunky_2/"
+    ];
+NAMES = [["Storebound", 1, 0, 0],
     ["Long Drive North", 1, 0, 0],
     ["Gas Station Manager", 1, 1, 0],
     ["Beat Around The Bush", 1, 0, 0],
@@ -37,8 +38,10 @@ NAMES = [
     ["StarRupture", 1, 0, 0],
     ["PACS", 1, 0, 0],
     ["over the hill", 1, 0, 0],
-    ["Dune Awakening", 1, 0, 0]]; // name, windows, apple, linux
-
+    ["Dune Awakening", 1, 0, 0],
+    ["Heave Ho", 1, 1, 0],
+    ["Spelunky 2", 1, 0, 0]
+    ]; // name, windows, apple, linux
 IMGS = ["assets/storebound.jpg",
     "assets/longdriven.jpg",
     "assets/gasstation.jpg",
@@ -57,7 +60,9 @@ IMGS = ["assets/storebound.jpg",
     "assets/starrapture.jpg",
     "assets/pacs.jpg",
     "assets/overthehill.jpg",
-    "assets/Duneawakening .jpg"
+    "assets/Duneawakening .jpg",
+    "assets/HeaveHo.jpg",
+    "assets/Spelunky.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -77,12 +82,16 @@ STATUS = ["coming",
     "coming ex",
     "coming ex",
     "none",
-    "ex"
+    "ex",
+    "full",
+    "full"
     ];
 ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/Linux.svg.png"];
 SYSTEM = "all";
 let FIGURES = [];
 let FILTER = "all";
+MOUSEX = 0;
+MOUSEY = 0;
 
 const games = document.getElementById("games");
 
@@ -100,6 +109,7 @@ function figBuilder(i){
     title = document.createElement('figcaption');
     title.innerHTML = NAMES[i][0];
     fig.appendChild(title)
+    console.log(NAMES[i][0]);
 
     image = document.createElement('img');
     image.src = IMGS[i];
@@ -194,4 +204,8 @@ filter.addEventListener("change", () => {
         }
     }
 });
-
+document.addEventListener("mousemove", (event) => {
+    console.log(`Mouse X: ${event.clientX}, Mouse Y: ${event.clientY}`);
+    MOUSEX = event.clientX;
+    MOUSEY = event.clientY;
+});
