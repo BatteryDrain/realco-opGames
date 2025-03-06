@@ -244,7 +244,7 @@ function sort(){
     }
     if(SYSTEM == "windows"){
         for(i = 0; i < FIGURES.length; i++){
-            if(FIGURES[i].dataset.apple == "0" && !FIGURES[i].classList.contains("hide")){
+            if(FIGURES[i].dataset.windows == "0" && !FIGURES[i].classList.contains("hide")){
                 FIGURES[i].classList.toggle("hide");
             }
         }
