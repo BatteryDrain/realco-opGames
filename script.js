@@ -110,10 +110,21 @@ function figBuilder(i){
     fig.setAttribute("data-apple", NAMES[i][2]);
     fig.setAttribute("data-linux", NAMES[i][3]);
     
+    div1 = document.createElement('div');
+    div1.id = "div1";
+
     title = document.createElement('figcaption');
     title.innerHTML = NAMES[i][0];
-    fig.appendChild(title)
+    div1.appendChild(title);
     console.log(NAMES[i][0]);
+
+    if(STATUS[i] == "demo"){
+        DEMO = document.createElement('img');
+        DEMO.id = "demoimg";
+        DEMO.src = "assets/DEMO.png";
+        div1.appendChild(DEMO);
+    }
+    fig.appendChild(div1);
 
     image = document.createElement('img');
     image.src = IMGS[i];
@@ -193,7 +204,7 @@ function sort(){
             }
         }
     }
-    
+
     if(SYSTEM == "linux"){
         for(i = 0; i < FIGURES.length; i++){
             if(FIGURES[i].dataset.linux == "0" && !FIGURES[i].classList.contains("hide")){

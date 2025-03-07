@@ -37,6 +37,14 @@ figure img {
     width: auto;
     height: auto;
 }
+#demoimg {
+    width: 100px;
+    height: auto;
+    float: right;
+}
+#div1 {
+    display: flex;
+}
 .hide {
     display: none;
 }
