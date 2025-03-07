@@ -38,9 +38,10 @@ figure img {
     height: auto;
 }
 #demoimg {
-    width: 100px;
-    height: auto;
-    float: right;
+    width: 40px;
+    margin: 10px;
+    margin-left: auto;
+
 }
 #div1 {
     display: flex;

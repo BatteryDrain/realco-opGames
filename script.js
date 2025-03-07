@@ -109,32 +109,32 @@ function figBuilder(i){
     fig.setAttribute("data-windows", NAMES[i][1]);
     fig.setAttribute("data-apple", NAMES[i][2]);
     fig.setAttribute("data-linux", NAMES[i][3]);
-    
-    div1 = document.createElement('div');
-    div1.id = "div1";
 
     title = document.createElement('figcaption');
     title.innerHTML = NAMES[i][0];
-    div1.appendChild(title);
+    fig.appendChild(title);
     console.log(NAMES[i][0]);
-
-    if(STATUS[i] == "demo"){
-        DEMO = document.createElement('img');
-        DEMO.id = "demoimg";
-        DEMO.src = "assets/DEMO.png";
-        div1.appendChild(DEMO);
-    }
-    fig.appendChild(div1);
 
     image = document.createElement('img');
     image.src = IMGS[i];
     image.alt = NAMES[i][1] + " gameplay";
     fig.appendChild(image);
 
+    div1 = document.createElement('div');
+    div1.id = "div1";
+
     but = document.createElement('button');
     but.innerHTML = "learn more";
     but.setAttribute("onclick", "goToLink(" + i + ")");
-    fig.appendChild(but);
+    div1.appendChild(but);
+
+    if(STATUS[i] == "demo"){
+        DEMO = document.createElement('img');
+        DEMO.id = "demoimg";
+        DEMO.src = "assets/DEMO.webp";
+        div1.appendChild(DEMO);
+    }
+    fig.appendChild(div1);
 
     div = document.createElement('div');
     div.classList.add("icon-container");
