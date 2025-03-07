@@ -20,7 +20,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/905340/Heave_Ho/",
     "https://store.steampowered.com/app/418530/Spelunky_2/",
     "https://store.steampowered.com/app/661940/Regular_Human_Basketball/",
-    "https://store.steampowered.com/app/2644470/PICO_PARK_2/"
+    "https://store.steampowered.com/app/2644470/PICO_PARK_2/",
+    "https://store.steampowered.com/app/303590/Hidden_in_Plain_Sight/"
     ];
 NAMES = [["Storebound", 1, 0, 0],
     ["Long Drive North", 1, 0, 0],
@@ -44,7 +45,8 @@ NAMES = [["Storebound", 1, 0, 0],
     ["Heave Ho", 1, 1, 0],
     ["Spelunky 2", 1, 0, 0],
     ["Regular Human Basketball", 1, 1, 1],
-    ["PICO PARK 2", 1, 1, 0]
+    ["PICO PARK 2", 1, 1, 0],
+    ["Hidden in Plain Sight", 1, 1, 1]
     ]; // name, windows, apple, linux
 IMGS = ["assets/storebound.jpg",
     "assets/longdriven.jpg",
@@ -68,7 +70,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/HeaveHo.jpg",
     "assets/Spelunky.jpg",
     "assets/RegularHumanBasketball.jpg",
-    "assets/PICO PARK.jpg"
+    "assets/PICOPARK.jpg",
+    "assets/HiddeninPlainSight.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -89,6 +92,7 @@ STATUS = ["coming",
     "coming ex",
     "none",
     "ex",
+    "full",
     "full",
     "full",
     "full",
