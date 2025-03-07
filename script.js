@@ -90,7 +90,7 @@ STATUS = ["coming",
     "full",
     "full"
     ];
-ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/linux-white-logo.png"];
+ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/linux-white-logo.png","assets/null.png"];
 SYSTEM = "all";
 let FIGURES = [];
 let FILTER = "all";
@@ -160,17 +160,17 @@ sselect.addEventListener("change", () => {
     SYSTEM = sselect.value;
     console.log(SYSTEM);
     sort();
+    if(SYSTEM == "all"){
+        iconIndicator.src = ICONS[3];
+    }
     if(SYSTEM == "linux"){
-        iconIndicator.src = "assets/linux-white-logo.png";
+        iconIndicator.src = ICONS[2];
     }
     if(SYSTEM == "apple"){
-        iconIndicator.src = "assets/Apple_white.svg.png";
+        iconIndicator.src = ICONS[1];
     }
     if(SYSTEM == "windows"){
-        iconIndicator.src = "assets/Windows.svg.png";
-    }
-    if(SYSTEM == "all"){
-        iconIndicator.src = "assets/null.png";
+        iconIndicator.src = ICONS[0];
     }
 })
 
