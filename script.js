@@ -186,48 +186,14 @@ function sort(){
             FIGURES[i].classList.toggle("hide");
         }
     }
-    if(FILTER == "none"){
+    if(FILTER != "all"){
         for(i = 0; i < FIGURES.length; i++){
             if(FIGURES[i].dataset.stat != FILTER){
                 FIGURES[i].classList.toggle("hide");
             }
         }
     }
-    if(FILTER == "coming ex"){
-        for(i = 0; i < FIGURES.length; i++){
-            if(FIGURES[i].dataset.stat != FILTER){
-                FIGURES[i].classList.toggle("hide");
-            }
-        }
-    }
-    if(FILTER == "demo"){
-        for(i = 0; i < FIGURES.length; i++){
-            if(FIGURES[i].dataset.stat != FILTER){
-                FIGURES[i].classList.toggle("hide");
-            }
-        }
-    }
-    if(FILTER == "coming"){
-        for(i = 0; i < FIGURES.length; i++){
-            if(FIGURES[i].dataset.stat != FILTER){
-                FIGURES[i].classList.toggle("hide");
-            }
-        }
-    }
-    if(FILTER == "ex"){
-        for(i = 0; i < FIGURES.length; i++){
-            if(FIGURES[i].dataset.stat != FILTER){
-                FIGURES[i].classList.toggle("hide");
-            }
-        }
-    }
-    if(FILTER == "full"){
-        for(i = 0; i < FIGURES.length; i++){
-            if(FIGURES[i].dataset.stat != FILTER){
-                FIGURES[i].classList.toggle("hide");
-            }
-        }
-    }
+    
     if(SYSTEM == "linux"){
         for(i = 0; i < FIGURES.length; i++){
             if(FIGURES[i].dataset.linux == "0" && !FIGURES[i].classList.contains("hide")){
