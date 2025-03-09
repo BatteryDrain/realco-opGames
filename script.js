@@ -249,10 +249,12 @@ darkmode.addEventListener("change", () => {
     if(DARKMODE){
         DARKMODE = false;
         document.body.style.backgroundColor = "white";
+        darkmodelab.innerHTML = "dark mode:"
     }
     else{
         DARKMODE = true;
         document.body.style.backgroundColor = "black";
+                darkmodelab.innerHTML = "light mode:"
     }
 });
 
