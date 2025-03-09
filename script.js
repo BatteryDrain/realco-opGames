@@ -112,6 +112,7 @@ let FIGURES = [];
 let FILTER = "all";
 MOUSEX = 0;
 MOUSEY = 0;
+DARKMODE = true;
 
 const games = document.getElementById("games");
 
@@ -244,10 +245,14 @@ function sort(){
     }
 }
 
-
-// document.addEventListener("mousemove", (event) => {
-//     console.log(`Mouse X: ${event.clientX}, Mouse Y: ${event.clientY}`);
-//     MOUSEX = event.clientX;
-//     MOUSEY = event.clientY;
-// });
+darkmode.addEventListener("change", () => {
+    if(DARKMODE){
+        DARKMODE = false;
+        document.body.style.backgroundColor = "white";
+    }
+    else{
+        DARKMODE = true;
+        document.body.style.backgroundColor = "black";
+    }
+});
 
