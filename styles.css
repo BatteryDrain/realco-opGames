@@ -65,7 +65,7 @@ figure {
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 20px;
-    /* max-width: 450px; */
+    max-width: 700px;
     filter: drop-shadow(18px 18px 8px rgb(234, 0, 255));
 }
 
