@@ -1,14 +1,57 @@
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height:18px;
+    background-color: #ccc;
+    border-radius: 34px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: white;
+    border-radius: 50%;
+    left: 3px;
+    bottom: 3px;
+    transition: transform 0.3s ease-in-out;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider::before {
+    transform: translateX(14px);
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 4px rgba(33, 150, 243, 0.6);
+}
+
 body {
     font-family: Rboto, Arial, sans-serif;
     margin: 0;
     background-color: black;
 }
+
 #games {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
     grid-gap: 1rem;
 }
+
 figure {
     height: fit-content;
     display: flex;
@@ -25,6 +68,7 @@ figure {
     max-width: 450px;
     filter: drop-shadow(18px 18px 8px rgb(234, 0, 255));
 }
+
 figure button {
     width: 100px;
     color: black;
@@ -34,47 +78,58 @@ figure button {
     margin: 10px;
     margin-left: 0;
 }
+
 figure img {
     width: auto;
     height: auto;
 }
+
 #demoimg {
     width: 40px;
     margin: 10px;
     margin-left: auto;
 
 }
+
 #div1 {
     display: flex;
 }
+
 .hide {
     display: none;
 }
+
 header {
     background: linear-gradient(90deg, red, purple, blue);
     padding: 10px;
     color: white;
     display: flex;
 }
+
 header img {
     width: 15px;
     height: auto;
 }
+
 select {
     border: 0;
     border-radius: 25px;
 }
+
 label {
     margin-left: 10px;
 }
+
 .icon img {
     width: 20px;
     height: auto;
     padding: 5px;
 }
+
 .icon-container {
     display: flex;
 }
+
 @media screen and (max-width: 400px) {
     header {
         display: flex;

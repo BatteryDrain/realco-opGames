@@ -22,7 +22,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/661940/Regular_Human_Basketball/",
     "https://store.steampowered.com/app/2644470/PICO_PARK_2/",
     "https://store.steampowered.com/app/303590/Hidden_in_Plain_Sight/",
-    "https://store.steampowered.com/app/2708450/Oh_Deer/"
+    "https://store.steampowered.com/app/2708450/Oh_Deer/",
+    "https://store.steampowered.com/app/1962700/Subnautica_2"
     ];
 NAMES = [["Storebound", 1, 0, 0],
     ["Long Drive North", 1, 0, 0],
@@ -48,7 +49,8 @@ NAMES = [["Storebound", 1, 0, 0],
     ["Regular Human Basketball", 1, 1, 1],
     ["PICO PARK 2", 1, 1, 0],
     ["Hidden in Plain Sight", 1, 1, 1],
-    ["Oh Deer", 1, 0, 0]
+    ["Oh Deer", 1, 0, 0],
+    ["Subnautica 2", 1, 0, 0]
     ]; // name, windows, apple, linux
 IMGS = ["assets/storebound.jpg",
     "assets/longdriven.jpg",
@@ -74,7 +76,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/RegularHumanBasketball.jpg",
     "assets/PICOPARK.jpg",
     "assets/HiddeninPlainSight.jpg",
-    "assets/OhDeer.jpg"
+    "assets/OhDeer.jpg",
+    "assets/Subnautica2.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -100,7 +103,8 @@ STATUS = ["coming",
     "full",
     "full",
     "full",
-    "full"
+    "full",
+    "coming"
     ];
 ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/linux-white-logo.png","assets/null.png"];
 SYSTEM = "all";
@@ -241,8 +245,9 @@ function sort(){
 }
 
 
-document.addEventListener("mousemove", (event) => {
-    console.log(`Mouse X: ${event.clientX}, Mouse Y: ${event.clientY}`);
-    MOUSEX = event.clientX;
-    MOUSEY = event.clientY;
-});
+// document.addEventListener("mousemove", (event) => {
+//     console.log(`Mouse X: ${event.clientX}, Mouse Y: ${event.clientY}`);
+//     MOUSEX = event.clientX;
+//     MOUSEY = event.clientY;
+// });
+
