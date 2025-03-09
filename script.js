@@ -229,6 +229,7 @@ function sort(){
             }
         }
     }
+
     if(SYSTEM == "apple"){
         for(i = 0; i < FIGURES.length; i++){
             if(FIGURES[i].dataset.apple == "0" && !FIGURES[i].classList.contains("hide")){
@@ -236,6 +237,7 @@ function sort(){
             }
         }
     }
+
     if(SYSTEM == "windows"){
         for(i = 0; i < FIGURES.length; i++){
             if(FIGURES[i].dataset.windows == "0" && !FIGURES[i].classList.contains("hide")){
@@ -249,12 +251,12 @@ darkmode.addEventListener("change", () => {
     if(DARKMODE){
         DARKMODE = false;
         document.body.style.backgroundColor = "white";
-        darkmodelab.innerHTML = "dark mode:"
+        darkmodelab.innerHTML = "dark mode:";
     }
     else{
         DARKMODE = true;
         document.body.style.backgroundColor = "black";
-                darkmodelab.innerHTML = "light mode:"
+                darkmodelab.innerHTML = "light mode:";
     }
 });
 
