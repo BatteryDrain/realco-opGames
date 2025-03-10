@@ -114,6 +114,7 @@ header img {
 
 select {
     border: 0;
+    height: 20px;
     border-radius: 25px;
 }
 
@@ -131,6 +132,14 @@ label {
     display: flex;
 }
 
+h1 {
+    text-decoration: none;
+    height: 12px;
+    width: auto;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
 @media screen and (max-width: 400px) {
     header {
         display: flex;
@@ -141,6 +150,9 @@ label {
     select {
         min-width: 100px;
         width: fit-content;
-
+    }
+    h1 {
+        margin-bottom: 25px;
+        text-decoration: none;
     }
 }
