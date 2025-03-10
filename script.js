@@ -23,7 +23,10 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/2644470/PICO_PARK_2/",
     "https://store.steampowered.com/app/303590/Hidden_in_Plain_Sight/",
     "https://store.steampowered.com/app/2708450/Oh_Deer/",
-    "https://store.steampowered.com/app/1962700/Subnautica_2"
+    "https://store.steampowered.com/app/1962700/Subnautica_2",
+    "https://store.steampowered.com/app/3113750/Drunk_Builder_Simulator/",
+    "https://store.steampowered.com/app/2780980/LOCKDOWN_Protocol/",
+    "https://store.steampowered.com/app/1601330/Survival_Machine/"
     ];
 NAMES = [["Storebound", 1, 0, 0],
     ["Long Drive North", 1, 0, 0],
@@ -50,7 +53,10 @@ NAMES = [["Storebound", 1, 0, 0],
     ["PICO PARK 2", 1, 1, 0],
     ["Hidden in Plain Sight", 1, 1, 1],
     ["Oh Deer", 1, 0, 0],
-    ["Subnautica 2", 1, 0, 0]
+    ["Subnautica 2", 1, 0, 0],
+    ["Drunk Builder Simulator", 1, 0, 0],
+    ["LOCKDOWN Protocol", 1, 0, 0],
+    ["Survival Machine", 1, 0, 0]
     ]; // name, windows, apple, linux
 IMGS = ["assets/storebound.jpg",
     "assets/longdriven.jpg",
@@ -77,7 +83,10 @@ IMGS = ["assets/storebound.jpg",
     "assets/PICOPARK.jpg",
     "assets/HiddeninPlainSight.jpg",
     "assets/OhDeer.jpg",
-    "assets/Subnautica2.jpg"
+    "assets/Subnautica2.jpg",
+    "assets/DrunkBuilderSimulator.jpg",
+    "assets/LOCKDOWNProtocol.jpg",
+    "assets/SurvivalMachine.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -104,7 +113,10 @@ STATUS = ["coming",
     "full",
     "full",
     "full",
-    "coming"
+    "coming",
+    "full",
+    "ex",
+    "demo"
     ];
 ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/linux-white-logo.png","assets/null.png"];
 SYSTEM = "all";
