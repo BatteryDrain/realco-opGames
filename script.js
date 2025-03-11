@@ -129,7 +129,7 @@ DARKMODE = true;
 const games = document.getElementById("games");
 
 for (let i = 0; i < NAMES.length; i++) {
-    setTimeout((index) => figBuilder(index), i * 100, i);
+    setTimeout((index) => figBuilder(index), i * 50, i);
 }
 
 function figBuilder(i){
