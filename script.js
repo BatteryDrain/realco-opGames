@@ -382,6 +382,26 @@ darkmode.addEventListener("change", () => {
 });
 
 expand.addEventListener("click", function(){
+    exheader();
+});
+
+window.addEventListener("scroll", () => {
+    if(EXPANDED){
+        exheader();
+    }
+});
+
+function headshowhide(){
+    filter.classList.toggle("hide");
+    filterlab.classList.toggle("hide");
+    sselect.classList.toggle("hide");
+    sselectlab.classList.toggle("hide");
+    iconIndicator.classList.toggle("hide");
+    sorting.classList.toggle("hide");
+    sortinglab.classList.toggle("hide");
+}
+
+function exheader(){
     header.classList.toggle("expanded");
     if(EXPANDED){
         console.log("here");
@@ -395,14 +415,4 @@ expand.addEventListener("click", function(){
         setTimeout(headshowhide(), 1000);
         EXPANDED = true;
     }
-});
-
-function headshowhide(){
-    filter.classList.toggle("hide");
-    filterlab.classList.toggle("hide");
-    sselect.classList.toggle("hide");
-    sselectlab.classList.toggle("hide");
-    iconIndicator.classList.toggle("hide");
-    sorting.classList.toggle("hide");
-    sortinglab.classList.toggle("hide");
 }
