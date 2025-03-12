@@ -194,7 +194,7 @@ function figBuilderAZ(i){
     title = document.createElement('figcaption');
     title.innerHTML = NAMESAZ[i][0];
     fig.appendChild(title);
-    console.log(NAMESAZ[i][0]);
+    //console.log(NAMESAZ[i][0]);
 
     image = document.createElement('img');
     image.src = IMGS[NAMESAZ[i][4]];
@@ -248,7 +248,7 @@ function figBuilderdate(i){
     title = document.createElement('figcaption');
     title.innerHTML = NAMES[i][0];
     fig.appendChild(title);
-    console.log(NAMES[i][0]);
+    //console.log(NAMES[i][0]);
 
     image = document.createElement('img');
     image.src = IMGS[NAMES[i][4]];
