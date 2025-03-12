@@ -69,6 +69,10 @@ figure {
     filter: drop-shadow(18px 18px 8px rgb(234, 0, 255));
 }
 
+#div1 {
+    display: flex;
+}
+
 figure button {
     width: 100px;
     height: auto;

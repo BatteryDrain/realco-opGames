@@ -28,36 +28,66 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/2780980/LOCKDOWN_Protocol/",
     "https://store.steampowered.com/app/1601330/Survival_Machine/"
     ];
-NAMES = [["Storebound", 1, 0, 0],
-    ["Long Drive North", 1, 0, 0],
-    ["Gas Station Manager", 1, 1, 0],
-    ["Beat Around The Bush", 1, 0, 0],
-    ["SAND", 1, 0, 0],
-    ["Space Engineers 2", 1, 0, 0],
-    ["DuneCrawl", 1, 0, 0],
-    ["Lost Skies", 1, 0, 0],
-    ["Nuclear Nightmare", 1, 0, 0],
-    ["REPO", 1, 0, 0],
-    ["Begone Beast", 1, 0, 0],
-    ["Outbound", 1, 0, 0],
-    ["Squirreled Away", 1, 0, 0],
-    ["Forever Skies", 1, 0, 0],
-    ["Jump Ship", 1, 0, 0],
-    ["StarRupture", 1, 0, 0],
-    ["PACS", 1, 0, 0],
-    ["over the hill", 1, 0, 0],
-    ["Dune Awakening", 1, 0, 0],
-    ["Heave Ho", 1, 1, 0],
-    ["Spelunky 2", 1, 0, 0],
-    ["Regular Human Basketball", 1, 1, 1],
-    ["PICO PARK 2", 1, 1, 0],
-    ["Hidden in Plain Sight", 1, 1, 1],
-    ["Oh Deer", 1, 0, 0],
-    ["Subnautica 2", 1, 0, 0],
-    ["Drunk Builder Simulator", 1, 0, 0],
-    ["LOCKDOWN Protocol", 1, 0, 0],
-    ["Survival Machine", 1, 0, 0]
-    ]; // name, windows, apple, linux
+NAMES = [["Storebound", 1, 0, 0, 0],
+    ["Long Drive North", 1, 0, 0, 1],
+    ["Gas Station Manager", 1, 1, 0, 2],
+    ["Beat Around The Bush", 1, 0, 0, 3],
+    ["SAND", 1, 0, 0, 4],
+    ["Space Engineers 2", 1, 0, 0, 5],
+    ["DuneCrawl", 1, 0, 0, 6],
+    ["Lost Skies", 1, 0, 0, 7],
+    ["Nuclear Nightmare", 1, 0, 0, 8],
+    ["REPO", 1, 0, 0, 9],
+    ["Begone Beast", 1, 0, 0, 10],
+    ["Outbound", 1, 0, 0, 11],
+    ["Squirreled Away", 1, 0, 0, 12],
+    ["Forever Skies", 1, 0, 0, 13],
+    ["Jump Ship", 1, 0, 0, 14],
+    ["StarRupture", 1, 0, 0, 15],
+    ["PACS", 1, 0, 0, 16],
+    ["over the hill", 1, 0, 0, 17],
+    ["Dune Awakening", 1, 0, 0, 18],
+    ["Heave Ho", 1, 1, 0, 19],
+    ["Spelunky 2", 1, 0, 0, 20],
+    ["Regular Human Basketball", 1, 1, 1, 21],
+    ["PICO PARK 2", 1, 1, 0, 22],
+    ["Hidden in Plain Sight", 1, 1, 1, 23],
+    ["Oh Deer", 1, 0, 0, 24],
+    ["Subnautica 2", 1, 0, 0, 25],
+    ["Drunk Builder Simulator", 1, 0, 0, 26],
+    ["LOCKDOWN Protocol", 1, 0, 0, 27],
+    ["Survival Machine", 1, 0, 0, 28]
+    ]; // name, windows, apple, linux, link/picture/status index
+NAMESAZ = [["Beat Around The Bush", 1, 0, 0, 3],
+    ["Begone Beast", 1, 0, 0, 10],
+    ["Drunk Builder Simulator", 1, 0, 0, 26],
+    ["Dune Awakening", 1, 0, 0, 18],
+    ["DuneCrawl", 1, 0, 0, 6],
+    ["Forever Skies", 1, 0, 0, 13],
+    ["Gas Station Manager", 1, 1, 0, 2],
+    ["Heave Ho", 1, 1, 0, 19],
+    ["Hidden in Plain Sight", 1, 1, 1, 23],
+    ["Jump Ship", 1, 0, 0, 14],
+    ["LOCKDOWN Protocol", 1, 0, 0, 27],
+    ["Long Drive North", 1, 0, 0, 1],
+    ["Lost Skies", 1, 0, 0, 7],
+    ["Nuclear Nightmare", 1, 0, 0, 8],
+    ["Oh Deer", 1, 0, 0, 24],
+    ["Outbound", 1, 0, 0, 11],
+    ["over the hill", 1, 0, 0, 17],
+    ["PACS", 1, 0, 0, 16],
+    ["PICO PARK 2", 1, 1, 0, 22],
+    ["Regular Human Basketball", 1, 1, 1, 21],
+    ["REPO", 1, 0, 0, 9],
+    ["SAND", 1, 0, 0, 4],
+    ["Space Engineers 2", 1, 0, 0, 5],
+    ["Spelunky 2", 1, 0, 0, 20],
+    ["Squirreled Away", 1, 0, 0, 12],
+    ["StarRupture", 1, 0, 0, 15],
+    ["Storebound", 1, 0, 0, 0],
+    ["Subnautica 2", 1, 0, 0, 25],
+    ["Survival Machine", 1, 0, 0, 28]
+    ]; // name, windows, apple, linux, link/picture/status index
 IMGS = ["assets/storebound.jpg",
     "assets/longdriven.jpg",
     "assets/gasstation.jpg",
@@ -126,28 +156,49 @@ MOUSEX = 0;
 MOUSEY = 0;
 DARKMODE = true;
 EXPANDED = false;
+SORTBY = "date";
 
 const games = document.getElementById("games");
 
-for (let i = 0; i < NAMES.length; i++) {
-    setTimeout((index) => figBuilder(index), i * 50, i);
+Iwanttosortby();
+
+sorting.addEventListener("change", () => {
+    SORTBY = sorting.value;
+    Iwanttosortby();
+});
+
+function Iwanttosortby(){
+    if(SORTBY == "a-z"){
+        games.innerHTML = "";
+
+        for (let i = 0; i < NAMES.length; i++) {
+            setTimeout((index) => figBuilderAZ(index), i * 50, i);
+        }
+    }
+    if(SORTBY == "date"){
+        games.innerHTML = "";
+
+        for (let i = 0; i < NAMES.length; i++) {
+            setTimeout((index) => figBuilderdate(index), i * 50, i);
+        }
+    }
 }
 
-function figBuilder(i){
+function figBuilderAZ(i){
     fig = document.createElement('figure');
-    fig.setAttribute("data-stat", STATUS[i]);
-    fig.setAttribute("data-windows", NAMES[i][1]);
-    fig.setAttribute("data-apple", NAMES[i][2]);
-    fig.setAttribute("data-linux", NAMES[i][3]);
+    fig.setAttribute("data-stat", STATUS[NAMESAZ[i][4]]);
+    fig.setAttribute("data-windows", NAMESAZ[i][1]);
+    fig.setAttribute("data-apple", NAMESAZ[i][2]);
+    fig.setAttribute("data-linux", NAMESAZ[i][3]);
 
     title = document.createElement('figcaption');
-    title.innerHTML = NAMES[i][0];
+    title.innerHTML = NAMESAZ[i][0];
     fig.appendChild(title);
-    console.log(NAMES[i][0]);
+    console.log(NAMESAZ[i][0]);
 
     image = document.createElement('img');
-    image.src = IMGS[i];
-    image.alt = NAMES[i][1] + " gameplay";
+    image.src = IMGS[NAMESAZ[i][4]];
+    image.alt = NAMESAZ[i][1] + " gameplay";
     fig.appendChild(image);
 
     div1 = document.createElement('div');
@@ -159,6 +210,60 @@ function figBuilder(i){
     div1.appendChild(but);
 
     if(STATUS[i] == "demo"){
+        DEMO = document.createElement('img');
+        DEMO.id = "demoimg";
+        DEMO.src = "assets/DEMO.webp";
+        div1.appendChild(DEMO);
+    }
+    fig.appendChild(div1);
+
+    div = document.createElement('div');
+    div.classList.add("icon-container");
+    for(j = 1; j < 4; j++){
+        if(NAMESAZ[i][j] === 1){
+            supimg = document.createElement('img');
+            supimg.src = ICONS[j - 1];
+            supimg.alt = "Platform Icon";
+            div.classList.add("icon");
+            div.appendChild(supimg);
+        }
+    }
+    fig.appendChild(div);
+
+    games.appendChild(fig);
+
+    if((i + 1) == NAMESAZ.length){
+        setFigures();
+    }
+}
+
+
+function figBuilderdate(i){
+    fig = document.createElement('figure');
+    fig.setAttribute("data-stat", STATUS[NAMES[i][4]]);
+    fig.setAttribute("data-windows", NAMES[i][1]);
+    fig.setAttribute("data-apple", NAMES[i][2]);
+    fig.setAttribute("data-linux", NAMES[i][3]);
+
+    title = document.createElement('figcaption');
+    title.innerHTML = NAMES[i][0];
+    fig.appendChild(title);
+    console.log(NAMES[i][0]);
+
+    image = document.createElement('img');
+    image.src = IMGS[NAMES[i][4]];
+    image.alt = NAMES[i][1] + " gameplay";
+    fig.appendChild(image);
+
+    div1 = document.createElement('div');
+    div1.id = "div1";
+
+    but = document.createElement('button');
+    but.innerHTML = "learn more";
+    but.setAttribute("onclick", "goToLink(" + i + ")");
+    div1.appendChild(but);
+
+    if(STATUS[NAMES[i][4]] == "demo"){
         DEMO = document.createElement('img');
         DEMO.id = "demoimg";
         DEMO.src = "assets/DEMO.webp";
@@ -185,6 +290,9 @@ function figBuilder(i){
         setFigures();
     }
 }
+
+
+
 
 function goToLink(number){
     console.log("button " + number + " clicked");
@@ -213,7 +321,7 @@ sselect.addEventListener("change", () => {
     if(SYSTEM == "windows"){
         iconIndicator.src = ICONS[0];
     }
-})
+});
 
 filter.addEventListener("change", () => {
     FILTER = filter.value;
@@ -295,4 +403,6 @@ function headshowhide(){
     sselect.classList.toggle("hide");
     sselectlab.classList.toggle("hide");
     iconIndicator.classList.toggle("hide");
+    sorting.classList.toggle("hide");
+    sortinglab.classList.toggle("hide");
 }
