@@ -10,35 +10,42 @@
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-        <h1>CO-OP games</h1>
-        <label for="filter">filter: </label>
-        <select name="" id="filter">
-            <option value="all" selected>all</option>
-            <option value="none">no info</option>
-            <option value="coming ex">coming to early access</option>
-            <option value="demo">demo</option>
-            <option value="coming">coming</option>
-            <option value="ex">early access</option>
-            <option value="full">full release</option>
-        </select>
-        <label for="sselect">system: </label>
+    <header id = "header">
         <div id = "filterSystem">
-            <select name="" id="sselect">
-                <option value="all" selected>all</option>
-                <option value="linux">Linux</option>
-                <option value="apple">Apple</option>
-                <option value="windows">Windows</option>
-            </select>
-            <img id = "iconIndicator" src = "assets/null.png" alt = "icon selected">
+            <div id = "showalltime">
+                <h1>CO-OP games</h1>
+                <label id = "darkmodelab">light mode:</label>
+                <div id = "dmode">
+                    <label class="switch">
+                        <input type="checkbox" id = "darkmode">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <div id = "filerdiv">
+                <label for="filter" id = "filterlab" class = "hide">filter: </label>
+                <select id="filter" class = "hide">
+                    <option value="all" selected>all</option>
+                    <option value="none">no info</option>
+                    <option value="coming ex">coming to early access</option>
+                    <option value="demo">demo</option>
+                    <option value="coming">coming</option>
+                    <option value="ex">early access</option>
+                    <option value="full">full release</option>
+                </select>
+            </div>
+            <div id = "systemdiv">
+            <label for="sselect" id = "sselectlab" class = "hide">system: </label>
+                <select id="sselect" class = "hide">
+                    <option value="all" selected>all</option>
+                    <option value="linux">Linux</option>
+                    <option value="apple">Apple</option>
+                    <option value="windows">Windows</option>
+                </select>
+                <img id = "iconIndicator" class = "hide" src = "assets/null.png" alt = "icon selected">
+            </div>
         </div>
-        <div id = "dmode">
-            <label for = "dmode" id = "darkmodelab">light mode:</label>
-            <label class="switch" id = "dmode">
-                <input type="checkbox" id = "darkmode">
-                <span class="slider round"></span>
-            </label>
-        </div>
+        <button id = "expand">show filters</button>
     </header>
     <main>
         <div id = "games">

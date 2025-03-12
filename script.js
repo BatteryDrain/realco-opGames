@@ -125,6 +125,7 @@ let FILTER = "all";
 MOUSEX = 0;
 MOUSEY = 0;
 DARKMODE = true;
+EXPANDED = false;
 
 const games = document.getElementById("games");
 
@@ -272,3 +273,26 @@ darkmode.addEventListener("change", () => {
     }
 });
 
+expand.addEventListener("click", function(){
+    header.classList.toggle("expanded");
+    if(EXPANDED){
+        console.log("here");
+        expand.innerHTML = "show filters";
+        headshowhide();
+        EXPANDED = false;
+
+    }
+    else{
+        expand.innerHTML = "hide filters";
+        setTimeout(headshowhide(), 1000);
+        EXPANDED = true;
+    }
+});
+
+function headshowhide(){
+    filter.classList.toggle("hide");
+    filterlab.classList.toggle("hide");
+    sselect.classList.toggle("hide");
+    sselectlab.classList.toggle("hide");
+    iconIndicator.classList.toggle("hide");
+}
