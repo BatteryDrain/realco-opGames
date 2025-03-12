@@ -206,7 +206,7 @@ function figBuilderAZ(i){
 
     but = document.createElement('button');
     but.innerHTML = "learn more";
-    but.setAttribute("onclick", "goToLink(" + i + ")");
+    but.setAttribute("onclick", "goToLink(" + NAMESAZ[i][4] + ")");
     div1.appendChild(but);
 
     if(STATUS[i] == "demo"){
