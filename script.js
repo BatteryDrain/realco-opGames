@@ -260,7 +260,7 @@ function figBuilderdate(i){
 
     but = document.createElement('button');
     but.innerHTML = "learn more";
-    but.setAttribute("onclick", "goToLink(" + i + ")");
+    but.setAttribute("onclick", "goToLink(" + NAMES[i][4] + ")");
     div1.appendChild(but);
 
     if(STATUS[NAMES[i][4]] == "demo"){
