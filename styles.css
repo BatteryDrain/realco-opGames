@@ -168,7 +168,7 @@ select {
         display: flex;
         max-height: 40px;
         overflow: hidden; /* Prevents content from overflowing */
-        transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
+        transition: max-height 1s ease-in-out, padding 0.4s ease-in-out;
     }
     
     header.expanded {
@@ -185,7 +185,7 @@ select {
         display: flex;
         max-height: 100px;
         overflow: hidden; /* Prevents content from overflowing */
-        transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
+        transition: max-height 1s ease-in-out, padding 0.4s ease-in-out;
     }
 
     #showalltime {
