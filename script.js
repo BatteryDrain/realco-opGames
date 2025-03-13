@@ -166,6 +166,7 @@ Iwanttosortby();
 sorting.addEventListener("change", () => {
     SORTBY = sorting.value;
     Iwanttosortby();
+    sort();
 });
 
 function Iwanttosortby(){
