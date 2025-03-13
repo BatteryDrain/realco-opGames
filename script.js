@@ -151,7 +151,7 @@ STATUS = ["coming",
 ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/linux-white-logo.png","assets/null.png"];
 SYSTEM = "all";
 let FIGURES = [];
-let FILTER = "all";
+FILTER = "all";
 MOUSEX = 0;
 MOUSEY = 0;
 DARKMODE = true;
@@ -166,7 +166,11 @@ sorting.addEventListener("change", () => {
     SORTBY = sorting.value;
     Iwanttosortby();
     filter.value = "all";
+    FILTER = "all";
+
     sselect.value = "all";
+    SYSTEM = "all";
+    
     iconIndicator.src = "assets/null.png";
     //sort();
 });
