@@ -162,11 +162,13 @@ DELAY = 40;
 const games = document.getElementById("games");
 
 Iwanttosortby();
-
 sorting.addEventListener("change", () => {
     SORTBY = sorting.value;
     Iwanttosortby();
-    sort();
+    filter.value = "all";
+    sselect.value = "all";
+    iconIndicator.src = "assets/null.png";
+    //sort();
 });
 
 function Iwanttosortby(){
