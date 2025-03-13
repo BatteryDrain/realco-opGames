@@ -215,6 +215,7 @@ function figBuilderAZ(i){
         DEMO = document.createElement('img');
         DEMO.id = "demoimg";
         DEMO.src = "assets/DEMO.webp";
+        DEMO.alt = "yellow rouned rectange with the word DEMO taken out of it";
         div1.appendChild(DEMO);
     }
     fig.appendChild(div1);
