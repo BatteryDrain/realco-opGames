@@ -111,23 +111,6 @@ figure img {
     display: none;
 }
 
-@media screen and (min-width: 400px) {
-header {
-    background: linear-gradient(90deg, red, purple, blue);
-    padding: 10px;
-    color: #ffffff;
-    display: flex;
-    max-height: 60px;
-    overflow: hidden; /* Prevents content from overflowing */
-    transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
-}
-
-header.expanded {
-    max-height: 500px;
-    padding-bottom: 20px;
-}
-}
-
 header img {
     width: 15px;
     height: auto;
