@@ -26,7 +26,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/1962700/Subnautica_2",
     "https://store.steampowered.com/app/3113750/Drunk_Builder_Simulator/",
     "https://store.steampowered.com/app/2780980/LOCKDOWN_Protocol/",
-    "https://store.steampowered.com/app/1601330/Survival_Machine/"
+    "https://store.steampowered.com/app/1601330/Survival_Machine/",
+    "https://store.steampowered.com/app/236390/War_Thunder/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0],
     ["Long Drive North", 1, 0, 0, 1],
@@ -56,7 +57,8 @@ NAMES = [["Storebound", 1, 0, 0, 0],
     ["Subnautica 2", 1, 0, 0, 25],
     ["Drunk Builder Simulator", 1, 0, 0, 26],
     ["LOCKDOWN Protocol", 1, 0, 0, 27],
-    ["Survival Machine", 1, 0, 0, 28]
+    ["Survival Machine", 1, 0, 0, 28],
+    ["War Thunder", 1, 1, 1, 29]
     ]; // name, windows, apple, linux, link/picture/status index
 NAMESAZ = [["Beat Around The Bush", 1, 0, 0, 3],
     ["Begone Beast", 1, 0, 0, 10],
@@ -86,7 +88,8 @@ NAMESAZ = [["Beat Around The Bush", 1, 0, 0, 3],
     ["StarRupture", 1, 0, 0, 15],
     ["Storebound", 1, 0, 0, 0],
     ["Subnautica 2", 1, 0, 0, 25],
-    ["Survival Machine", 1, 0, 0, 28]
+    ["Survival Machine", 1, 0, 0, 28],
+    ["War Thunder", 1, 1, 1, 29]
     ]; // name, windows, apple, linux, link/picture/status index
 IMGS = ["assets/storebound.jpg",
     "assets/longdriven.jpg",
@@ -116,7 +119,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/Subnautica2.jpg",
     "assets/DrunkBuilderSimulator.jpg",
     "assets/LOCKDOWNProtocol.jpg",
-    "assets/SurvivalMachine.jpg"
+    "assets/SurvivalMachine.jpg",
+    "assets/WarThunder.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -146,7 +150,8 @@ STATUS = ["coming",
     "coming",
     "full",
     "ex",
-    "demo"
+    "demo",
+    "full"
     ];
 ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/linux-white-logo.png","assets/null.png"];
 SYSTEM = "all";
@@ -170,7 +175,7 @@ sorting.addEventListener("change", () => {
 
     sselect.value = "all";
     SYSTEM = "all";
-    
+
     iconIndicator.src = "assets/null.png";
     //sort();
 });
