@@ -27,7 +27,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/3113750/Drunk_Builder_Simulator/",
     "https://store.steampowered.com/app/2780980/LOCKDOWN_Protocol/",
     "https://store.steampowered.com/app/1601330/Survival_Machine/",
-    "https://store.steampowered.com/app/236390/War_Thunder/"
+    "https://store.steampowered.com/app/236390/War_Thunder/",
+    "https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0],
     ["Long Drive North", 1, 0, 0, 1],
@@ -58,7 +59,8 @@ NAMES = [["Storebound", 1, 0, 0, 0],
     ["Drunk Builder Simulator", 1, 0, 0, 26],
     ["LOCKDOWN Protocol", 1, 0, 0, 27],
     ["Survival Machine", 1, 0, 0, 28],
-    ["War Thunder", 1, 1, 1, 29]
+    ["War Thunder", 1, 1, 1, 29],
+    ["The Mound: Omen of Cthulhu", 1, 1, 1, 30]
     ]; // name, windows, apple, linux, link/picture/status index
 NAMESAZ = [["Beat Around The Bush", 1, 0, 0, 3],
     ["Begone Beast", 1, 0, 0, 10],
@@ -89,6 +91,7 @@ NAMESAZ = [["Beat Around The Bush", 1, 0, 0, 3],
     ["Storebound", 1, 0, 0, 0],
     ["Subnautica 2", 1, 0, 0, 25],
     ["Survival Machine", 1, 0, 0, 28],
+    ["The Mound: Omen of Cthulhu", 1, 1, 1, 30],
     ["War Thunder", 1, 1, 1, 29]
     ]; // name, windows, apple, linux, link/picture/status index
 IMGS = ["assets/storebound.jpg",
@@ -120,7 +123,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/DrunkBuilderSimulator.jpg",
     "assets/LOCKDOWNProtocol.jpg",
     "assets/SurvivalMachine.jpg",
-    "assets/WarThunder.jpg"
+    "assets/WarThunder.jpg",
+    "assets/TheMoundOmenofCthulhu.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -151,7 +155,8 @@ STATUS = ["coming",
     "full",
     "ex",
     "demo",
-    "full"
+    "full",
+    "coming"
     ];
 ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/linux-white-logo.png","assets/null.png"];
 SYSTEM = "all";
