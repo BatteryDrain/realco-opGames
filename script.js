@@ -128,7 +128,7 @@ IMGS = ["assets/storebound.jpg",
     ];
 STATUS = ["coming",
     "coming ex",
-    "demo",
+    "coming",
     "full",
     "coming ex",
     "ex",
