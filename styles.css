@@ -98,6 +98,7 @@ figure button {
 figure img {
     width: auto;
     height: auto;
+    transition: transform 0.3s ease;
 }
 
 #demoimg {
@@ -198,4 +199,8 @@ select {
         max-height: 500px;
         padding-bottom: 20px;
     }
+}
+
+figure img:hover {
+    transform: scale(1.2);
 }
