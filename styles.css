@@ -67,6 +67,7 @@ figure {
     padding-bottom: 20px;
     max-width: 700px;
     filter: drop-shadow(18px 18px 8px rgb(234, 0, 255));
+    transition: transform 0.3s ease;
 }
 
 #div1 {
@@ -98,7 +99,6 @@ figure button {
 figure img {
     width: auto;
     height: auto;
-    transition: transform 0.3s ease;
 }
 
 #demoimg {
@@ -178,8 +178,8 @@ select {
         transition: min-height 1s ease-in-out, padding 0.4s ease-in-out;
     }
 
-    figure img:hover {
-        transform: scale(1.25);
+    figure:hover {
+        transform: scale(1.1);
         max-width: 100%;
     }
 }
