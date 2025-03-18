@@ -177,12 +177,15 @@ select {
     margin-top: 20px;
 }
 
+header {
+    background: linear-gradient(90deg, red, purple, blue);
+    padding: 10px;
+    color: #ffffff;
+    display: flex;
+}
+
 @media screen and (min-width: 500px) {
     header {
-        background: linear-gradient(90deg, red, purple, blue);
-        padding: 10px;
-        color: #ffffff;
-        display: flex;
         min-height: 40px;
         overflow: hidden; /* Prevents content from overflowing */
         transition: max-height 1s ease-in-out, padding 0.4s ease-in-out;
@@ -202,10 +205,6 @@ select {
 
 @media screen and (max-width: 500px) {
     header {
-        background: linear-gradient(90deg, red, purple, blue);
-        padding: 10px;
-        color: #ffffff;
-        display: flex;
         max-height: 100px;
         overflow: hidden; /* Prevents content from overflowing */
         transition: max-height 1s ease-in-out, padding 0.4s ease-in-out;
