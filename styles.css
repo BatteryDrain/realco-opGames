@@ -102,6 +102,16 @@ figure button {
     margin-left: auto;
 }
 
+#clearb {
+    width: 100px;
+    height: 20px;
+    color: black;
+    border: 0;
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px;
+}
+
 figure img {
     width: auto;
     height: auto;

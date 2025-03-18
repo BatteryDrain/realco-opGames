@@ -203,6 +203,19 @@ DELAY = 40;
 
 const games = document.getElementById("games");
 
+clearb.addEventListener("click", () => {
+    SORTBY = sorting.value;
+    Iwanttosortby();
+    filter.value = "all";
+    FILTER = "all";
+
+    sselect.value = "all";
+    SYSTEM = "all";
+
+    iconIndicator.src = "assets/null.png";
+    //sort();
+});
+
 Iwanttosortby();
 sorting.addEventListener("change", () => {
     SORTBY = sorting.value;
@@ -462,6 +475,7 @@ function headshowhide(){
     iconIndicator.classList.toggle("hide");
     sorting.classList.toggle("hide");
     sortinglab.classList.toggle("hide");
+    clearb.classList.toggle("hide");
 }
 
 function exheader(){
