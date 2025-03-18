@@ -203,7 +203,7 @@ DELAY = 40;
 
 const games = document.getElementById("games");
 
-clearb.addEventListener("click", () => {
+function clearf(){
     SORTBY = sorting.value;
     Iwanttosortby();
     filter.value = "all";
@@ -214,20 +214,15 @@ clearb.addEventListener("click", () => {
 
     iconIndicator.src = "assets/null.png";
     //sort();
+}
+
+clearb.addEventListener("click", () => {
+    clearf();
 });
 
 Iwanttosortby();
 sorting.addEventListener("change", () => {
-    SORTBY = sorting.value;
-    Iwanttosortby();
-    filter.value = "all";
-    FILTER = "all";
-
-    sselect.value = "all";
-    SYSTEM = "all";
-
-    iconIndicator.src = "assets/null.png";
-    //sort();
+    clearf();
 });
 
 function Iwanttosortby(){
