@@ -180,7 +180,7 @@ select {
 
     figure:hover {
         transform: scale(1.1);
-        filter: drop-shadow(18px 18px 30px rgb(234, 0, 255));
+        filter: drop-shadow(16px 16px 30px rgb(234, 0, 255));
     }
 }
 
@@ -198,7 +198,6 @@ select {
     #showalltime {
         display: flex;
         flex-direction: column;
-        filter: drop-shadow(18px 18px 30px rgb(234, 0, 255));
     }
     
     header.expanded {
