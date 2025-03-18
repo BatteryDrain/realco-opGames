@@ -74,6 +74,12 @@ figure {
     display: flex;
 }
 
+#freeimg {
+    width: 40px;
+    margin: 10px;
+    margin-left: auto;
+}
+
 figure button {
     width: 100px;
     height: auto;

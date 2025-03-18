@@ -158,6 +158,38 @@ STATUS = ["coming",
     "full",
     "coming"
     ];
+PRICE = ["",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "free",
+    ""
+    ];
 ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/linux-white-logo.png","assets/null.png"];
 SYSTEM = "all";
 let FIGURES = [];
@@ -227,12 +259,18 @@ function figBuilderAZ(i){
     but.setAttribute("onclick", "goToLink(" + NAMESAZ[i][4] + ")");
     div1.appendChild(but);
 
-    if(STATUS[i] == "demo"){
+    if(STATUS[NAMESAZ[i][4]] == "demo"){
         DEMO = document.createElement('img');
         DEMO.id = "demoimg";
         DEMO.src = "assets/DEMO.webp";
         DEMO.alt = "yellow rouned rectange with the word DEMO taken out of it";
         div1.appendChild(DEMO);
+    }
+    if(PRICE[NAMESAZ[i][4]] == "free"){
+        FREE = document.createElement('img');
+        FREE.id = "freeimg";
+        FREE.src = "assets/FREEgreen.webp";
+        div1.appendChild(FREE);
     }
     fig.appendChild(div1);
 
@@ -287,6 +325,12 @@ function figBuilderdate(i){
         DEMO.id = "demoimg";
         DEMO.src = "assets/DEMO.webp";
         div1.appendChild(DEMO);
+    }
+    if(PRICE[NAMES[i][4]] == "free"){
+        FREE = document.createElement('img');
+        FREE.id = "freeimg";
+        FREE.src = "assets/FREEgreen.webp";
+        div1.appendChild(FREE);
     }
     fig.appendChild(div1);
 
