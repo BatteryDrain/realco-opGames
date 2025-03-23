@@ -29,7 +29,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/1601330/Survival_Machine/",
     "https://store.steampowered.com/app/236390/War_Thunder/",
     "https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/",
-    "https://store.steampowered.com/app/1172620/Sea_of_Thieves_2025_Edition/"
+    "https://store.steampowered.com/app/1172620/Sea_of_Thieves_2025_Edition/",
+    "https://store.steampowered.com/app/2698870/Midnight_Murder_Club/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0],
     ["Long Drive North", 1, 0, 0, 1],
@@ -62,7 +63,8 @@ NAMES = [["Storebound", 1, 0, 0, 0],
     ["Survival Machine", 1, 0, 0, 28],
     ["War Thunder", 1, 1, 1, 29],
     ["The Mound: Omen of Cthulhu", 1, 1, 1, 30],
-    ["Sea of Thieves", 1, 0, 0, 31]
+    ["Sea of Thieves", 1, 0, 0, 31],
+    ["Midnight Murder Club,", 1, 0, 0, 32]
     ]; // name, windows, apple, linux, link/picture/status index
 NAMESAZ = [["Beat Around The Bush", 1, 0, 0, 3],
     ["Begone Beast", 1, 0, 0, 10],
@@ -77,6 +79,7 @@ NAMESAZ = [["Beat Around The Bush", 1, 0, 0, 3],
     ["LOCKDOWN Protocol", 1, 0, 0, 27],
     ["Long Drive North", 1, 0, 0, 1],
     ["Lost Skies", 1, 0, 0, 7],
+    ["Midnight Murder Club,", 1, 0, 0, 32],
     ["Nuclear Nightmare", 1, 0, 0, 8],
     ["Oh Deer", 1, 0, 0, 24],
     ["Outbound", 1, 0, 0, 11],
@@ -128,7 +131,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/SurvivalMachine.jpg",
     "assets/WarThunder.jpg",
     "assets/TheMoundOmenofCthulhu.jpg",
-    "assets/SeaofThieves.jpg"
+    "assets/SeaofThieves.jpg",
+    "assets/MidnightMurderClub.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -161,7 +165,8 @@ STATUS = ["coming",
     "demo",
     "full",
     "coming",
-    "full"
+    "full",
+    "ex"
     ];
 PRICE = ["",
     "",
@@ -193,6 +198,7 @@ PRICE = ["",
     "",
     "",
     "free",
+    "",
     "",
     ""
     ];
