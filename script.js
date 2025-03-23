@@ -28,7 +28,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/2780980/LOCKDOWN_Protocol/",
     "https://store.steampowered.com/app/1601330/Survival_Machine/",
     "https://store.steampowered.com/app/236390/War_Thunder/",
-    "https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/"
+    "https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/",
+    "https://store.steampowered.com/app/1172620/Sea_of_Thieves_2025_Edition/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0],
     ["Long Drive North", 1, 0, 0, 1],
@@ -60,7 +61,8 @@ NAMES = [["Storebound", 1, 0, 0, 0],
     ["LOCKDOWN Protocol", 1, 0, 0, 27],
     ["Survival Machine", 1, 0, 0, 28],
     ["War Thunder", 1, 1, 1, 29],
-    ["The Mound: Omen of Cthulhu", 1, 1, 1, 30]
+    ["The Mound: Omen of Cthulhu", 1, 1, 1, 30],
+    ["Sea of Thieves", 1, 0, 0, 31]
     ]; // name, windows, apple, linux, link/picture/status index
 NAMESAZ = [["Beat Around The Bush", 1, 0, 0, 3],
     ["Begone Beast", 1, 0, 0, 10],
@@ -84,6 +86,7 @@ NAMESAZ = [["Beat Around The Bush", 1, 0, 0, 3],
     ["Regular Human Basketball", 1, 1, 1, 21],
     ["REPO", 1, 0, 0, 9],
     ["SAND", 1, 0, 0, 4],
+    ["Sea of Thieves", 1, 0, 0, 31],
     ["Space Engineers 2", 1, 0, 0, 5],
     ["Spelunky 2", 1, 0, 0, 20],
     ["Squirreled Away", 1, 0, 0, 12],
@@ -124,7 +127,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/LOCKDOWNProtocol.jpg",
     "assets/SurvivalMachine.jpg",
     "assets/WarThunder.jpg",
-    "assets/TheMoundOmenofCthulhu.jpg"
+    "assets/TheMoundOmenofCthulhu.jpg",
+    "assets/SeaofThieves.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -156,7 +160,8 @@ STATUS = ["coming",
     "ex",
     "demo",
     "full",
-    "coming"
+    "coming",
+    "full"
     ];
 PRICE = ["",
     "",
@@ -188,6 +193,7 @@ PRICE = ["",
     "",
     "",
     "free",
+    "",
     ""
     ];
 ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/linux-white-logo.png","assets/null.png"];
