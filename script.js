@@ -168,7 +168,40 @@ STATUS = ["coming",
     "full",
     "ex"
     ];
-PRICE = [];
+    PRICE = ["",
+        "",
+        "",
+        "free",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "free",
+        "",
+        "",
+        ""
+        ];
 GAMEID = [];
 ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/linux-white-logo.png","assets/null.png"];
 SYSTEM = "all";
@@ -469,25 +502,45 @@ function exheader(){
     }
 }
 
-function getPrices(gameid){
-    apiURL = "https://store.steampowered.com/api/appdetails?appids=" + gameid;
-    fetch(apiURL)
+function getPrices(gameid) {
+    const proxyURL = "https://cors-anywhere.herokuapp.com/";
+    const apiURL = `https://store.steampowered.com/api/appdetails?appids=${gameid}`;
+
+    fetch(proxyURL + apiURL)
         .then(response => {
-            if(!response.ok) {
+            if (!response.ok) {
                 throw new Error("Network response was not OK");
             }
             return response.json();
         })
         .then(data => {
             console.log(data);
-            var Lprice = data;
-            console.log(Lprice.discount_percent);
-            return(gameid.is_free);
+            return data[gameid].data.is_free;
         })
         .catch(error => {
             console.error("Error:", error);
         });
 }
+
+// function getPrices(gameid){
+//     apiURL = "https://store.steampowered.com/api/appdetails?appids=" + gameid;
+//     fetch(apiURL)
+//         .then(response => {
+//             if(!response.ok) {
+//                 throw new Error("Network response was not OK");
+//             }
+//             return response.json();
+//         })
+//         .then(data => {
+//             console.log(data);
+//             var Lprice = data;
+//             console.log(Lprice.discount_percent);
+//             return(gameid.is_free);
+//         })
+//         .catch(error => {
+//             console.error("Error:", error);
+//         });
+// }
 
 for(i = 0; i < LINKS.length; i++){
     tempLink = LINKS[i];
