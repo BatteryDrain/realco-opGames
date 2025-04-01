@@ -168,40 +168,8 @@ STATUS = ["coming",
     "full",
     "ex"
     ];
-PRICE = ["",
-    "",
-    "",
-    "free",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "free",
-    "",
-    "",
-    ""
-    ];
+PRICE = [];
+GAMEID = [];
 ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/linux-white-logo.png","assets/null.png"];
 SYSTEM = "all";
 let FIGURES = [];
@@ -499,4 +467,39 @@ function exheader(){
         setTimeout(headshowhide(), 1000);
         EXPANDED = true;
     }
+}
+
+function getPrices(gameid){
+    apiURL = "https://store.steampowered.com/api/appdetails?appids=" + gameid;
+    fetch(apiURL)
+        .then(response => {
+            if(!response.ok) {
+                throw new Error("Network response was not OK");
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log(data);
+            var Lprice = data;
+            console.log(Lprice.discount_percent);
+            return(gameid.is_free);
+        })
+        .catch(error => {
+            console.error("Error:", error);
+        });
+}
+
+for(i = 0; i < LINKS.length; i++){
+    tempLink = LINKS[i];
+    temp = "";
+    for(index = 35; index < 43; index++){
+        letter = tempLink.substr(index,1);
+        if(letter !== "/"){
+            temp += letter;
+        }
+    }
+    GAMEID.push(temp);
+}
+for(i = 0; i < PRICE.length; i++){
+
 }
