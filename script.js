@@ -31,7 +31,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/",
     "https://store.steampowered.com/app/1172620/Sea_of_Thieves_2025_Edition/",
     "https://store.steampowered.com/app/2698870/Midnight_Murder_Club/",
-    "https://store.steampowered.com/app/3041230/Crosswind/"
+    "https://store.steampowered.com/app/3041230/Crosswind/",
+    "https://store.steampowered.com/app/2820700/A_Gentlemens_Dispute/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0],
     ["Long Drive North", 1, 0, 0, 1],
@@ -66,9 +67,11 @@ NAMES = [["Storebound", 1, 0, 0, 0],
     ["The Mound: Omen of Cthulhu", 1, 1, 1, 30],
     ["Sea of Thieves", 1, 0, 0, 31],
     ["Midnight Murder Club,", 1, 0, 0, 32],
-    ["Crosswind", 1, 0, 0, 33]
+    ["Crosswind", 1, 0, 0, 33],
+    ["A Gentlemen's Dispute", 1, 1, 0, 34]
     ]; // name, windows, apple, linux, link/picture/status index
-NAMESAZ = [["Beat Around The Bush", 1, 0, 0, 3],
+NAMESAZ = [["A Gentlemen's Dispute", 1, 1, 0, 34],
+    ["Beat Around The Bush", 1, 0, 0, 3],
     ["Begone Beast", 1, 0, 0, 10],
     ["Crosswind", 1, 0, 0, 33],
     ["Drunk Builder Simulator", 1, 0, 0, 26],
@@ -136,7 +139,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/TheMoundOmenofCthulhu.jpg",
     "assets/SeaofThieves.jpg",
     "assets/MidnightMurderClub.jpg",
-    "assets/crosswind.jpg"
+    "assets/crosswind.jpg",
+    "assets/aGentlemensDispute.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -171,7 +175,8 @@ STATUS = ["coming",
     "coming",
     "full",
     "ex",
-    "coming"
+    "coming",
+    "demo"
     ];
     PRICE = ["",
         "",
@@ -203,6 +208,7 @@ STATUS = ["coming",
         "",
         "",
         "free",
+        "",
         "",
         "",
         "",
