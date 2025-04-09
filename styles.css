@@ -173,6 +173,11 @@ select {
     margin-top: 20px;
 }
 
+#count {
+    margin: 5px;
+    font-size: large;
+}
+
 header {
     background: linear-gradient(90deg, red, purple, blue);
     padding: 10px;

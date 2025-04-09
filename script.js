@@ -226,6 +226,7 @@ STATUS = ["coming",
         "",
         ""
         ];
+COUNT = 0;
 GAMEID = [];
 ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/linux-white-logo.png","assets/null.png"];
 SYSTEM = "all";
@@ -248,6 +249,7 @@ function clearf(){
 
     sselect.value = "all";
     SYSTEM = "all";
+    setcount();
 
     iconIndicator.src = "assets/null.png";
     //sort();
@@ -260,6 +262,7 @@ clearb.addEventListener("click", () => {
 Iwanttosortby();
 sorting.addEventListener("change", () => {
     clearf();
+    setcount();
 });
 
 function Iwanttosortby(){
@@ -336,6 +339,7 @@ function figBuilderAZ(i){
 
     if((i + 1) == NAMESAZ.length){
         setFigures();
+        setcount();
     }
 }
 
@@ -396,6 +400,7 @@ function figBuilderdate(i){
 
     if((i + 1) == NAMES.length){
         setFigures();
+        setcount();
     }
 }
 
@@ -429,12 +434,14 @@ sselect.addEventListener("change", () => {
     if(SYSTEM == "windows"){
         iconIndicator.src = ICONS[0];
     }
+    setcount();
 });
 
 filter.addEventListener("change", () => {
     FILTER = filter.value;
     console.log(FILTER);
     sort();
+    setcount();
 });
 
 function sort(){
@@ -487,6 +494,7 @@ darkmode.addEventListener("change", () => {
         document.body.style.backgroundColor = "black";
                 darkmodelab.innerHTML = "light mode:";
     }
+
 });
 
 expand.addEventListener("click", function(){
@@ -517,7 +525,7 @@ function exheader(){
         expand.innerHTML = "show filters";
         headshowhide();
         EXPANDED = false;
-
+        setcount();
     }
     else{
         expand.innerHTML = "hide filters";
@@ -579,4 +587,14 @@ for(i = 0; i < LINKS.length; i++){
 }
 for(i = 0; i < PRICE.length; i++){
 
+}
+
+function setcount(){
+    COUNT = FIGURES.length
+    for(i = 0; i < FIGURES.length; i++){
+        if(FIGURES[i].classList.contains("hide")){
+            COUNT--
+        }
+    }
+    count.innerHTML=COUNT;
 }
