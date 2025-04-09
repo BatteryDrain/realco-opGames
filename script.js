@@ -32,7 +32,9 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/1172620/Sea_of_Thieves_2025_Edition/",
     "https://store.steampowered.com/app/2698870/Midnight_Murder_Club/",
     "https://store.steampowered.com/app/3041230/Crosswind/",
-    "https://store.steampowered.com/app/2820700/A_Gentlemens_Dispute/"
+    "https://store.steampowered.com/app/2820700/A_Gentlemens_Dispute/",
+    "https://store.steampowered.com/app/2104890/RoadCraft/",
+    "https://store.steampowered.com/app/1660080/Aloft/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0],
     ["Long Drive North", 1, 0, 0, 1],
@@ -68,9 +70,12 @@ NAMES = [["Storebound", 1, 0, 0, 0],
     ["Sea of Thieves", 1, 0, 0, 31],
     ["Midnight Murder Club,", 1, 0, 0, 32],
     ["Crosswind", 1, 0, 0, 33],
-    ["A Gentlemen's Dispute", 1, 1, 0, 34]
+    ["A Gentlemen's Dispute", 1, 1, 0, 34],
+    ["RoadCraft", 1, 0, 0, 35],
+    ["Aloft", 1, 0, 0, 36]
     ]; // name, windows, apple, linux, link/picture/status index
-NAMESAZ = [["A Gentlemen's Dispute", 1, 1, 0, 34],
+NAMESAZ = [["Aloft", 1, 0, 0, 36],
+    ["A Gentlemen's Dispute", 1, 1, 0, 34],
     ["Beat Around The Bush", 1, 0, 0, 3],
     ["Begone Beast", 1, 0, 0, 10],
     ["Crosswind", 1, 0, 0, 33],
@@ -93,6 +98,7 @@ NAMESAZ = [["A Gentlemen's Dispute", 1, 1, 0, 34],
     ["PACS", 1, 0, 0, 16],
     ["PICO PARK 2", 1, 1, 0, 22],
     ["Regular Human Basketball", 1, 1, 1, 21],
+    ["RoadCraft", 1, 0, 0, 35],
     ["REPO", 1, 0, 0, 9],
     ["SAND", 1, 0, 0, 4],
     ["Sea of Thieves", 1, 0, 0, 31],
@@ -140,7 +146,9 @@ IMGS = ["assets/storebound.jpg",
     "assets/SeaofThieves.jpg",
     "assets/MidnightMurderClub.jpg",
     "assets/crosswind.jpg",
-    "assets/aGentlemensDispute.jpg"
+    "assets/aGentlemensDispute.jpg",
+    "assets/RoadCraft.jpg",
+    "assets/Aloft.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -176,7 +184,9 @@ STATUS = ["coming",
     "full",
     "ex",
     "coming",
-    "demo"
+    "demo",
+    "coming",
+    "ex"
     ];
     PRICE = ["",
         "",
@@ -208,6 +218,8 @@ STATUS = ["coming",
         "",
         "",
         "free",
+        "",
+        "",
         "",
         "",
         "",
