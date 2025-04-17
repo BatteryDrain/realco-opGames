@@ -34,7 +34,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/3041230/Crosswind/",
     "https://store.steampowered.com/app/2820700/A_Gentlemens_Dispute/",
     "https://store.steampowered.com/app/2104890/RoadCraft/",
-    "https://store.steampowered.com/app/1660080/Aloft/"
+    "https://store.steampowered.com/app/1660080/Aloft/",
+    "https://store.steampowered.com/app/2842150/Pair_A_Dice/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0],
     ["Long Drive North", 1, 0, 0, 1],
@@ -72,7 +73,8 @@ NAMES = [["Storebound", 1, 0, 0, 0],
     ["Crosswind", 1, 0, 0, 33],
     ["A Gentlemen's Dispute", 1, 1, 0, 34],
     ["RoadCraft", 1, 0, 0, 35],
-    ["Aloft", 1, 0, 0, 36]
+    ["Aloft", 1, 0, 0, 36],
+    ["Pair A Dice", 1, 0, 0, 37]
     ]; // name, windows, apple, linux, link/picture/status index
 NAMESAZ = [["Aloft", 1, 0, 0, 36],
     ["A Gentlemen's Dispute", 1, 1, 0, 34],
@@ -96,6 +98,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36],
     ["Outbound", 1, 0, 0, 11],
     ["over the hill", 1, 0, 0, 17],
     ["PACS", 1, 0, 0, 16],
+    ["Pair A Dice", 1, 0, 0, 37],
     ["PICO PARK 2", 1, 1, 0, 22],
     ["Regular Human Basketball", 1, 1, 1, 21],
     ["RoadCraft", 1, 0, 0, 35],
@@ -148,7 +151,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/crosswind.jpg",
     "assets/aGentlemensDispute.jpg",
     "assets/RoadCraft.jpg",
-    "assets/Aloft.jpg"
+    "assets/Aloft.jpg",
+    "assets/PairADice.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -186,7 +190,8 @@ STATUS = ["coming",
     "coming",
     "demo",
     "coming",
-    "ex"
+    "ex",
+    "coming"
     ];
     PRICE = ["",
         "",
@@ -224,7 +229,8 @@ STATUS = ["coming",
         "",
         "",
         "",
-        ""
+        "",
+        "free"
         ];
 COUNT = 0;
 GAMEID = [];
