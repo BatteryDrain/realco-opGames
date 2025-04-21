@@ -35,7 +35,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/2820700/A_Gentlemens_Dispute/",
     "https://store.steampowered.com/app/2104890/RoadCraft/",
     "https://store.steampowered.com/app/1660080/Aloft/",
-    "https://store.steampowered.com/app/2842150/Pair_A_Dice/"
+    "https://store.steampowered.com/app/2842150/Pair_A_Dice/",
+    "https://store.steampowered.com/app/2253100/Everwind/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0],
     ["Long Drive North", 1, 0, 0, 1],
@@ -74,7 +75,8 @@ NAMES = [["Storebound", 1, 0, 0, 0],
     ["A Gentlemen's Dispute", 1, 1, 0, 34],
     ["RoadCraft", 1, 0, 0, 35],
     ["Aloft", 1, 0, 0, 36],
-    ["Pair A Dice", 1, 0, 0, 37]
+    ["Pair A Dice", 1, 0, 0, 37],
+    ["Everwind", 1, 0, 0, 38]
     ]; // name, windows, apple, linux, link/picture/status index
 NAMESAZ = [["Aloft", 1, 0, 0, 36],
     ["A Gentlemen's Dispute", 1, 1, 0, 34],
@@ -84,6 +86,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36],
     ["Drunk Builder Simulator", 1, 0, 0, 26],
     ["Dune Awakening", 1, 0, 0, 18],
     ["DuneCrawl", 1, 0, 0, 6],
+    ["Everwind", 1, 0, 0, 38],
     ["Forever Skies", 1, 0, 0, 13],
     ["Gas Station Manager", 1, 1, 0, 2],
     ["Heave Ho", 1, 1, 0, 19],
@@ -152,7 +155,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/aGentlemensDispute.jpg",
     "assets/RoadCraft.jpg",
     "assets/Aloft.jpg",
-    "assets/PairADice.jpg"
+    "assets/PairADice.jpg",
+    "assets/Everwind.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -191,7 +195,8 @@ STATUS = ["coming",
     "demo",
     "coming",
     "ex",
-    "coming"
+    "coming",
+    "coming ex"
     ];
     PRICE = ["",
         "",
@@ -230,7 +235,8 @@ STATUS = ["coming",
         "",
         "",
         "",
-        "free"
+        "free",
+        ""
         ];
 COUNT = 0;
 GAMEID = [];
