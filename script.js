@@ -36,7 +36,9 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/2104890/RoadCraft/",
     "https://store.steampowered.com/app/1660080/Aloft/",
     "https://store.steampowered.com/app/2842150/Pair_A_Dice/",
-    "https://store.steampowered.com/app/2253100/Everwind/"
+    "https://store.steampowered.com/app/2253100/Everwind/",
+    "https://store.steampowered.com/app/1084600/My_Time_at_Sandrock/",
+    "https://store.steampowered.com/app/2592220/CUFFBUST/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0],
     ["Long Drive North", 1, 0, 0, 1],
@@ -76,13 +78,16 @@ NAMES = [["Storebound", 1, 0, 0, 0],
     ["RoadCraft", 1, 0, 0, 35],
     ["Aloft", 1, 0, 0, 36],
     ["Pair A Dice", 1, 0, 0, 37],
-    ["Everwind", 1, 0, 0, 38]
+    ["Everwind", 1, 0, 0, 38],
+    ["My Time at sandrock", 1, 0, 0, 39],
+    ["CUFFBUST", 1, 0, 0, 40]
     ]; // name, windows, apple, linux, link/picture/status index
 NAMESAZ = [["Aloft", 1, 0, 0, 36],
     ["A Gentlemen's Dispute", 1, 1, 0, 34],
     ["Beat Around The Bush", 1, 0, 0, 3],
     ["Begone Beast", 1, 0, 0, 10],
     ["Crosswind", 1, 0, 0, 33],
+    ["CUFFBUST", 1, 0, 0, 40],
     ["Drunk Builder Simulator", 1, 0, 0, 26],
     ["Dune Awakening", 1, 0, 0, 18],
     ["DuneCrawl", 1, 0, 0, 6],
@@ -96,6 +101,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36],
     ["Long Drive North", 1, 0, 0, 1],
     ["Lost Skies", 1, 0, 0, 7],
     ["Midnight Murder Club,", 1, 0, 0, 32],
+    ["My Time at sandrock", 1, 0, 0, 39],
     ["Nuclear Nightmare", 1, 0, 0, 8],
     ["Oh Deer", 1, 0, 0, 24],
     ["Outbound", 1, 0, 0, 11],
@@ -156,7 +162,9 @@ IMGS = ["assets/storebound.jpg",
     "assets/RoadCraft.jpg",
     "assets/Aloft.jpg",
     "assets/PairADice.jpg",
-    "assets/Everwind.jpg"
+    "assets/Everwind.jpg",
+    "assets/mytimeatsandrock.jpg",
+    "assets/CUFFBUST.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -196,7 +204,9 @@ STATUS = ["coming",
     "coming",
     "ex",
     "coming",
-    "coming ex"
+    "coming ex",
+    "full",
+    "comming"
     ];
     PRICE = ["",
         "",
@@ -236,6 +246,8 @@ STATUS = ["coming",
         "",
         "",
         "free",
+        "",
+        "",
         ""
         ];
 COUNT = 0;
