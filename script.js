@@ -38,7 +38,9 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/2842150/Pair_A_Dice/",
     "https://store.steampowered.com/app/2253100/Everwind/",
     "https://store.steampowered.com/app/1084600/My_Time_at_Sandrock/",
-    "https://store.steampowered.com/app/2592220/CUFFBUST/"
+    "https://store.steampowered.com/app/2592220/CUFFBUST/",
+    "https://store.steampowered.com/app/2078230/Badlands_Crew/",
+    "https://store.steampowered.com/app/3558400/Backseat_Drivers/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0],
     ["Long Drive North", 1, 0, 0, 1],
@@ -80,10 +82,14 @@ NAMES = [["Storebound", 1, 0, 0, 0],
     ["Pair A Dice", 1, 0, 0, 37],
     ["Everwind", 1, 0, 0, 38],
     ["My Time at sandrock", 1, 0, 0, 39],
-    ["CUFFBUST", 1, 0, 0, 40]
+    ["CUFFBUST", 1, 0, 0, 40],
+    ["Badlands crew", 1, 0, 0, 41],
+    ["Backseat Drivers", 1, 0, 0, 42]
     ]; // name, windows, apple, linux, link/picture/status index
 NAMESAZ = [["Aloft", 1, 0, 0, 36],
     ["A Gentlemen's Dispute", 1, 1, 0, 34],
+    ["Badlands crew", 1, 0, 0, 41],
+    ["Backseat Drivers", 1, 0, 0, 42],
     ["Beat Around The Bush", 1, 0, 0, 3],
     ["Begone Beast", 1, 0, 0, 10],
     ["Crosswind", 1, 0, 0, 33],
@@ -164,7 +170,9 @@ IMGS = ["assets/storebound.jpg",
     "assets/PairADice.jpg",
     "assets/Everwind.jpg",
     "assets/Mytimeatsandrock.jpg",
-    "assets/CUFFBUST.jpg"
+    "assets/CUFFBUST.jpg",
+    "assets/Badlandscrew.jpg",
+    "assets/BackseatDrivers.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -206,7 +214,9 @@ STATUS = ["coming",
     "coming",
     "coming ex",
     "full",
-    "comming"
+    "comming",
+    "full",
+    "demo"
     ];
     PRICE = ["",
         "",
@@ -246,6 +256,8 @@ STATUS = ["coming",
         "",
         "",
         "free",
+        "",
+        "",
         "",
         "",
         ""
