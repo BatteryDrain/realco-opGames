@@ -563,7 +563,6 @@ function headshowhide(){
 function exheader(){
     header.classList.toggle("expanded");
     if(EXPANDED){
-        console.log("here");
         expand.innerHTML = "show filters";
         headshowhide();
         EXPANDED = false;
