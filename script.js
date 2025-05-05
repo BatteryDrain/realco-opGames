@@ -40,7 +40,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/1084600/My_Time_at_Sandrock/",
     "https://store.steampowered.com/app/2592220/CUFFBUST/",
     "https://store.steampowered.com/app/2078230/Badlands_Crew/",
-    "https://store.steampowered.com/app/3558400/Backseat_Drivers/"
+    "https://store.steampowered.com/app/3558400/Backseat_Drivers/",
+    "https://store.steampowered.com/app/2852700/BUS_Bro_u_Survived/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0],
     ["Long Drive North", 1, 0, 0, 1],
@@ -84,7 +85,8 @@ NAMES = [["Storebound", 1, 0, 0, 0],
     ["My Time at sandrock", 1, 0, 0, 39],
     ["CUFFBUST", 1, 0, 0, 40],
     ["Badlands crew", 1, 0, 0, 41],
-    ["Backseat Drivers", 1, 0, 0, 42]
+    ["Backseat Drivers", 1, 0, 0, 42],
+    ["BUS: Bro u Survived", 1, 0, 0, 43]
     ]; // name, windows, apple, linux, link/picture/status index
 NAMESAZ = [["Aloft", 1, 0, 0, 36],
     ["A Gentlemen's Dispute", 1, 1, 0, 34],
@@ -92,6 +94,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36],
     ["Backseat Drivers", 1, 0, 0, 42],
     ["Beat Around The Bush", 1, 0, 0, 3],
     ["Begone Beast", 1, 0, 0, 10],
+    ["BUS: Bro u Survived", 1, 0, 0, 43],
     ["Crosswind", 1, 0, 0, 33],
     ["CUFFBUST", 1, 0, 0, 40],
     ["Drunk Builder Simulator", 1, 0, 0, 26],
@@ -172,7 +175,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/Mytimeatsandrock.jpg",
     "assets/CUFFBUST.jpg",
     "assets/Badlandscrew.jpg",
-    "assets/BackseatDrivers.jpg"
+    "assets/BackseatDrivers.jpg",
+    "assets/BUSBrouSurvived.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -216,6 +220,7 @@ STATUS = ["coming",
     "full",
     "comming",
     "full",
+    "demo",
     "demo"
     ];
     PRICE = ["",
@@ -256,6 +261,7 @@ STATUS = ["coming",
         "",
         "",
         "free",
+        "",
         "",
         "",
         "",
