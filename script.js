@@ -39,7 +39,7 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/2253100/Everwind/",
     "https://store.steampowered.com/app/1084600/My_Time_at_Sandrock/",
     "https://store.steampowered.com/app/2592220/CUFFBUST/",
-    "https://store.steampowered.com/app/2078230/Badlands_Crew/",
+    "https://store.steampowered.com/app/1017180/The_Long_Drive/",
     "https://store.steampowered.com/app/3558400/Backseat_Drivers/",
     "https://store.steampowered.com/app/2852700/BUS_Bro_u_Survived/"
     ];
@@ -84,7 +84,7 @@ NAMES = [["Storebound", 1, 0, 0, 0],
     ["Everwind", 1, 0, 0, 38],
     ["My Time at sandrock", 1, 0, 0, 39],
     ["CUFFBUST", 1, 0, 0, 40],
-    ["Badlands crew", 1, 0, 0, 41],
+    ["The Long Drive", 1, 0, 0, 41],
     ["Backseat Drivers", 1, 0, 0, 42],
     ["BUS: Bro u Survived", 1, 0, 0, 43]
     ]; // name, windows, apple, linux, link/picture/status index
@@ -174,7 +174,7 @@ IMGS = ["assets/storebound.jpg",
     "assets/Everwind.jpg",
     "assets/Mytimeatsandrock.jpg",
     "assets/CUFFBUST.jpg",
-    "assets/Badlandscrew.jpg",
+    "assets/LongDrive.jpg",
     "assets/BackseatDrivers.jpg",
     "assets/BUSBrouSurvived.jpg"
     ];
