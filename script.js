@@ -44,7 +44,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/2852700/BUS_Bro_u_Survived/",
     "https://store.steampowered.com/app/934700/Dead_Island_2/",
     "https://store.steampowered.com/app/2551020/Onearmed_robber/",
-    "https://store.steampowered.com/app/2879840/Escape_Simulator_2/"
+    "https://store.steampowered.com/app/2879840/Escape_Simulator_2/",
+    "https://store.steampowered.com/app/2788040/Another_Try_2/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0],
     ["Long Drive North", 1, 0, 0, 1],
