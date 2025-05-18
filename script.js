@@ -296,6 +296,27 @@ STATUS = ["coming",
         [1,4],
         [1,8],
         [1,"infinity"],
+        [1,6],
+        [1,"infinity"],
+        [1,4],
+        [1,6],
+        [1,8],
+        [1,6],
+        [1,4],
+        [1,4],
+        [1,4],
+        [1,3],        
+        [1,4],        
+        [1,4],        
+        [1,4],        
+        [1,4],        
+        [1,"infinity"],        
+        [1,4],
+        [1,4],
+        [2,10],
+        [2,8],
+        [2,4],
+        [1,5],
         [],
         [],
         [],
@@ -305,12 +326,11 @@ STATUS = ["coming",
         [],
         [],
         [],
-        [],        
-        [],        
-        [],        
-        [],        
-        [],        
-        [],        
+        [],
+        [],
+        [],
+        [],
+        [],
         [],
         [],
         [],
@@ -425,6 +445,13 @@ function figBuilderAZ(i){
     }
     fig.appendChild(div);
 
+    div = document.createElement('div');
+    div.classList.add("playernumber");
+    p = document.createElement('p');
+    p.textContent= NUMPLAYERS[i][0] + " - " + NUMPLAYERS[i][1] + " players";
+    div.appendChild(p);
+    fig.appendChild(div);
+
     games.appendChild(fig);
 
     if((i + 1) == NAMESAZ.length){
@@ -484,6 +511,13 @@ function figBuilderdate(i){
             div.appendChild(supimg);
         }
     }
+    fig.appendChild(div);
+
+    div = document.createElement('div');
+    div.classList.add("playernumber");
+    p = document.createElement('p');
+    p.textContent= NUMPLAYERS[i][0] + " - " + NUMPLAYERS[i][1] + " players";
+    div.appendChild(p);
     fig.appendChild(div);
 
     games.appendChild(fig);
