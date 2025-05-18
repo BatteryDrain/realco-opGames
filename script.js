@@ -45,7 +45,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/934700/Dead_Island_2/",
     "https://store.steampowered.com/app/2551020/Onearmed_robber/",
     "https://store.steampowered.com/app/2879840/Escape_Simulator_2/",
-    "https://store.steampowered.com/app/2788040/Another_Try_2/"
+    "https://store.steampowered.com/app/2788040/Another_Try_2/",
+    "https://store.steampowered.com/app/3198850/Play_Together/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0],
     ["Long Drive North", 1, 0, 0, 1],
@@ -94,7 +95,8 @@ NAMES = [["Storebound", 1, 0, 0, 0],
     ["Dead Island 2", 1, 0, 0, 44],
     ["One-armed robber", 1, 0, 0, 45],
     ["Escape Simulator 2", 1, 0, 0, 46],
-    ["Another Try 2", 1, 0, 0, 47]
+    ["Another Try 2", 1, 0, 0, 47],
+    ["Play Together", 1, 1, 0, 48]
     ]; // name, windows, apple, linux, link/picture/status index
 NAMESAZ = [["Aloft", 1, 0, 0, 36],
     ["Another Try 2", 1, 0, 0, 47],
@@ -130,6 +132,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36],
     ["PACS", 1, 0, 0, 16],
     ["Pair A Dice", 1, 0, 0, 37],
     ["PICO PARK 2", 1, 1, 0, 22],
+    ["Play Together", 1, 1, 0, 48],
     ["Regular Human Basketball", 1, 1, 1, 21],
     ["RoadCraft", 1, 0, 0, 35],
     ["REPO", 1, 0, 0, 9],
@@ -192,7 +195,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/DeadIsland2.jpg",
     "assets/One-armedrobber.jpg",
     "assets/EscapeSimulator2.jpg",
-    "assets/AnotherTry2.jpg"
+    "assets/AnotherTry2.jpg",
+    "assets/PlayTogether.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -241,7 +245,8 @@ STATUS = ["coming",
     "full",
     "full",
     "demo",
-    "ex"
+    "ex",
+    "full"
     ];
     PRICE = ["",
         "",
@@ -290,7 +295,8 @@ STATUS = ["coming",
         "",
         "free",
         "",
-        ""
+        "",
+        "free"
         ];
 COUNT = 0;
 GAMEID = [];
