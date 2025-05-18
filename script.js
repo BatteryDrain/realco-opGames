@@ -362,7 +362,7 @@ function figBuilderAZ(i){
 
     image = document.createElement('img');
     image.src = IMGS[NAMESAZ[i][4]];
-    image.alt = "picture of " + NAMESAZ[i][0] + " gameplay";
+    image.alt = "picture of " + NAMESAZ[i][0] + " gameplay or thumbnail";
     fig.appendChild(image);
 
     div1 = document.createElement('div');
@@ -424,7 +424,7 @@ function figBuilderdate(i){
 
     image = document.createElement('img');
     image.src = IMGS[NAMES[i][4]];
-    image.alt = "picture of " + NAMES[i][0] + " gameplay";
+    image.alt = "picture of " + NAMES[i][0] + " gameplay or thumbnail";
     fig.appendChild(image);
 
     div1 = document.createElement('div');
