@@ -317,24 +317,29 @@ STATUS = ["coming",
         [2,8],
         [2,4],
         [1,5],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        [1,"?"],
+        [2,5],
+        [3,8],
+        [1,4],
+        [1,"infinity"],
+        [1,4],
+        [1,4],
+        [1,6],
+        [1,"infinity"],
+        [1,8],
+        [1,4],
+        [1,8],
+        [1,"infinity"],
+        [1,4],
+        [1,4],
+        [1,10],
+        [1,"infinity"],
+        [2],
+        [1,4],
+        [1,3],
+        [1,4],
+        [1,8],
+        [1,"infinity"]
     ];
 COUNT = 0;
 GAMEID = [];
@@ -448,7 +453,12 @@ function figBuilderAZ(i){
     div = document.createElement('div');
     div.classList.add("playernumber");
     p = document.createElement('p');
-    p.textContent= NUMPLAYERS[i][0] + " - " + NUMPLAYERS[i][1] + " players";
+    if(NUMPLAYERS[i][1] == null){
+        p.textContent= NUMPLAYERS[i][0] + " players";
+    }
+    else{
+        p.textContent= NUMPLAYERS[i][0] + " - " + NUMPLAYERS[i][1] + " players";
+    }
     div.appendChild(p);
     fig.appendChild(div);
 
@@ -516,7 +526,12 @@ function figBuilderdate(i){
     div = document.createElement('div');
     div.classList.add("playernumber");
     p = document.createElement('p');
-    p.textContent= NUMPLAYERS[i][0] + " - " + NUMPLAYERS[i][1] + " players";
+    if(NUMPLAYERS[i][1] == null){
+        p.textContent= NUMPLAYERS[i][0] + " players";
+    }
+    else{
+        p.textContent= NUMPLAYERS[i][0] + " - " + NUMPLAYERS[i][1] + " players";
+    }
     div.appendChild(p);
     fig.appendChild(div);
 
