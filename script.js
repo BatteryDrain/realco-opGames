@@ -672,25 +672,26 @@ function exheader(){
     }
 }
 
-// function getPrices(gameid) {
-//     const proxyURL = "https://cors-anywhere.herokuapp.com/";
-//     const apiURL = `https://store.steampowered.com/api/appdetails?appids=${gameid}`;
+function getPrices(gameid) {
+    const proxyURL = "https://cors-anywhere.herokuapp.com/";
+    const apiURL = "https://store.steampowered.com/api/appdetails?appids=" + gameid + "&cc=ca&filters=price_overview";
 
-//     fetch(proxyURL + apiURL)
-//         .then(response => {
-//             if (!response.ok) {
-//                 throw new Error("Network response was not OK");
-//             }
-//             return response.json();
-//         })
-//         .then(data => {
-//             console.log(data);
-//             return data[gameid].data.is_free;
-//         })
-//         .catch(error => {
-//             console.error("Error:", error);
-//         });
-// }
+    fetch(proxyURL + apiURL)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Network response was not OK");
+            }
+            console.log(data);
+            return response.json();
+        })
+        .then(data => {
+            console.log(data);
+            return data[gameid].data.is_free;
+        })
+        .catch(error => {
+            console.error("Error:", error);
+        });
+}
 
 function getPrices(gameid){
     apiURL = "https://store.steampowered.com/api/appdetails?appids=" + gameid;
