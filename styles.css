@@ -185,6 +185,15 @@ header {
     display: flex;
 }
 
+#freefilter{
+    margin-top: 20px;
+}
+
+#freeonly{
+    scale: 1.2;
+}
+
+
 @media screen and (min-width: 500px) {
     header {
         min-height: 40px;

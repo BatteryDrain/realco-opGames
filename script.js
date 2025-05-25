@@ -47,104 +47,104 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/2879840/Escape_Simulator_2/",
     "https://store.steampowered.com/app/2788040/Another_Try_2/"
     ];
-NAMES = [["Storebound", 1, 0, 0, 0],
-    ["Long Drive North", 1, 0, 0, 1],
-    ["Gas Station Manager", 1, 1, 0, 2],
-    ["Play Together", 1, 1, 0, 3],
-    ["SAND", 1, 0, 0, 4],
-    ["Space Engineers 2", 1, 0, 0, 5],
-    ["DuneCrawl", 1, 0, 0, 6],
-    ["Lost Skies", 1, 0, 0, 7],
-    ["Nuclear Nightmare", 1, 0, 0, 8],
-    ["REPO", 1, 0, 0, 9],
-    ["Begone Beast", 1, 0, 0, 10],
-    ["Outbound", 1, 0, 0, 11],
-    ["Squirreled Away", 1, 0, 0, 12],
-    ["Forever Skies", 1, 0, 0, 13],
-    ["Jump Ship", 1, 0, 0, 14],
-    ["StarRupture", 1, 0, 0, 15],
-    ["PACS", 1, 0, 0, 16],
-    ["over the hill", 1, 0, 0, 17],
-    ["Dune Awakening", 1, 0, 0, 18],
-    ["Heave Ho", 1, 1, 0, 19],
-    ["Spelunky 2", 1, 0, 0, 20],
-    ["Regular Human Basketball", 1, 1, 1, 21],
-    ["PICO PARK 2", 1, 1, 0, 22],
-    ["Hidden in Plain Sight", 1, 1, 1, 23],
-    ["Oh Deer", 1, 0, 0, 24],
-    ["Subnautica 2", 1, 0, 0, 25],
-    ["Drunk Builder Simulator", 1, 0, 0, 26],
-    ["LOCKDOWN Protocol", 1, 0, 0, 27],
-    ["Survival Machine", 1, 0, 0, 28],
-    ["War Thunder", 1, 1, 1, 29],
-    ["The Mound: Omen of Cthulhu", 1, 1, 1, 30],
-    ["Sea of Thieves", 1, 0, 0, 31],
-    ["Midnight Murder Club,", 1, 0, 0, 32],
-    ["Crosswind", 1, 0, 0, 33],
-    ["A Gentlemen's Dispute", 1, 1, 0, 34],
-    ["RoadCraft", 1, 0, 0, 35],
-    ["Aloft", 1, 0, 0, 36],
-    ["Pair A Dice", 1, 0, 0, 37],
-    ["Everwind", 1, 0, 0, 38],
-    ["My Time at sandrock", 1, 0, 0, 39],
-    ["CUFFBUST", 1, 0, 0, 40],
-    ["The Long Drive", 1, 0, 0, 41],
-    ["Backseat Drivers", 1, 0, 0, 42],
-    ["BUS: Bro u Survived", 1, 0, 0, 43],
-    ["Dead Island 2", 1, 0, 0, 44],
-    ["One-armed robber", 1, 0, 0, 45],
-    ["Escape Simulator 2", 1, 0, 0, 46],
-    ["Another Try 2", 1, 0, 0, 47],
-    ]; // name, windows, apple, linux, link/picture/status index
-NAMESAZ = [["Aloft", 1, 0, 0, 36],
-    ["Another Try 2", 1, 0, 0, 47],
-    ["A Gentlemen's Dispute", 1, 1, 0, 34],
-    ["Badlands crew", 1, 0, 0, 41],
-    ["Backseat Drivers", 1, 0, 0, 42],
-    ["Begone Beast", 1, 0, 0, 10],
-    ["BUS: Bro u Survived", 1, 0, 0, 43],
-    ["Crosswind", 1, 0, 0, 33],
-    ["CUFFBUST", 1, 0, 0, 40],
-    ["Dead Island 2", 1, 0, 0, 44],
-    ["Drunk Builder Simulator", 1, 0, 0, 26],
-    ["Dune Awakening", 1, 0, 0, 18],
-    ["DuneCrawl", 1, 0, 0, 6],
-    ["Escape Simulator 2", 1, 0, 0, 46],
-    ["Everwind", 1, 0, 0, 38],
-    ["Forever Skies", 1, 0, 0, 13],
-    ["Gas Station Manager", 1, 1, 0, 2],
-    ["Heave Ho", 1, 1, 0, 19],
-    ["Hidden in Plain Sight", 1, 1, 1, 23],
-    ["Jump Ship", 1, 0, 0, 14],
-    ["LOCKDOWN Protocol", 1, 0, 0, 27],
-    ["Long Drive North", 1, 0, 0, 1],
-    ["Lost Skies", 1, 0, 0, 7],
-    ["Midnight Murder Club,", 1, 0, 0, 32],
-    ["My Time at sandrock", 1, 0, 0, 39],
-    ["Nuclear Nightmare", 1, 0, 0, 8],
-    ["Oh Deer", 1, 0, 0, 24],
-    ["One-armed robber", 1, 0, 0, 45],
-    ["Outbound", 1, 0, 0, 11],
-    ["over the hill", 1, 0, 0, 17],
-    ["PACS", 1, 0, 0, 16],
-    ["Pair A Dice", 1, 0, 0, 37],
-    ["PICO PARK 2", 1, 1, 0, 22],
-    ["Play Together", 1, 1, 0, 3],
-    ["Regular Human Basketball", 1, 1, 1, 21],
-    ["RoadCraft", 1, 0, 0, 35],
-    ["REPO", 1, 0, 0, 9],
-    ["SAND", 1, 0, 0, 4],
-    ["Sea of Thieves", 1, 0, 0, 31],
-    ["Space Engineers 2", 1, 0, 0, 5],
-    ["Spelunky 2", 1, 0, 0, 20],
-    ["Squirreled Away", 1, 0, 0, 12],
-    ["StarRupture", 1, 0, 0, 15],
-    ["Storebound", 1, 0, 0, 0],
-    ["Subnautica 2", 1, 0, 0, 25],
-    ["Survival Machine", 1, 0, 0, 28],
-    ["The Mound: Omen of Cthulhu", 1, 1, 1, 30],
-    ["War Thunder", 1, 1, 1, 29]
-    ]; // name, windows, apple, linux, link/picture/status index
+NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
+    ["Long Drive North", 1, 0, 0, 1, "nf"],
+    ["Gas Station Manager", 1, 1, 0, 2, "nf"],
+    ["Play Together", 1, 1, 0, 3, "f"],
+    ["SAND", 1, 0, 0, 4, "nf"],
+    ["Space Engineers 2", 1, 0, 0, 5, "nf"],
+    ["DuneCrawl", 1, 0, 0, 6, "nf"],
+    ["Lost Skies", 1, 0, 0, 7, "nf"],
+    ["Nuclear Nightmare", 1, 0, 0, 8, "nf"],
+    ["REPO", 1, 0, 0, 9, "nf"],
+    ["Begone Beast", 1, 0, 0, 10, "nf"],
+    ["Outbound", 1, 0, 0, 11, "nf"],
+    ["Squirreled Away", 1, 0, 0, 12, "nf"],
+    ["Forever Skies", 1, 0, 0, 13, "nf"],
+    ["Jump Ship", 1, 0, 0, 14, "nf"],
+    ["StarRupture", 1, 0, 0, 15, "nf"],
+    ["PACS", 1, 0, 0, 16, "nf"],
+    ["over the hill", 1, 0, 0, 17, "nf"],
+    ["Dune Awakening", 1, 0, 0, 18, "nf"],
+    ["Heave Ho", 1, 1, 0, 19, "nf"],
+    ["Spelunky 2", 1, 0, 0, 20, "nf"],
+    ["Regular Human Basketball", 1, 1, 1, 21, "nf"],
+    ["PICO PARK 2", 1, 1, 0, 22, "nf"],
+    ["Hidden in Plain Sight", 1, 1, 1, 23, "nf"],
+    ["Oh Deer", 1, 0, 0, 24, "nf"],
+    ["Subnautica 2", 1, 0, 0, 25, "nf"],
+    ["Drunk Builder Simulator", 1, 0, 0, 26, "nf"],
+    ["LOCKDOWN Protocol", 1, 0, 0, 27, "nf"],
+    ["Survival Machine", 1, 0, 0, 28, "nf"],
+    ["War Thunder", 1, 1, 1, 29, "f"],
+    ["The Mound: Omen of Cthulhu", 1, 1, 1, 30, "nf"],
+    ["Sea of Thieves", 1, 0, 0, 31, "nf"],
+    ["Midnight Murder Club,", 1, 0, 0, 32, "nf"],
+    ["Crosswind", 1, 0, 0, 33, "nf"],
+    ["A Gentlemen's Dispute", 1, 1, 0, 34, "nf"],
+    ["RoadCraft", 1, 0, 0, 35, "nf"],
+    ["Aloft", 1, 0, 0, 36, "nf"],
+    ["Pair A Dice", 1, 0, 0, 37, "f"],
+    ["Everwind", 1, 0, 0, 38, "nf"],
+    ["My Time at sandrock", 1, 0, 0, 39, "nf"],
+    ["CUFFBUST", 1, 0, 0, 40, "nf"],
+    ["The Long Drive", 1, 0, 0, 41, "nf"],
+    ["Backseat Drivers", 1, 0, 0, 42, "nf"],
+    ["BUS: Bro u Survived", 1, 0, 0, 43, "nf"],
+    ["Dead Island 2", 1, 0, 0, 44, "nf"],
+    ["One-armed robber", 1, 0, 0, 45, "f"],
+    ["Escape Simulator 2", 1, 0, 0, 46, "nf"],
+    ["Another Try 2", 1, 0, 0, 47, "nf"],
+    ]; // name, windows, apple, linux, link/picture/status index, free? (f,nf)
+NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
+    ["Another Try 2", 1, 0, 0, 47, "nf"],
+    ["A Gentlemen's Dispute", 1, 1, 0, 34, "nf"],
+    ["Badlands crew", 1, 0, 0, 41, "nf"],
+    ["Backseat Drivers", 1, 0, 0, 42, "nf"],
+    ["Begone Beast", 1, 0, 0, 10, "nf"],
+    ["BUS: Bro u Survived", 1, 0, 0, 43, "nf"],
+    ["Crosswind", 1, 0, 0, 33, "nf"],
+    ["CUFFBUST", 1, 0, 0, 40, "nf"],
+    ["Dead Island 2", 1, 0, 0, 44, "nf"],
+    ["Drunk Builder Simulator", 1, 0, 0, 26, "nf"],
+    ["Dune Awakening", 1, 0, 0, 18, "nf"],
+    ["DuneCrawl", 1, 0, 0, 6, "nf"],
+    ["Escape Simulator 2", 1, 0, 0, 46, "nf"],
+    ["Everwind", 1, 0, 0, 38, "nf"],
+    ["Forever Skies", 1, 0, 0, 13, "nf"],
+    ["Gas Station Manager", 1, 1, 0, 2, "nf"],
+    ["Heave Ho", 1, 1, 0, 19, "nf"],
+    ["Hidden in Plain Sight", 1, 1, 1, 23, "nf"],
+    ["Jump Ship", 1, 0, 0, 14, "nf"],
+    ["LOCKDOWN Protocol", 1, 0, 0, 27, "nf"],
+    ["Long Drive North", 1, 0, 0, 1, "nf"],
+    ["Lost Skies", 1, 0, 0, 7, "nf"],
+    ["Midnight Murder Club,", 1, 0, 0, 32, "nf"],
+    ["My Time at sandrock", 1, 0, 0, 39, "nf"],
+    ["Nuclear Nightmare", 1, 0, 0, 8, "nf"],
+    ["Oh Deer", 1, 0, 0, 24, "nf"],
+    ["One-armed robber", 1, 0, 0, 45, "f"],
+    ["Outbound", 1, 0, 0, 11, "nf"],
+    ["over the hill", 1, 0, 0, 17, "nf"],
+    ["PACS", 1, 0, 0, 16, "nf"],
+    ["Pair A Dice", 1, 0, 0, 37, "f"],
+    ["PICO PARK 2", 1, 1, 0, 22, "nf"],
+    ["Play Together", 1, 1, 0, 3, "f"],
+    ["Regular Human Basketball", 1, 1, 1, 21, "nf"],
+    ["RoadCraft", 1, 0, 0, 35, "nf"],
+    ["REPO", 1, 0, 0, 9, "nf"],
+    ["SAND", 1, 0, 0, 4, "nf"],
+    ["Sea of Thieves", 1, 0, 0, 31, "nf"],
+    ["Space Engineers 2", 1, 0, 0, 5, "nf"],
+    ["Spelunky 2", 1, 0, 0, 20, "nf"],
+    ["Squirreled Away", 1, 0, 0, 12, "nf"],
+    ["StarRupture", 1, 0, 0, 15, "nf"],
+    ["Storebound", 1, 0, 0, 0, "nf"],
+    ["Subnautica 2", 1, 0, 0, 25, "nf"],
+    ["Survival Machine", 1, 0, 0, 28, "nf"],
+    ["The Mound: Omen of Cthulhu", 1, 1, 1, 30, "nf"],
+    ["War Thunder", 1, 1, 1, 29, "f"]
+    ]; // name, windows, apple, linux, link/picture/status index, free? (f,nf)
 IMGS = ["assets/storebound.jpg",
     "assets/longdriven.jpg",
     "assets/gasstation.jpg",
@@ -243,55 +243,6 @@ STATUS = ["coming",
     "demo",
     "ex"
     ];
-    PRICE = ["",
-        "",
-        "",
-        "free",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "free",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "free",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "free",
-        "",
-        ""
-        ];
     NUMPLAYERS =[ [1,4],
         [1,4],
         [1,8],
@@ -346,6 +297,7 @@ GAMEID = [];
 ICONS = ["assets/Windows.svg.png","assets/Apple_white.svg.png","assets/linux-white-logo.png","assets/null.png"];
 SYSTEM = "all";
 let FIGURES = [];
+FREEFILTER = "false";
 FILTER = "all";
 MOUSEX = 0;
 MOUSEY = 0;
@@ -364,11 +316,21 @@ function clearf(){
 
     sselect.value = "all";
     SYSTEM = "all";
+
+    freeonly.checked = false;
+    FREEFILTER = "off";
     setcount();
 
     iconIndicator.src = "assets/null.png";
     //sort();
 }
+
+freeonly.addEventListener("change", () => {
+    FREEFILTER = freeonly.checked;
+    console.log(FREEFILTER);
+    sort();
+    setcount();
+});
 
 clearb.addEventListener("click", () => {
     clearf();
@@ -403,6 +365,7 @@ function figBuilderAZ(i){
     fig.setAttribute("data-windows", NAMESAZ[i][1]);
     fig.setAttribute("data-apple", NAMESAZ[i][2]);
     fig.setAttribute("data-linux", NAMESAZ[i][3]);
+    fig.setAttribute("data-free", NAMESAZ[i][5]);
 
     title = document.createElement('figcaption');
     title.innerHTML = NAMESAZ[i][0];
@@ -429,7 +392,7 @@ function figBuilderAZ(i){
         DEMO.alt = "yellow rouned rectange with the word DEMO taken out of it";
         div1.appendChild(DEMO);
     }
-    if(PRICE[NAMESAZ[i][4]] == "free"){
+    if(NAMESAZ[i][5] == "f"){
         FREE = document.createElement('img');
         FREE.id = "freeimg";
         FREE.src = "assets/FREEgreen.webp";
@@ -477,6 +440,7 @@ function figBuilderdate(i){
     fig.setAttribute("data-windows", NAMES[i][1]);
     fig.setAttribute("data-apple", NAMES[i][2]);
     fig.setAttribute("data-linux", NAMES[i][3]);
+    fig.setAttribute("data-free", NAMES[i][5]);
 
     title = document.createElement('figcaption');
     title.innerHTML = NAMES[i][0];
@@ -502,7 +466,7 @@ function figBuilderdate(i){
         DEMO.src = "assets/DEMO.webp";
         div1.appendChild(DEMO);
     }
-    if(PRICE[NAMES[i][4]] == "free"){
+    if(NAMES[i][5] == "f"){
         FREE = document.createElement('img');
         FREE.id = "freeimg";
         FREE.src = "assets/FREEgreen.webp";
@@ -584,11 +548,13 @@ filter.addEventListener("change", () => {
 });
 
 function sort(){
+    //set all to show
     for(i = 0; i < FIGURES.length; i++){
         if(FIGURES[i].classList.contains("hide")){
             FIGURES[i].classList.toggle("hide");
         }
     }
+    //filter
     if(FILTER != "all"){
         for(i = 0; i < FIGURES.length; i++){
             if(FIGURES[i].dataset.stat != FILTER){
@@ -616,6 +582,13 @@ function sort(){
     if(SYSTEM == "windows"){
         for(i = 0; i < FIGURES.length; i++){
             if(FIGURES[i].dataset.windows == "0" && !FIGURES[i].classList.contains("hide")){
+                FIGURES[i].classList.toggle("hide");
+            }
+        }
+    }
+    if(FREEFILTER == true){
+        for(i = 0; i < FIGURES.length; i++){
+            if(FIGURES[i].dataset.free == "nf" && !FIGURES[i].classList.contains("hide")){
                 FIGURES[i].classList.toggle("hide");
             }
         }
@@ -655,6 +628,8 @@ function headshowhide(){
     sorting.classList.toggle("hide");
     sortinglab.classList.toggle("hide");
     clearb.classList.toggle("hide");
+    freeonly.classList.toggle("hide");
+    freeonlylab.classList.toggle("hide");
 }
 
 function exheader(){
@@ -693,25 +668,25 @@ function getPrices(gameid) {
         });
 }
 
-function getPrices(gameid){
-    apiURL = "https://store.steampowered.com/api/appdetails?appids=" + gameid;
-    fetch(apiURL)
-        .then(response => {
-            if(!response.ok) {
-                throw new Error("Network response was not OK");
-            }
-            return response.json();
-        })
-        .then(data => {
-            console.log(data);
-            var Lprice = data;
-            console.log(Lprice.discount_percent);
-            return(gameid.is_free);
-        })
-        .catch(error => {
-            console.error("Error:", error);
-        });
-}
+// function getPrices(gameid){
+//     apiURL = "https://store.steampowered.com/api/appdetails?appids=" + gameid;
+//     fetch(apiURL)
+//         .then(response => {
+//             if(!response.ok) {
+//                 throw new Error("Network response was not OK");
+//             }
+//             return response.json();
+//         })
+//         .then(data => {
+//             console.log(data);
+//             var Lprice = data;
+//             console.log(Lprice.discount_percent);
+//             return(gameid.is_free);
+//         })
+//         .catch(error => {
+//             console.error("Error:", error);
+//         });
+// }
 
 for(i = 0; i < LINKS.length; i++){
     tempLink = LINKS[i];
@@ -724,9 +699,9 @@ for(i = 0; i < LINKS.length; i++){
     }
     GAMEID.push(temp);
 }
-for(i = 0; i < PRICE.length; i++){
+// for(i = 0; i < PRICE.length; i++){
 
-}
+// }
 
 function setcount(){
     COUNT = FIGURES.length
