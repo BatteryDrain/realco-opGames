@@ -48,7 +48,9 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/2788040/Another_Try_2/",
     "https://store.steampowered.com/app/1966720/Lethal_Company/",
     "https://store.steampowered.com/app/1509230/Prop_Hunt/",
-    "https://store.steampowered.com/app/4000/Garrys_Mod/"
+    "https://store.steampowered.com/app/4000/Garrys_Mod/",
+    "https://store.steampowered.com/app/3164500/Schedule_I/",
+    "https://store.steampowered.com/app/1211020/Wobbly_Life/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -100,7 +102,9 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
     ["Lethal Company", 1, 0, 0, 48, "nf"],
     ["Prop Hunt", 1, 0, 0, 49, "nf"],
-    ["Garry's Mod", 1, 1, 1, 50, "nf"]
+    ["Garry's Mod", 1, 1, 1, 50, "nf"],
+    ["Schedule I", 1, 0, 0, 51, "nf"],
+    ["Wobbly Life", 1, 0, 0, 52, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -143,6 +147,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["RoadCraft", 1, 0, 0, 35, "nf"],
     ["REPO", 1, 0, 0, 9, "nf"],
     ["SAND", 1, 0, 0, 4, "nf"],
+    ["Schedule I", 1, 0, 0, 51, "nf"],
     ["Sea of Thieves", 1, 0, 0, 31, "nf"],
     ["Space Engineers 2", 1, 0, 0, 5, "nf"],
     ["Spelunky 2", 1, 0, 0, 20, "nf"],
@@ -152,7 +157,8 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Subnautica 2", 1, 0, 0, 25, "nf"],
     ["Survival Machine", 1, 0, 0, 28, "nf"],
     ["The Mound: Omen of Cthulhu", 1, 1, 1, 30, "nf"],
-    ["War Thunder", 1, 1, 1, 29, "f"]
+    ["War Thunder", 1, 1, 1, 29, "f"],
+    ["Wobbly Life", 1, 0, 0, 52, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 IMGS = ["assets/storebound.jpg",
     "assets/longdriven.jpg",
@@ -204,7 +210,9 @@ IMGS = ["assets/storebound.jpg",
     "assets/AnotherTry2.jpg",
     "assets/LethalCompany.jpg",
     "assets/PropHunt.jpg",
-    "assets/GMod.jpg"
+    "assets/GMod.jpg",
+    "assets/ScheduleI.jpg",
+    "assets/WobblyLife.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -256,7 +264,9 @@ STATUS = ["coming",
     "ex",
     "full",
     "full",
-    "full"
+    "full",
+    "demo",
+    "ex"
     ];
     NUMPLAYERS =[ [1,4],
         [1,4],
@@ -308,7 +318,9 @@ STATUS = ["coming",
         [1,"infinity"],
         [1,4],
         [2,16],
-        [1,"infinity"]
+        [1,"infinity"],
+        [2,4],
+        [1,"infinity"],
     ];
 COUNT = 0;
 GAMEID = [];
