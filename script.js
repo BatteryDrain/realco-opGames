@@ -45,7 +45,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/934700/Dead_Island_2/",
     "https://store.steampowered.com/app/2551020/Onearmed_robber/",
     "https://store.steampowered.com/app/2879840/Escape_Simulator_2/",
-    "https://store.steampowered.com/app/2788040/Another_Try_2/"
+    "https://store.steampowered.com/app/2788040/Another_Try_2/",
+    "https://store.steampowered.com/app/1966720/Lethal_Company/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -95,6 +96,7 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["One-armed robber", 1, 0, 0, 45, "f"],
     ["Escape Simulator 2", 1, 0, 0, 46, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
+    ["Lethal Company", 1, 0, 0, 48, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? (f,nf)
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -117,6 +119,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Hidden in Plain Sight", 1, 1, 1, 23, "nf"],
     ["Jump Ship", 1, 0, 0, 14, "nf"],
     ["LOCKDOWN Protocol", 1, 0, 0, 27, "nf"],
+    ["Lethal Company", 1, 0, 0, 48, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
     ["Lost Skies", 1, 0, 0, 7, "nf"],
     ["Midnight Murder Club,", 1, 0, 0, 32, "nf"],
@@ -192,7 +195,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/DeadIsland2.jpg",
     "assets/One-armedrobber.jpg",
     "assets/EscapeSimulator2.jpg",
-    "assets/AnotherTry2.jpg"
+    "assets/AnotherTry2.jpg",
+    "assets/LethalCompany.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -290,7 +294,8 @@ STATUS = ["coming",
         [1,3],
         [1,4],
         [1,8],
-        [1,"infinity"]
+        [1,"infinity"],
+        [1,4]
     ];
 COUNT = 0;
 GAMEID = [];
