@@ -46,7 +46,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/2551020/Onearmed_robber/",
     "https://store.steampowered.com/app/2879840/Escape_Simulator_2/",
     "https://store.steampowered.com/app/2788040/Another_Try_2/",
-    "https://store.steampowered.com/app/1966720/Lethal_Company/"
+    "https://store.steampowered.com/app/1966720/Lethal_Company/",
+    "https://store.steampowered.com/app/1509230/Prop_Hunt/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -96,8 +97,9 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["One-armed robber", 1, 0, 0, 45, "f"],
     ["Escape Simulator 2", 1, 0, 0, 46, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
-    ["Lethal Company", 1, 0, 0, 48, "nf"]
-    ]; // name, windows, apple, linux, link/picture/status index, free? (f,nf)
+    ["Lethal Company", 1, 0, 0, 48, "nf"],
+    ["Prop Hunt", 1, 0, 0, 49, "nf"]
+    ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
     ["A Gentlemen's Dispute", 1, 1, 0, 34, "nf"],
@@ -133,6 +135,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Pair A Dice", 1, 0, 0, 37, "f"],
     ["PICO PARK 2", 1, 1, 0, 22, "nf"],
     ["Play Together", 1, 1, 0, 3, "f"],
+    ["Prop Hunt", 1, 0, 0, 49, "nf"],
     ["Regular Human Basketball", 1, 1, 1, 21, "nf"],
     ["RoadCraft", 1, 0, 0, 35, "nf"],
     ["REPO", 1, 0, 0, 9, "nf"],
@@ -147,7 +150,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Survival Machine", 1, 0, 0, 28, "nf"],
     ["The Mound: Omen of Cthulhu", 1, 1, 1, 30, "nf"],
     ["War Thunder", 1, 1, 1, 29, "f"]
-    ]; // name, windows, apple, linux, link/picture/status index, free? (f,nf)
+    ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 IMGS = ["assets/storebound.jpg",
     "assets/longdriven.jpg",
     "assets/gasstation.jpg",
@@ -196,7 +199,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/One-armedrobber.jpg",
     "assets/EscapeSimulator2.jpg",
     "assets/AnotherTry2.jpg",
-    "assets/LethalCompany.jpg"
+    "assets/LethalCompany.jpg",
+    "assets/PropHunt.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -246,6 +250,7 @@ STATUS = ["coming",
     "full",
     "demo",
     "ex",
+    "full",
     "full"
     ];
     NUMPLAYERS =[ [1,4],
@@ -296,7 +301,8 @@ STATUS = ["coming",
         [1,4],
         [1,8],
         [1,"infinity"],
-        [1,4]
+        [1,4],
+        [2,16]
     ];
 COUNT = 0;
 GAMEID = [];
