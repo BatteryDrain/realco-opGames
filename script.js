@@ -245,7 +245,8 @@ STATUS = ["coming",
     "full",
     "full",
     "demo",
-    "ex"
+    "ex",
+    "full"
     ];
     NUMPLAYERS =[ [1,4],
         [1,4],
