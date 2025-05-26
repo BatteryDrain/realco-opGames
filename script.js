@@ -47,7 +47,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/2879840/Escape_Simulator_2/",
     "https://store.steampowered.com/app/2788040/Another_Try_2/",
     "https://store.steampowered.com/app/1966720/Lethal_Company/",
-    "https://store.steampowered.com/app/1509230/Prop_Hunt/"
+    "https://store.steampowered.com/app/1509230/Prop_Hunt/",
+    "https://store.steampowered.com/app/4000/Garrys_Mod/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -98,7 +99,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Escape Simulator 2", 1, 0, 0, 46, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
     ["Lethal Company", 1, 0, 0, 48, "nf"],
-    ["Prop Hunt", 1, 0, 0, 49, "nf"]
+    ["Prop Hunt", 1, 0, 0, 49, "nf"],
+    ["Garry's Mod", 1, 1, 1, 50, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -116,6 +118,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Escape Simulator 2", 1, 0, 0, 46, "nf"],
     ["Everwind", 1, 0, 0, 38, "nf"],
     ["Forever Skies", 1, 0, 0, 13, "nf"],
+    ["Garry's Mod", 1, 1, 1, 50, "nf"],
     ["Gas Station Manager", 1, 1, 0, 2, "nf"],
     ["Heave Ho", 1, 1, 0, 19, "nf"],
     ["Hidden in Plain Sight", 1, 1, 1, 23, "nf"],
@@ -200,7 +203,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/EscapeSimulator2.jpg",
     "assets/AnotherTry2.jpg",
     "assets/LethalCompany.jpg",
-    "assets/PropHunt.jpg"
+    "assets/PropHunt.jpg",
+    "assets/GMod.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -250,6 +254,7 @@ STATUS = ["coming",
     "full",
     "demo",
     "ex",
+    "full",
     "full",
     "full"
     ];
@@ -302,7 +307,8 @@ STATUS = ["coming",
         [1,8],
         [1,"infinity"],
         [1,4],
-        [2,16]
+        [2,16],
+        [1,"infinity"]
     ];
 COUNT = 0;
 GAMEID = [];
