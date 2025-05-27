@@ -53,7 +53,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/1211020/Wobbly_Life/",
     "https://store.steampowered.com/app/648800/Raft/",
     "https://store.steampowered.com/app/2881650/Content_Warning/",
-    "https://store.steampowered.com/app/3097560/Liars_Bar/"
+    "https://store.steampowered.com/app/3097560/Liars_Bar/",
+    "https://store.steampowered.com/app/3041140/Golf_With_Your_Friends__Olympus_Odyssey_Course/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -110,7 +111,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Wobbly Life", 1, 0, 0, 52, "nf"],
     ["Raft", 1, 0, 0, 53, "nf"],
     ["Content Warning", 1, 0, 0, 54, "nf"],
-    ["Liar's Bar", 1, 0, 0, 55, "nf"]
+    ["Liar's Bar", 1, 0, 0, 55, "nf"],
+    ["Golf With Your Friends", 1, 1, 1, 56, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -131,6 +133,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Forever Skies", 1, 0, 0, 13, "nf"],
     ["Garry's Mod", 1, 1, 1, 50, "nf"],
     ["Gas Station Manager", 1, 1, 0, 2, "nf"],
+    ["Golf With Your Friends", 1, 1, 1, 56, "nf"],
     ["Heave Ho", 1, 1, 0, 19, "nf"],
     ["Hidden in Plain Sight", 1, 1, 1, 23, "nf"],
     ["Jump Ship", 1, 0, 0, 14, "nf"],
@@ -224,7 +227,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/WobblyLife.jpg",
     "assets/Raft.jpg",
     "assets/ContentWarning.jpg",
-    "assets/LiarBar.jpg"
+    "assets/LiarBar.jpg",
+    "assets/Golf.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -279,6 +283,7 @@ STATUS = ["coming",
     "full",
     "demo",
     "ex",
+    "full",
     "full",
     "full"
     ];
@@ -337,7 +342,8 @@ STATUS = ["coming",
         [1,"infinity"],
         [1,"infinity"],
         [2,4],
-        [2,4]
+        [2,4],
+        [1,12]
     ];
 COUNT = 0;
 GAMEID = [];
