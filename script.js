@@ -50,7 +50,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/1509230/Prop_Hunt/",
     "https://store.steampowered.com/app/4000/Garrys_Mod/",
     "https://store.steampowered.com/app/3164500/Schedule_I/",
-    "https://store.steampowered.com/app/1211020/Wobbly_Life/"
+    "https://store.steampowered.com/app/1211020/Wobbly_Life/",
+    "https://store.steampowered.com/app/648800/Raft/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -104,7 +105,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Prop Hunt", 1, 0, 0, 49, "nf"],
     ["Garry's Mod", 1, 1, 1, 50, "nf"],
     ["Schedule I", 1, 0, 0, 51, "nf"],
-    ["Wobbly Life", 1, 0, 0, 52, "nf"]
+    ["Wobbly Life", 1, 0, 0, 52, "nf"],
+    ["Raft", 1, 0, 0, 53, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -143,9 +145,10 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["PICO PARK 2", 1, 1, 0, 22, "nf"],
     ["Play Together", 1, 1, 0, 3, "f"],
     ["Prop Hunt", 1, 0, 0, 49, "nf"],
+    ["Raft", 1, 0, 0, 53, "nf"],
     ["Regular Human Basketball", 1, 1, 1, 21, "nf"],
-    ["RoadCraft", 1, 0, 0, 35, "nf"],
     ["REPO", 1, 0, 0, 9, "nf"],
+    ["RoadCraft", 1, 0, 0, 35, "nf"],
     ["SAND", 1, 0, 0, 4, "nf"],
     ["Schedule I", 1, 0, 0, 51, "nf"],
     ["Sea of Thieves", 1, 0, 0, 31, "nf"],
@@ -212,7 +215,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/PropHunt.jpg",
     "assets/GMod.jpg",
     "assets/ScheduleI.jpg",
-    "assets/WobblyLife.jpg"
+    "assets/WobblyLife.jpg",
+    "assets/Raft.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -266,7 +270,8 @@ STATUS = ["coming",
     "full",
     "full",
     "demo",
-    "ex"
+    "ex",
+    "full"
     ];
     NUMPLAYERS =[ [1,4],
         [1,4],
@@ -320,6 +325,7 @@ STATUS = ["coming",
         [2,16],
         [1,"infinity"],
         [2,4],
+        [1,"infinity"],
         [1,"infinity"],
     ];
 COUNT = 0;
