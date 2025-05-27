@@ -51,7 +51,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/4000/Garrys_Mod/",
     "https://store.steampowered.com/app/3164500/Schedule_I/",
     "https://store.steampowered.com/app/1211020/Wobbly_Life/",
-    "https://store.steampowered.com/app/648800/Raft/"
+    "https://store.steampowered.com/app/648800/Raft/",
+    "https://store.steampowered.com/app/2881650/Content_Warning/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -106,7 +107,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Garry's Mod", 1, 1, 1, 50, "nf"],
     ["Schedule I", 1, 0, 0, 51, "nf"],
     ["Wobbly Life", 1, 0, 0, 52, "nf"],
-    ["Raft", 1, 0, 0, 53, "nf"]
+    ["Raft", 1, 0, 0, 53, "nf"],
+    ["Content Warning", 1, 0, 0, 54, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -116,6 +118,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Begone Beast", 1, 0, 0, 10, "nf"],
     ["BUS: Bro u Survived", 1, 0, 0, 43, "nf"],
     ["Crosswind", 1, 0, 0, 33, "nf"],
+    ["Content Warning", 1, 0, 0, 54, "nf"],
     ["CUFFBUST", 1, 0, 0, 40, "nf"],
     ["Dead Island 2", 1, 0, 0, 44, "nf"],
     ["Drunk Builder Simulator", 1, 0, 0, 26, "nf"],
@@ -216,7 +219,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/GMod.jpg",
     "assets/ScheduleI.jpg",
     "assets/WobblyLife.jpg",
-    "assets/Raft.jpg"
+    "assets/Raft.jpg",
+    "assets/ContentWarning.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -271,6 +275,7 @@ STATUS = ["coming",
     "full",
     "demo",
     "ex",
+    "full",
     "full"
     ];
     NUMPLAYERS =[ [1,4],
@@ -327,6 +332,7 @@ STATUS = ["coming",
         [2,4],
         [1,"infinity"],
         [1,"infinity"],
+        [2,4]
     ];
 COUNT = 0;
 GAMEID = [];
