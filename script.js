@@ -54,7 +54,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/648800/Raft/",
     "https://store.steampowered.com/app/2881650/Content_Warning/",
     "https://store.steampowered.com/app/3097560/Liars_Bar/",
-    "https://store.steampowered.com/app/3041140/Golf_With_Your_Friends__Olympus_Odyssey_Course/"
+    "https://store.steampowered.com/app/3041140/Golf_With_Your_Friends__Olympus_Odyssey_Course/",
+    "https://store.steampowered.com/app/3419130/Deadly_Quiet/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -112,7 +113,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Raft", 1, 0, 0, 53, "nf"],
     ["Content Warning", 1, 0, 0, 54, "nf"],
     ["Liar's Bar", 1, 0, 0, 55, "nf"],
-    ["Golf With Your Friends", 1, 1, 1, 56, "nf"]
+    ["Golf With Your Friends", 1, 1, 1, 56, "nf"],
+    ["Deadly Quiet", 1, 0, 0, 57, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -125,6 +127,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Content Warning", 1, 0, 0, 54, "nf"],
     ["CUFFBUST", 1, 0, 0, 40, "nf"],
     ["Dead Island 2", 1, 0, 0, 44, "nf"],
+    ["Deadly Quiet", 1, 0, 0, 57, "nf"],
     ["Drunk Builder Simulator", 1, 0, 0, 26, "nf"],
     ["Dune Awakening", 1, 0, 0, 18, "nf"],
     ["DuneCrawl", 1, 0, 0, 6, "nf"],
@@ -228,7 +231,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/Raft.jpg",
     "assets/ContentWarning.jpg",
     "assets/LiarBar.jpg",
-    "assets/Golf.jpg"
+    "assets/Golf.jpg",
+    "assets/deadlyQuiet.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -283,6 +287,7 @@ STATUS = ["coming",
     "full",
     "demo",
     "ex",
+    "full",
     "full",
     "full",
     "full"
@@ -343,7 +348,8 @@ STATUS = ["coming",
         [1,"infinity"],
         [2,4],
         [2,4],
-        [1,12]
+        [1,12],
+        [1,4]
     ];
 COUNT = 0;
 GAMEID = [];
@@ -478,6 +484,14 @@ function figBuilderAZ(i){
     div.appendChild(p);
     fig.appendChild(div);
 
+    div = document.createElement('div');
+    p = document.createElement('p');
+    if(STATUS[NAMESAZ[i][4]] == "full"){
+        p.textContent = null;
+    }
+    div.appendChild(p);
+    fig.appendChild(div);
+
     games.appendChild(fig);
 
     if((i + 1) == NAMESAZ.length){
@@ -548,6 +562,14 @@ function figBuilderdate(i){
     }
     else{
         p.textContent= NUMPLAYERS[i][0] + " - " + NUMPLAYERS[i][1] + " players";
+    }
+    div.appendChild(p);
+    fig.appendChild(div);
+
+    div = document.createElement('div');
+    p = document.createElement('p');
+    if(STATUS[NAMESAZ[i][4]] == "full"){
+        p.textContent = null;
     }
     div.appendChild(p);
     fig.appendChild(div);
