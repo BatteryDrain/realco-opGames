@@ -55,7 +55,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/2881650/Content_Warning/",
     "https://store.steampowered.com/app/3097560/Liars_Bar/",
     "https://store.steampowered.com/app/3041140/Golf_With_Your_Friends__Olympus_Odyssey_Course/",
-    "https://store.steampowered.com/app/3419130/Deadly_Quiet/"
+    "https://store.steampowered.com/app/3419130/Deadly_Quiet/",
+    "https://store.steampowered.com/app/2827200/MIMESIS/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -114,7 +115,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Content Warning", 1, 0, 0, 54, "nf"],
     ["Liar's Bar", 1, 0, 0, 55, "nf"],
     ["Golf With Your Friends", 1, 1, 1, 56, "nf"],
-    ["Deadly Quiet", 1, 0, 0, 57, "nf"]
+    ["Deadly Quiet", 1, 0, 0, 57, "nf"],
+    ["MIMESIS", 1, 0, 0, 58, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -146,6 +148,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
     ["Lost Skies", 1, 0, 0, 7, "nf"],
     ["Midnight Murder Club,", 1, 0, 0, 32, "nf"],
+    ["MIMESIS", 1, 0, 0, 58, "nf"],
     ["My Time at sandrock", 1, 0, 0, 39, "nf"],
     ["Nuclear Nightmare", 1, 0, 0, 8, "nf"],
     ["Oh Deer", 1, 0, 0, 24, "nf"],
@@ -232,7 +235,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/ContentWarning.jpg",
     "assets/LiarBar.jpg",
     "assets/Golf.jpg",
-    "assets/deadlyQuiet.jpg"
+    "assets/deadlyQuiet.jpg",
+    "assets/MIMESIS.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -274,7 +278,7 @@ STATUS = ["coming",
     "coming",
     "coming ex",
     "full",
-    "comming",
+    "coming",
     "full",
     "demo",
     "demo",
@@ -290,7 +294,8 @@ STATUS = ["coming",
     "full",
     "full",
     "full",
-    "full"
+    "full",
+    "coming"
     ];
     NUMPLAYERS =[ [1,4],
         [1,4],
@@ -349,6 +354,7 @@ STATUS = ["coming",
         [2,4],
         [2,4],
         [1,12],
+        [1,4],
         [1,4]
     ];
 COUNT = 0;
