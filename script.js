@@ -56,7 +56,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/3097560/Liars_Bar/",
     "https://store.steampowered.com/app/3041140/Golf_With_Your_Friends__Olympus_Odyssey_Course/",
     "https://store.steampowered.com/app/3419130/Deadly_Quiet/",
-    "https://store.steampowered.com/app/2827200/MIMESIS/"
+    "https://store.steampowered.com/app/2827200/MIMESIS/",
+    "https://store.steampowered.com/app/2682580/DUCKSIDE/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -116,7 +117,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Liar's Bar", 1, 0, 0, 55, "nf"],
     ["Golf With Your Friends", 1, 1, 1, 56, "nf"],
     ["Deadly Quiet", 1, 0, 0, 57, "nf"],
-    ["MIMESIS", 1, 0, 0, 58, "nf"]
+    ["MIMESIS", 1, 0, 0, 58, "nf"],
+    ["DUCKSIDE", 1, 0, 0, 59, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -131,6 +133,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Dead Island 2", 1, 0, 0, 44, "nf"],
     ["Deadly Quiet", 1, 0, 0, 57, "nf"],
     ["Drunk Builder Simulator", 1, 0, 0, 26, "nf"],
+    ["DUCKSIDE", 1, 0, 0, 59, "nf"],
     ["Dune Awakening", 1, 0, 0, 18, "nf"],
     ["DuneCrawl", 1, 0, 0, 6, "nf"],
     ["Escape Simulator 2", 1, 0, 0, 46, "nf"],
@@ -236,7 +239,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/LiarBar.jpg",
     "assets/Golf.jpg",
     "assets/deadlyQuiet.jpg",
-    "assets/MIMESIS.jpg"
+    "assets/MIMESIS.jpg",
+    "assets/DUCKSIDE.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -295,7 +299,8 @@ STATUS = ["coming",
     "full",
     "full",
     "full",
-    "coming"
+    "coming",
+    "ex"
     ];
     NUMPLAYERS =[ [1,4],
         [1,4],
@@ -355,7 +360,8 @@ STATUS = ["coming",
         [2,4],
         [1,12],
         [1,4],
-        [1,4]
+        [1,4],
+        [1,5]
     ];
 COUNT = 0;
 GAMEID = [];
