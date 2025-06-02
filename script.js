@@ -57,7 +57,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/3041140/Golf_With_Your_Friends__Olympus_Odyssey_Course/",
     "https://store.steampowered.com/app/3419130/Deadly_Quiet/",
     "https://store.steampowered.com/app/2827200/MIMESIS/",
-    "https://store.steampowered.com/app/2682580/DUCKSIDE/"
+    "https://store.steampowered.com/app/2682580/DUCKSIDE/",
+    "https://store.steampowered.com/app/3533100/Wrap_House_Simulator/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -118,7 +119,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Golf With Your Friends", 1, 1, 1, 56, "nf"],
     ["Deadly Quiet", 1, 0, 0, 57, "nf"],
     ["MIMESIS", 1, 0, 0, 58, "nf"],
-    ["DUCKSIDE", 1, 0, 0, 59, "nf"]
+    ["DUCKSIDE", 1, 0, 0, 59, "nf"],
+    ["Wrap House Simulator🌯", 1, 0, 0, 60, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -240,7 +242,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/Golf.jpg",
     "assets/deadlyQuiet.jpg",
     "assets/MIMESIS.jpg",
-    "assets/DUCKSIDE.jpg"
+    "assets/DUCKSIDE.jpg",
+    "assets/WrapHouseSimulator.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -300,7 +303,8 @@ STATUS = ["coming",
     "full",
     "full",
     "coming",
-    "ex"
+    "ex",
+    "demo"
     ];
     NUMPLAYERS =[ [1,4],
         [1,4],
@@ -361,7 +365,8 @@ STATUS = ["coming",
         [1,12],
         [1,4],
         [1,4],
-        [1,5]
+        [1,5],
+        [1,4]
     ];
 COUNT = 0;
 GAMEID = [];
