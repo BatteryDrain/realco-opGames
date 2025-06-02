@@ -305,6 +305,7 @@ STATUS = ["coming",
     "full",
     "coming",
     "ex",
+    "ex",
     "demo"
     ];
     NUMPLAYERS =[ [1,4],
