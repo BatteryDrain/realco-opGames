@@ -58,7 +58,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/3419130/Deadly_Quiet/",
     "https://store.steampowered.com/app/2827200/MIMESIS/",
     "https://store.steampowered.com/app/2682580/DUCKSIDE/",
-    "https://store.steampowered.com/app/3533100/Wrap_House_Simulator/"
+    "https://store.steampowered.com/app/3533100/Wrap_House_Simulator/",
+    "https://store.steampowered.com/app/1805110/Solarpunk/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -120,7 +121,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Deadly Quiet", 1, 0, 0, 57, "nf"],
     ["MIMESIS", 1, 0, 0, 58, "nf"],
     ["DUCKSIDE", 1, 0, 0, 59, "nf"],
-    ["Wrap House Simulator🌯", 1, 0, 0, 60, "nf"]
+    ["Wrap House Simulator🌯", 1, 0, 0, 60, "nf"],
+    ["Solarpunk", 1, 0, 0, 61, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -173,6 +175,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Schedule I", 1, 0, 0, 51, "nf"],
     ["Sea of Thieves", 1, 0, 0, 31, "nf"],
     ["Space Engineers 2", 1, 0, 0, 5, "nf"],
+    ["Solarpunk", 1, 0, 0, 61, "nf"],
     ["Spelunky 2", 1, 0, 0, 20, "nf"],
     ["Squirreled Away", 1, 0, 0, 12, "nf"],
     ["StarRupture", 1, 0, 0, 15, "nf"],
@@ -244,7 +247,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/deadlyQuiet.jpg",
     "assets/MIMESIS.jpg",
     "assets/DUCKSIDE.jpg",
-    "assets/WrapHouseSimulator.jpg"
+    "assets/WrapHouseSimulator.jpg",
+    "assets/Solarpunk.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -306,6 +310,7 @@ STATUS = ["coming",
     "coming",
     "ex",
     "ex",
+    "demo",
     "demo"
     ];
     NUMPLAYERS =[ [1,4],
@@ -368,7 +373,8 @@ STATUS = ["coming",
         [1,4],
         [1,4],
         [1,5],
-        [1,4]
+        [1,4],
+        [1,"?"]
     ];
 COUNT = 0;
 GAMEID = [];
