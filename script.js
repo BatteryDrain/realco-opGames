@@ -181,7 +181,8 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Survival Machine", 1, 0, 0, 28, "nf"],
     ["The Mound: Omen of Cthulhu", 1, 1, 1, 30, "nf"],
     ["War Thunder", 1, 1, 1, 29, "f"],
-    ["Wobbly Life", 1, 0, 0, 52, "nf"]
+    ["Wobbly Life", 1, 0, 0, 52, "nf"],
+    ["Wrap House Simulator🌯", 1, 0, 0, 60, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 IMGS = ["assets/storebound.jpg",
     "assets/longdriven.jpg",
