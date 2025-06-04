@@ -431,14 +431,16 @@ function Iwanttosortby(){
         games.innerHTML = "";
 
         for (let i = 0; i < NAMES.length; i++) {
-            setTimeout((index) => figBuilderAZ(index), i * DELAY, i);
+            figBuilderAZ(i);
+            // setTimeout((index) => figBuilderAZ(index), i * DELAY, i);
         }
     }
     if(SORTBY == "date"){
         games.innerHTML = "";
 
         for (let i = 0; i < NAMES.length; i++) {
-            setTimeout((index) => figBuilderdate(index), i * DELAY, i);
+            figBuilderdate(i);
+            // setTimeout((index) => figBuilderdate(index), i * DELAY, i);
         }
     }
 }
