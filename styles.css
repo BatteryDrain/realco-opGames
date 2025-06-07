@@ -193,6 +193,33 @@ header {
     scale: 1.2;
 }
 
+#inputnumdiv input {
+    border-radius: 13px;
+    width: 40px;
+    height: 30px;
+    font-size: 20px; 
+    border: 0;
+}
+
+/* #inputnumdiv input::-webkit-inner-spin-button {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+} */
+
+#inputnumdiv {
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#inputnumdiv button {
+    border-radius: 35px;
+    background-color: white;
+    border: 0;
+}
+
+
+
 
 @media screen and (min-width: 500px) {
     header {

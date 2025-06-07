@@ -389,6 +389,7 @@ DARKMODE = true;
 EXPANDED = false;
 SORTBY = "date";
 DELAY = 40;
+MINNUM = null;
 
 const games = document.getElementById("games");
 
@@ -405,6 +406,9 @@ function clearf(){
     FREEFILTER = "off";
     setcount();
 
+    inputnum.value = "";
+    MINNUM = null;
+
     iconIndicator.src = "assets/null.png";
     //sort();
 }
@@ -414,6 +418,21 @@ freeonly.addEventListener("change", () => {
     console.log(FREEFILTER);
     sort();
     setcount();
+});
+
+inputnumbutton.addEventListener("click", () => {
+    if(inputnum.value != null){   
+        if(inputnum.value >= 0){
+            MINNUM = inputnum.value;
+            sort();
+        }
+        else{
+            alert("error, player num filter can't be less than zero");
+        }
+    }
+    else{
+        alert("error, player num filter can't be null");      
+    }
 });
 
 clearb.addEventListener("click", () => {
@@ -452,6 +471,16 @@ function figBuilderAZ(i){
     fig.setAttribute("data-apple", NAMESAZ[i][2]);
     fig.setAttribute("data-linux", NAMESAZ[i][3]);
     fig.setAttribute("data-free", NAMESAZ[i][5]);
+    fig.setAttribute("data-max", NUMPLAYERS[NAMESAZ[i][4]][1]);
+    if(NUMPLAYERS[NAMESAZ[i][4]][1] == null){
+        fig.setAttribute("data-max", NUMPLAYERS[NAMESAZ[i][4]][0]);
+    }
+    if(NUMPLAYERS[NAMESAZ[i][4]][1] == "infinity"){
+        fig.setAttribute("data-max", 9999);
+    }
+    if(NUMPLAYERS[NAMESAZ[i][4]][1] == "?"){
+        fig.setAttribute("data-max", null);
+    }
 
     title = document.createElement('figcaption');
     title.innerHTML = NAMESAZ[i][0];
@@ -535,6 +564,16 @@ function figBuilderdate(i){
     fig.setAttribute("data-apple", NAMES[i][2]);
     fig.setAttribute("data-linux", NAMES[i][3]);
     fig.setAttribute("data-free", NAMES[i][5]);
+    fig.setAttribute("data-max", NUMPLAYERS[NAMES[i][4]][1]);
+    if(NUMPLAYERS[NAMES[i][4]][1] == null){
+        fig.setAttribute("data-max", NUMPLAYERS[NAMES[i][4]][0]);
+    }
+    if(NUMPLAYERS[NAMES[i][4]][1] == "infinity"){
+        fig.setAttribute("data-max", 9999);
+    }
+    if(NUMPLAYERS[NAMES[i][4]][1] == "?"){
+        fig.setAttribute("data-max", null);
+    }
 
     title = document.createElement('figcaption');
     title.innerHTML = NAMES[i][0];
@@ -695,6 +734,14 @@ function sort(){
             }
         }
     }
+    if(MINNUM != null){
+        for(i = 0; i < FIGURES.length; i++){
+            if(FIGURES[i].dataset.max < parseInt(MINNUM) && !FIGURES[i].classList.contains("hide")){
+                FIGURES[i].classList.toggle("hide");
+                
+            }
+        }
+    }
 }
 
 darkmode.addEventListener("change", () => {
@@ -732,6 +779,8 @@ function headshowhide(){
     clearb.classList.toggle("hide");
     freeonly.classList.toggle("hide");
     freeonlylab.classList.toggle("hide");
+    inputnum.classList.toggle("hide");
+    inputnumbutton.classList.toggle("hide");
 }
 
 function exheader(){
