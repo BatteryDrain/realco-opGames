@@ -59,7 +59,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/2827200/MIMESIS/",
     "https://store.steampowered.com/app/2682580/DUCKSIDE/",
     "https://store.steampowered.com/app/3533100/Wrap_House_Simulator/",
-    "https://store.steampowered.com/app/1805110/Solarpunk/"
+    "https://store.steampowered.com/app/1805110/Solarpunk/",
+    "https://store.steampowered.com/app/1536610/OpenTTD/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -122,7 +123,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["MIMESIS", 1, 0, 0, 58, "nf"],
     ["DUCKSIDE", 1, 0, 0, 59, "nf"],
     ["Wrap House Simulator🌯", 1, 0, 0, 60, "nf"],
-    ["Solarpunk", 1, 0, 0, 61, "nf"]
+    ["Solarpunk", 1, 0, 0, 61, "nf"],
+    ["OpenTTD", 1, 1, 1, 62, "f"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -160,6 +162,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Nuclear Nightmare", 1, 0, 0, 8, "nf"],
     ["Oh Deer", 1, 0, 0, 24, "nf"],
     ["One-armed robber", 1, 0, 0, 45, "f"],
+    ["OpenTTD", 1, 1, 1, 62, "f"],
     ["Outbound", 1, 0, 0, 11, "nf"],
     ["over the hill", 1, 0, 0, 17, "nf"],
     ["PACS", 1, 0, 0, 16, "nf"],
@@ -248,7 +251,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/MIMESIS.jpg",
     "assets/DUCKSIDE.jpg",
     "assets/WrapHouseSimulator.jpg",
-    "assets/Solarpunk.jpg"
+    "assets/Solarpunk.jpg",
+    "assets/OpenTTD.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -311,7 +315,8 @@ STATUS = ["coming",
     "ex",
     "ex",
     "demo",
-    "demo"
+    "demo",
+    "full"
     ];
     NUMPLAYERS =[ [1,4],
         [1,4],
@@ -374,7 +379,8 @@ STATUS = ["coming",
         [1,4],
         [1,5],
         [1,4],
-        [1,"?"]
+        [1,"?"],
+        [1,"infinity"]
     ];
 COUNT = 0;
 GAMEID = [];
