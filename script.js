@@ -413,7 +413,6 @@ MINNUM = null;
 const games = document.getElementById("games");
 
 function clearf(){
-    SORTBY = sorting.value;
     Iwanttosortby();
     filter.value = "all";
     FILTER = "all";
@@ -459,11 +458,12 @@ clearb.addEventListener("click", () => {
 });
 
 Iwanttosortby();
-sorting.addEventListener("change", () => {
+order.addEventListener("change", () => {
     setcount();
 });
 
 function Iwanttosortby(){
+    SORTBY = order.value;
     if(SORTBY == "a-z"){
         games.innerHTML = "";
 
@@ -792,8 +792,8 @@ function headshowhide(){
     sselect.classList.toggle("hide");
     sselectlab.classList.toggle("hide");
     iconIndicator.classList.toggle("hide");
-    sorting.classList.toggle("hide");
-    sortinglab.classList.toggle("hide");
+    order.classList.toggle("hide");
+    orderlab.classList.toggle("hide");
     clearb.classList.toggle("hide");
     freeonly.classList.toggle("hide");
     freeonlylab.classList.toggle("hide");
