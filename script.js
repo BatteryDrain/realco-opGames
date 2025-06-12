@@ -124,7 +124,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["DUCKSIDE", 1, 0, 0, 59, "nf"],
     ["Wrap House Simulator🌯", 1, 0, 0, 60, "nf"],
     ["Solarpunk", 1, 0, 0, 61, "nf"],
-    ["OpenTTD", 1, 1, 1, 62, "f"]
+    ["OpenTTD", 1, 1, 1, 62, "f"],
+    ["Blind Descent", 1, 0, 0, 63, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -132,6 +133,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Badlands crew", 1, 0, 0, 41, "nf"],
     ["Backseat Drivers", 1, 0, 0, 42, "nf"],
     ["Begone Beast", 1, 0, 0, 10, "nf"],
+    ["Blind Descent", 1, 0, 0, 63, "nf"],
     ["BUS: Bro u Survived", 1, 0, 0, 43, "nf"],
     ["Crosswind", 1, 0, 0, 33, "nf"],
     ["Content Warning", 1, 0, 0, 54, "nf"],
@@ -252,7 +254,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/DUCKSIDE.jpg",
     "assets/WrapHouseSimulator.jpg",
     "assets/Solarpunk.jpg",
-    "assets/OpenTTD.jpg"
+    "assets/OpenTTD.jpg",
+    "assets/BlindDescent.jpg"
     ];
 STATUS = ["coming",
     "coming ex",
@@ -316,7 +319,8 @@ STATUS = ["coming",
     "ex",
     "demo",
     "demo",
-    "full"
+    "full",
+    "no info"
     ];
     NUMPLAYERS =[ [1,4],
         [1,4],
@@ -380,7 +384,8 @@ STATUS = ["coming",
         [1,5],
         [1,4],
         [1,"?"],
-        [1,"infinity"]
+        [1,"infinity"],
+        [1,4]
     ];
 COUNT = 0;
 GAMEID = [];
