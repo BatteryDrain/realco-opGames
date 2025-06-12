@@ -460,7 +460,6 @@ clearb.addEventListener("click", () => {
 
 Iwanttosortby();
 sorting.addEventListener("change", () => {
-    clearf();
     setcount();
 });
 
