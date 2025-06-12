@@ -413,7 +413,7 @@ MINNUM = null;
 const games = document.getElementById("games");
 
 function clearf(){
-    Iwanttosortby();
+    Iwanttoordertby();
     filter.value = "all";
     FILTER = "all";
 
@@ -457,12 +457,14 @@ clearb.addEventListener("click", () => {
     clearf();
 });
 
-Iwanttosortby();
+Iwanttoordertby();
 order.addEventListener("change", () => {
+    Iwanttoordertby();
+    sort();
     setcount();
 });
 
-function Iwanttosortby(){
+function Iwanttoordertby(){
     SORTBY = order.value;
     if(SORTBY == "a-z"){
         games.innerHTML = "";
