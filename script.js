@@ -128,7 +128,7 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Solarpunk", 1, 0, 0, 61, "nf"],
     ["OpenTTD", 1, 1, 1, 62, "f"],
     ["Blind Descent", 1, 0, 0, 63, "nf"],
-    ["No Man's Sky", 1, 1, 0, 64, "nf"]
+    ["No Man's Sky", 1, 1, 0, 64, "f"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -191,7 +191,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Subnautica 2", 1, 0, 0, 25, "nf"],
     ["Survival Machine", 1, 0, 0, 28, "nf"],
     ["The Mound: Omen of Cthulhu", 1, 1, 1, 30, "nf"],
-    ["WHAT THE PAK?!", 1, 0, 0, 3, "nf"],
+    ["WHAT THE PAK?!", 1, 0, 0, 3, "f"],
     ["War Thunder", 1, 1, 1, 29, "f"],
     ["Wobbly Life", 1, 0, 0, 52, "nf"],
     ["Wrap House Simulator🌯", 1, 0, 0, 60, "nf"]
