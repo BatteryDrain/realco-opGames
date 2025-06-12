@@ -67,7 +67,7 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
     ["Gas Station Manager", 1, 1, 0, 2, "nf"],
-    ["WHAT THE PAK?!", 1, 0, 0, 3, "nf"],
+    ["WHAT THE PAK?!", 1, 0, 0, 3, "f"],
     ["SAND", 1, 0, 0, 4, "nf"],
     ["Space Engineers 2", 1, 0, 0, 5, "nf"],
     ["DuneCrawl", 1, 0, 0, 6, "nf"],
@@ -128,7 +128,7 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Solarpunk", 1, 0, 0, 61, "nf"],
     ["OpenTTD", 1, 1, 1, 62, "f"],
     ["Blind Descent", 1, 0, 0, 63, "nf"],
-    ["No Man's Sky", 1, 1, 0, 64, "f"]
+    ["No Man's Sky", 1, 1, 0, 64, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
