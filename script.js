@@ -406,7 +406,7 @@ MOUSEX = 0;
 MOUSEY = 0;
 DARKMODE = true;
 EXPANDED = false;
-SORTBY = "date";
+ORDERBY = "date";
 DELAY = 40;
 MINNUM = null;
 
@@ -465,8 +465,8 @@ order.addEventListener("change", () => {
 });
 
 function Iwanttoordertby(){
-    SORTBY = order.value;
-    if(SORTBY == "a-z"){
+    ORDERBY = order.value;
+    if(ORDERBY == "a-z"){
         games.innerHTML = "";
 
         for (let i = 0; i < NAMES.length; i++) {
@@ -474,7 +474,7 @@ function Iwanttoordertby(){
             // setTimeout((index) => figBuilderAZ(index), i * DELAY, i);
         }
     }
-    if(SORTBY == "date"){
+    if(ORDERBY == "date"){
         games.innerHTML = "";
 
         for (let i = 0; i < NAMES.length; i++) {
