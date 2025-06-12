@@ -263,10 +263,10 @@ IMGS = ["assets/storebound.jpg",
     "assets/NoSky.jpg"
     ];
 STATUS = ["coming",
-    "coming ex",
+    "coming",
     "full",
     "full",
-    "coming ex",
+    "coming",
     "ex",
     "coming",
     "ex",
@@ -276,9 +276,9 @@ STATUS = ["coming",
     "coming",
     "demo",
     "ex",
-    "coming ex",
-    "coming ex",
-    "coming ex",
+    "coming",
+    "coming",
+    "coming",
     "none",
     "ex",
     "full",
@@ -300,7 +300,7 @@ STATUS = ["coming",
     "coming",
     "ex",
     "coming",
-    "coming ex",
+    "coming",
     "full",
     "coming",
     "full",
@@ -325,7 +325,7 @@ STATUS = ["coming",
     "demo",
     "demo",
     "full",
-    "no info",
+    "none",
     "full"
     ];
     NUMPLAYERS =[ [1,4],
@@ -713,7 +713,7 @@ function sort(){
             FIGURES[i].classList.toggle("hide");
         }
     }
-    //filter
+    //filter starts
     if(FILTER != "all"){
         for(i = 0; i < FIGURES.length; i++){
             if(FIGURES[i].dataset.stat != FILTER){
