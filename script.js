@@ -62,7 +62,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/1805110/Solarpunk/",
     "https://store.steampowered.com/app/1536610/OpenTTD/",
     "https://store.steampowered.com/app/1209970/Blind_Descent/",
-    "https://store.steampowered.com/app/275850/No_Mans_Sky/"
+    "https://store.steampowered.com/app/275850/No_Mans_Sky/",
+    "https://store.steampowered.com/app/1129580/Medieval_Dynasty/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -128,7 +129,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Solarpunk", 1, 0, 0, 61, "nf"],
     ["OpenTTD", 1, 1, 1, 62, "f"],
     ["Blind Descent", 1, 0, 0, 63, "nf"],
-    ["No Man's Sky", 1, 1, 0, 64, "nf"]
+    ["No Man's Sky", 1, 1, 0, 64, "nf"],
+    ["Medieval Dynasty", 1, 0, 0, 65, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -161,10 +163,11 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["LOCKDOWN Protocol", 1, 0, 0, 27, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
     ["Lost Skies", 1, 0, 0, 7, "nf"],
+    ["Medieval Dynasty", 1, 0, 0, 65, "nf"],
     ["Midnight Murder Club,", 1, 0, 0, 32, "nf"],
     ["MIMESIS", 1, 0, 0, 58, "nf"],
-    ["No Man's Sky", 1, 1, 0, 64, "nf"],
     ["My Time at sandrock", 1, 0, 0, 39, "nf"],
+    ["No Man's Sky", 1, 1, 0, 64, "nf"],
     ["Nuclear Nightmare", 1, 0, 0, 8, "nf"],
     ["Oh Deer", 1, 0, 0, 24, "nf"],
     ["One-armed robber", 1, 0, 0, 45, "f"],
@@ -260,7 +263,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/Solarpunk.jpg",
     "assets/OpenTTD.jpg",
     "assets/BlindDescent.jpg",
-    "assets/NoSky.jpg"
+    "assets/NoSky.jpg",
+    "assets/MedievalDynasty.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -326,6 +330,7 @@ STATUS = ["coming",
     "demo",
     "full",
     "none",
+    "full",
     "full"
     ];
     NUMPLAYERS =[
@@ -393,7 +398,8 @@ STATUS = ["coming",
         [1,"infinity"],
         [1,"infinity"],
         [1,4],
-        [1,"infinity"]
+        [1,"infinity"],
+        [1,4]
     ];
 COUNT = 0;
 GAMEID = [];
