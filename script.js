@@ -64,7 +64,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/1209970/Blind_Descent/",
     "https://store.steampowered.com/app/275850/No_Mans_Sky/",
     "https://store.steampowered.com/app/1129580/Medieval_Dynasty/",
-    "https://store.steampowered.com/app/1478500/Big_Walk/"
+    "https://store.steampowered.com/app/1478500/Big_Walk/",
+    "https://store.steampowered.com/app/3494520/Lost_Rift/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -131,8 +132,9 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["OpenTTD", 1, 1, 1, 62, "f"],
     ["Blind Descent", 1, 0, 0, 63, "nf"],
     ["No Man's Sky", 1, 1, 0, 64, "nf"],
-    ["Medieval Dynasty", 1, 0, 0, 65, "nf"]
-    ["Big Walk", 1, 1, 0, 66, "nf"]
+    ["Medieval Dynasty", 1, 0, 0, 65, "nf"],
+    ["Big Walk", 1, 1, 0, 66, "nf"],
+    ["Lost Rift", 1, 0, 0, 67, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -165,6 +167,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Liar's Bar", 1, 0, 0, 55, "nf"],
     ["LOCKDOWN Protocol", 1, 0, 0, 27, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
+    ["Lost Rift", 1, 0, 0, 67, "nf"],
     ["Lost Skies", 1, 0, 0, 7, "nf"],
     ["Medieval Dynasty", 1, 0, 0, 65, "nf"],
     ["Midnight Murder Club,", 1, 0, 0, 32, "nf"],
@@ -268,7 +271,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/BlindDescent.jpg",
     "assets/NoSky.jpg",
     "assets/MedievalDynasty.jpg",
-    "assets/BigWalk.jpg"
+    "assets/BigWalk.jpg",
+    "assets/LostRift.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -336,7 +340,8 @@ STATUS = ["coming",
     "none",
     "full",
     "full",
-    "coming"
+    "coming",
+    "demo"
     ];
     NUMPLAYERS =[
         [1,4],
@@ -405,7 +410,8 @@ STATUS = ["coming",
         [1,4],
         [1,"infinity"],
         [1,4],
-        [2,"infinity"]
+        [2,"infinity"],
+        [1,5]
     ];
 COUNT = 0;
 GAMEID = [];
