@@ -376,7 +376,7 @@ STATUS = ["coming",
         [1,3],
         [1,4],
         [1,8],
-        [1,"infinity"],
+        [2,4],
         [1,4],
         [2,16],
         [1,"infinity"],
@@ -492,9 +492,11 @@ function figBuilderAZ(i){
     fig.setAttribute("data-linux", NAMESAZ[i][3]);
     fig.setAttribute("data-free", NAMESAZ[i][5]);
     fig.setAttribute("data-max", NUMPLAYERS[NAMESAZ[i][4]][1]);
+
     if(NUMPLAYERS[NAMESAZ[i][4]][1] == null){
         fig.setAttribute("data-max", NUMPLAYERS[NAMESAZ[i][4]][0]);
     }
+
     if(NUMPLAYERS[NAMESAZ[i][4]][1] == "infinity"){
         fig.setAttribute("data-max", 9999);
     }
@@ -552,10 +554,10 @@ function figBuilderAZ(i){
     div.classList.add("playernumber");
     p = document.createElement('p');
     if(NUMPLAYERS[i][1] == null){
-        p.textContent= NUMPLAYERS[i][0] + " players";
+        p.textContent= NUMPLAYERS[NAMESAZ[i][4]][0] + " players";
     }
     else{
-        p.textContent= NUMPLAYERS[i][0] + " - " + NUMPLAYERS[i][1] + " players";
+        p.textContent= NUMPLAYERS[NAMESAZ[i][4]][0] + " - " + NUMPLAYERS[NAMESAZ[i][4]][1] + " players";
     }
     div.appendChild(p);
     fig.appendChild(div);
@@ -644,10 +646,10 @@ function figBuilderdate(i){
     div.classList.add("playernumber");
     p = document.createElement('p');
     if(NUMPLAYERS[i][1] == null){
-        p.textContent= NUMPLAYERS[i][0] + " players";
+        p.textContent= NUMPLAYERS[NAMES[i][4]][0] + " players";
     }
     else{
-        p.textContent= NUMPLAYERS[i][0] + " - " + NUMPLAYERS[i][1] + " players";
+        p.textContent= NUMPLAYERS[NAMES[i][4]][0] + " - " + NUMPLAYERS[NAMES[i][4]][1] + " players";
     }
     div.appendChild(p);
     fig.appendChild(div);
