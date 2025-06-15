@@ -63,7 +63,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/1536610/OpenTTD/",
     "https://store.steampowered.com/app/1209970/Blind_Descent/",
     "https://store.steampowered.com/app/275850/No_Mans_Sky/",
-    "https://store.steampowered.com/app/1129580/Medieval_Dynasty/"
+    "https://store.steampowered.com/app/1129580/Medieval_Dynasty/",
+    "https://store.steampowered.com/app/1478500/Big_Walk/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -131,6 +132,7 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Blind Descent", 1, 0, 0, 63, "nf"],
     ["No Man's Sky", 1, 1, 0, 64, "nf"],
     ["Medieval Dynasty", 1, 0, 0, 65, "nf"]
+    ["Big Walk", 1, 1, 0, 66, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -138,6 +140,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Badlands crew", 1, 0, 0, 41, "nf"],
     ["Backseat Drivers", 1, 0, 0, 42, "nf"],
     ["Begone Beast", 1, 0, 0, 10, "nf"],
+    ["Big Walk", 1, 1, 0, 66, "nf"],
     ["Blind Descent", 1, 0, 0, 63, "nf"],
     ["BUS: Bro u Survived", 1, 0, 0, 43, "nf"],
     ["Crosswind", 1, 0, 0, 33, "nf"],
@@ -264,7 +267,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/OpenTTD.jpg",
     "assets/BlindDescent.jpg",
     "assets/NoSky.jpg",
-    "assets/MedievalDynasty.jpg"
+    "assets/MedievalDynasty.jpg",
+    "assets/BigWalk.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -331,7 +335,8 @@ STATUS = ["coming",
     "full",
     "none",
     "full",
-    "full"
+    "full",
+    "coming"
     ];
     NUMPLAYERS =[
         [1,4],
@@ -399,7 +404,8 @@ STATUS = ["coming",
         [1,"infinity"],
         [1,4],
         [1,"infinity"],
-        [1,4]
+        [1,4],
+        [2,"infinity"]
     ];
 COUNT = 0;
 GAMEID = [];
