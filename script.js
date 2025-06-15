@@ -65,7 +65,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/275850/No_Mans_Sky/",
     "https://store.steampowered.com/app/1129580/Medieval_Dynasty/",
     "https://store.steampowered.com/app/1478500/Big_Walk/",
-    "https://store.steampowered.com/app/3494520/Lost_Rift/"
+    "https://store.steampowered.com/app/3494520/Lost_Rift/",
+    "https://store.steampowered.com/app/2340970/Railborn/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -134,7 +135,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["No Man's Sky", 1, 1, 0, 64, "nf"],
     ["Medieval Dynasty", 1, 0, 0, 65, "nf"],
     ["Big Walk", 1, 1, 0, 66, "nf"],
-    ["Lost Rift", 1, 0, 0, 67, "nf"]
+    ["Lost Rift", 1, 0, 0, 67, "nf"],
+    ["Railborn", 1, 0, 0, 68, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -185,6 +187,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["PICO PARK 2", 1, 1, 0, 22, "nf"],
     ["Prop Hunt", 1, 0, 0, 49, "nf"],
     ["Raft", 1, 0, 0, 53, "nf"],
+    ["Railborn", 1, 0, 0, 68, "nf"],
     ["Regular Human Basketball", 1, 1, 1, 21, "nf"],
     ["REPO", 1, 0, 0, 9, "nf"],
     ["RoadCraft", 1, 0, 0, 35, "nf"],
@@ -272,7 +275,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/NoSky.jpg",
     "assets/MedievalDynasty.jpg",
     "assets/BigWalk.jpg",
-    "assets/LostRift.jpg"
+    "assets/LostRift.jpg",
+    "assets/Railborn.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -341,7 +345,8 @@ STATUS = ["coming",
     "full",
     "full",
     "coming",
-    "demo"
+    "demo",
+    "coming"
     ];
     NUMPLAYERS =[
         [1,4],
@@ -411,7 +416,8 @@ STATUS = ["coming",
         [1,"infinity"],
         [1,4],
         [2,"infinity"],
-        [1,5]
+        [1,5],
+        [1,4]
     ];
 COUNT = 0;
 GAMEID = [];
