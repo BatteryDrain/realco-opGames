@@ -66,7 +66,9 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/1129580/Medieval_Dynasty/",
     "https://store.steampowered.com/app/1478500/Big_Walk/",
     "https://store.steampowered.com/app/3494520/Lost_Rift/",
-    "https://store.steampowered.com/app/2340970/Railborn/"
+    "https://store.steampowered.com/app/2340970/Railborn/",
+    "https://store.steampowered.com/app/3527290/PEAK/",
+    "https://store.steampowered.com/app/2254990/Permafrost/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -136,7 +138,9 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Medieval Dynasty", 1, 0, 0, 65, "nf"],
     ["Big Walk", 1, 1, 0, 66, "nf"],
     ["Lost Rift", 1, 0, 0, 67, "nf"],
-    ["Railborn", 1, 0, 0, 68, "nf"]
+    ["Railborn", 1, 0, 0, 68, "nf"],
+    ["PEAK", 1, 0, 0, 69, "nf"],
+    ["Permafrost", 1, 0, 0, 70, "nf"],
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -184,6 +188,8 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["over the hill", 1, 0, 0, 17, "nf"],
     ["PACS", 1, 0, 0, 16, "nf"],
     ["Pair A Dice", 1, 0, 0, 37, "f"],
+    ["PEAK", 1, 0, 0, 69, "nf"],
+    ["Permafrost", 1, 0, 0, 70, "nf"],
     ["PICO PARK 2", 1, 1, 0, 22, "nf"],
     ["Prop Hunt", 1, 0, 0, 49, "nf"],
     ["Raft", 1, 0, 0, 53, "nf"],
@@ -276,7 +282,9 @@ IMGS = ["assets/storebound.jpg",
     "assets/MedievalDynasty.jpg",
     "assets/BigWalk.jpg",
     "assets/LostRift.jpg",
-    "assets/Railborn.jpg"
+    "assets/Railborn.jpg",
+    "assets/PEAK.jpg",
+    "assets/Permafrost.jpg",
     ];
 STATUS = ["coming",
     "coming",
@@ -346,6 +354,8 @@ STATUS = ["coming",
     "full",
     "coming",
     "demo",
+    "coming",
+    "full",
     "coming"
     ];
     NUMPLAYERS =[
@@ -417,6 +427,8 @@ STATUS = ["coming",
         [1,4],
         [2,"infinity"],
         [1,5],
+        [1,4],
+        [1,4],
         [1,4]
     ];
 COUNT = 0;
