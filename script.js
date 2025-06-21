@@ -599,23 +599,30 @@ function figBuilderAZ(i){
     fig.appendChild(div);
 
     div = document.createElement('div');
-    div.classList.add("playernumber");
-    p = document.createElement('p');
-    if(NUMPLAYERS[i][1] == null){
-        p.textContent= NUMPLAYERS[NAMESAZ[i][4]][0] + " players";
-    }
-    else{
-        p.textContent= NUMPLAYERS[NAMESAZ[i][4]][0] + " - " + NUMPLAYERS[NAMESAZ[i][4]][1] + " players";
-    }
-    div.appendChild(p);
+    div.classList.add("gamestat");
+        p = document.createElement('p');
+            p.textContent= statfun(STATUS[NAMES[i][4]]);
+        div.appendChild(p);
     fig.appendChild(div);
 
     div = document.createElement('div');
-    p = document.createElement('p');
-    if(STATUS[NAMESAZ[i][4]] == "full"){
-        p.textContent = null;
-    }
-    div.appendChild(p);
+        div.classList.add("playernumber");
+        p = document.createElement('p');
+            if(NUMPLAYERS[i][1] == null){
+                p.textContent= NUMPLAYERS[NAMESAZ[i][4]][0] + " players";
+            }
+            else{
+                p.textContent= NUMPLAYERS[NAMESAZ[i][4]][0] + " - " + NUMPLAYERS[NAMESAZ[i][4]][1] + " players";
+            }
+            div.appendChild(p);
+            fig.appendChild(div);
+
+            div = document.createElement('div');
+            p = document.createElement('p');
+            if(STATUS[NAMESAZ[i][4]] == "full"){
+                p.textContent = null;
+            }
+        div.appendChild(p);
     fig.appendChild(div);
 
     games.appendChild(fig);
@@ -691,23 +698,30 @@ function figBuilderdate(i){
     fig.appendChild(div);
 
     div = document.createElement('div');
-    div.classList.add("playernumber");
-    p = document.createElement('p');
-    if(NUMPLAYERS[i][1] == null){
-        p.textContent= NUMPLAYERS[NAMES[i][4]][0] + " players";
-    }
-    else{
-        p.textContent= NUMPLAYERS[NAMES[i][4]][0] + " - " + NUMPLAYERS[NAMES[i][4]][1] + " players";
-    }
-    div.appendChild(p);
+    div.classList.add("gamestat");
+        p = document.createElement('p');
+            p.textContent= statfun(STATUS[NAMES[i][4]]);
+        div.appendChild(p);
     fig.appendChild(div);
 
     div = document.createElement('div');
-    p = document.createElement('p');
-    if(STATUS[NAMESAZ[i][4]] == "full"){
-        p.textContent = null;
-    }
-    div.appendChild(p);
+    div.classList.add("playernumber");
+        p = document.createElement('p');
+            if(NUMPLAYERS[i][1] == null){
+                p.textContent= NUMPLAYERS[NAMES[i][4]][0] + " players";
+            }
+            else{
+                p.textContent= NUMPLAYERS[NAMES[i][4]][0] + " - " + NUMPLAYERS[NAMES[i][4]][1] + " players";
+            }
+            div.appendChild(p);
+            fig.appendChild(div);
+
+            div = document.createElement('div');
+            p = document.createElement('p');
+            if(STATUS[NAMESAZ[i][4]] == "full"){
+                p.textContent = null;
+            }
+        div.appendChild(p);
     fig.appendChild(div);
 
     games.appendChild(fig);
@@ -757,6 +771,21 @@ filter.addEventListener("change", () => {
     sort();
     setcount();
 });
+
+function statfun(type){
+    if(type == "full"){
+        return("full release");
+    }
+    if(type == "coming"){
+        return("coming soon");
+    }
+    if(type == "none"){
+        return("not enough information");
+    }
+    if(type == "ex"){
+        return("early access");
+    }
+}
 
 function sort(){
     //set all to show
