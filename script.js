@@ -68,7 +68,9 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/3494520/Lost_Rift/",
     "https://store.steampowered.com/app/2340970/Railborn/",
     "https://store.steampowered.com/app/3527290/PEAK/",
-    "https://store.steampowered.com/app/2254990/Permafrost/"
+    "https://store.steampowered.com/app/2254990/Permafrost/",
+    "https://store.steampowered.com/app/3694600/Humblets/",
+    "https://store.steampowered.com/app/2703850/Rooftops__Alleys_The_Parkour_Game/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -141,6 +143,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Railborn", 1, 0, 0, 68, "nf"],
     ["PEAK", 1, 0, 0, 69, "nf"],
     ["Permafrost", 1, 0, 0, 70, "nf"],
+    ["Humblets", 0, 0, 0, 71, "nf"],
+    ["Rooftops & Alleys: The Parkour Game", 1, 0, 0, 72, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -168,6 +172,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Golf With Your Friends", 1, 1, 1, 56, "nf"],
     ["Heave Ho", 1, 1, 0, 19, "nf"],
     ["Hidden in Plain Sight", 1, 1, 1, 23, "nf"],
+    ["Humblets", 0, 0, 0, 71, "nf"],
     ["Jump Ship", 1, 0, 0, 14, "nf"],
     ["Lethal Company", 1, 0, 0, 48, "nf"],
     ["Liar's Bar", 1, 0, 0, 55, "nf"],
@@ -197,6 +202,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Regular Human Basketball", 1, 1, 1, 21, "nf"],
     ["REPO", 1, 0, 0, 9, "nf"],
     ["RoadCraft", 1, 0, 0, 35, "nf"],
+    ["Rooftops & Alleys: The Parkour Game", 1, 0, 0, 72, "nf"],
     ["SAND", 1, 0, 0, 4, "nf"],
     ["Schedule I", 1, 0, 0, 51, "nf"],
     ["Sea of Thieves", 1, 0, 0, 31, "nf"],
@@ -285,6 +291,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/Railborn.jpg",
     "assets/PEAK.jpg",
     "assets/Permafrost.jpg",
+    "assets/Humblets.jpg",
+    "assets/Parkour.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -356,7 +364,9 @@ STATUS = ["coming",
     "demo",
     "coming",
     "full",
-    "coming"
+    "coming",
+    "none",
+    "full"
     ];
     NUMPLAYERS =[
         [1,4],
@@ -427,6 +437,8 @@ STATUS = ["coming",
         [1,4],
         [2,"infinity"],
         [1,5],
+        [1,4],
+        [1,4],
         [1,4],
         [1,4],
         [1,4]
