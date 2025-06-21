@@ -70,6 +70,10 @@ figure {
     display: flex;
 }
 
+figure p {
+    margin: 5px;
+}
+
 #freeimg {
     width: 40px;
     margin: 10px;
