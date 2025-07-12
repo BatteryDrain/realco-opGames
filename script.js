@@ -77,7 +77,9 @@ LINKS = [
     "https://store.steampowered.com/app/1562260/Camping_Simulator_The_Squad/",
     "https://store.steampowered.com/app/3617830/Scary_Cargo/",
     "https://store.steampowered.com/app/2620450/Highreach/",
-    "https://store.steampowered.com/app/3247750/Mycopunk/"
+    "https://store.steampowered.com/app/3247750/Mycopunk/",
+    "https://store.steampowered.com/app/1798230/ATMOSFAR/",
+    "https://store.steampowered.com/app/3691910/Free_For_Fall/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -157,10 +159,13 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Camping Simulator: The Squad", 1, 0, 0, 75, "nf"],
     ["Scary Cargo", 1, 0, 0, 76, "nf"],
     ["Highreach", 1, 0, 0, 77, "nf"],
-    ["Mycopunk", 1, 0, 0, 78, "nf"]
+    ["Mycopunk", 1, 0, 0, 78, "nf"],
+    ["ATMOSFAR", 1, 0, 0, 79, "nf"],
+    ["Free For Fall", 1, 0, 0, 80, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
+    ["ATMOSFAR", 1, 0, 0, 79, "nf"],
     ["A Gentlemen's Dispute", 1, 1, 0, 34, "nf"],
     ["Badlands crew", 1, 0, 0, 41, "nf"],
     ["Backseat Drivers", 1, 0, 0, 42, "nf"],
@@ -181,6 +186,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Escape Simulator 2", 1, 0, 0, 46, "nf"],
     ["Everwind", 1, 0, 0, 38, "nf"],
     ["Forever Skies", 1, 0, 0, 13, "nf"],
+    ["Free For Fall", 1, 0, 0, 80, "nf"],
     ["Garry's Mod", 1, 1, 1, 50, "nf"],
     ["Gas Station Manager", 1, 1, 0, 2, "nf"],
     ["Golf With Your Friends", 1, 1, 1, 56, "nf"],
@@ -317,7 +323,9 @@ IMGS = ["assets/storebound.jpg",
     "assets/campsim.jpg",
     "assets/ScaryCargo.jpg",
     "assets/Highreach.jpg",
-    "assets/Mycopunk.jpg"
+    "assets/Mycopunk.jpg",
+    "assets/ATMOSFAR.jpg",
+    "assets/FreeForFall.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -397,7 +405,9 @@ STATUS = ["coming",
     "full",
     "none",
     "coming",
-    "ex"
+    "ex",
+    "coming",
+    "coming"
     ];
     NUMPLAYERS =[
         [1,4],
@@ -478,7 +488,9 @@ STATUS = ["coming",
         [1,7],
         [1,4],
         [1,5],
-        [1,3]
+        [1,3],
+        [1,4],
+        [1,"infinity"],
     ];
 COUNT = 0;
 GAMEID = [];
