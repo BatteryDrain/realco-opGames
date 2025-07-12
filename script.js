@@ -74,7 +74,8 @@ LINKS = [
     "https://store.steampowered.com/app/2703850/Rooftops__Alleys_The_Parkour_Game/",
     "https://store.steampowered.com/app/1765300/Ultimate_Zombie_Defense_2/",
     "https://store.steampowered.com/app/3643170/Roadside_Research/",
-    "https://store.steampowered.com/app/1562260/Camping_Simulator_The_Squad/"
+    "https://store.steampowered.com/app/1562260/Camping_Simulator_The_Squad/",
+    "https://store.steampowered.com/app/3617830/Scary_Cargo/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -151,7 +152,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Rooftops & Alleys: The Parkour Game", 1, 0, 0, 72, "nf"],
     ["Ultimate Zombie Defense 2", 1, 0, 0, 73, "nf"],
     ["Roadside Research", 1, 0, 0, 74, "nf"],
-    ["Camping Simulator: The Squad", 1, 0, 0, 75, "nf"]
+    ["Camping Simulator: The Squad", 1, 0, 0, 75, "nf"],
+    ["Scary Cargo", 1, 0, 0, 76, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -213,6 +215,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Roadside Research", 1, 0, 0, 74, "nf"],
     ["Rooftops & Alleys: The Parkour Game", 1, 0, 0, 72, "nf"],
     ["SAND", 1, 0, 0, 4, "nf"],
+    ["Scary Cargo", 1, 0, 0, 76, "nf"],
     ["Schedule I", 1, 0, 0, 51, "nf"],
     ["Sea of Thieves", 1, 0, 0, 31, "nf"],
     ["Space Engineers 2", 1, 0, 0, 5, "nf"],
@@ -305,7 +308,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/Parkour.jpg",
     "assets/UTZ2.jpg",
     "assets/RR.jpg",
-    "assets/campsim.jpg"
+    "assets/campsim.jpg",
+    "assets/ScaryCargo.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -382,7 +386,8 @@ STATUS = ["coming",
     "full",
     "ex",
     "coming",
-    "full"
+    "full",
+    "none"
     ];
     NUMPLAYERS =[
         [1,4],
@@ -460,7 +465,8 @@ STATUS = ["coming",
         [1,4],
         [1,4],
         [1,4],
-        [1,7]
+        [1,7],
+        [1,4]
     ];
 COUNT = 0;
 GAMEID = [];
