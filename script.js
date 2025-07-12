@@ -75,7 +75,8 @@ LINKS = [
     "https://store.steampowered.com/app/1765300/Ultimate_Zombie_Defense_2/",
     "https://store.steampowered.com/app/3643170/Roadside_Research/",
     "https://store.steampowered.com/app/1562260/Camping_Simulator_The_Squad/",
-    "https://store.steampowered.com/app/3617830/Scary_Cargo/"
+    "https://store.steampowered.com/app/3617830/Scary_Cargo/",
+    "https://store.steampowered.com/app/2620450/Highreach/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -153,7 +154,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Ultimate Zombie Defense 2", 1, 0, 0, 73, "nf"],
     ["Roadside Research", 1, 0, 0, 74, "nf"],
     ["Camping Simulator: The Squad", 1, 0, 0, 75, "nf"],
-    ["Scary Cargo", 1, 0, 0, 76, "nf"]
+    ["Scary Cargo", 1, 0, 0, 76, "nf"],
+    ["Highreach", 1, 0, 0, 77, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -182,6 +184,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Golf With Your Friends", 1, 1, 1, 56, "nf"],
     ["Heave Ho", 1, 1, 0, 19, "nf"],
     ["Hidden in Plain Sight", 1, 1, 1, 23, "nf"],
+    ["Highreach", 1, 0, 0, 77, "nf"],
     ["Humblets", 0, 0, 0, 71, "nf"],
     ["Jump Ship", 1, 0, 0, 14, "nf"],
     ["Lethal Company", 1, 0, 0, 48, "nf"],
@@ -309,7 +312,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/UTZ2.jpg",
     "assets/RR.jpg",
     "assets/campsim.jpg",
-    "assets/ScaryCargo.jpg"
+    "assets/ScaryCargo.jpg",
+    "assets/Highreach.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -387,7 +391,8 @@ STATUS = ["coming",
     "ex",
     "coming",
     "full",
-    "none"
+    "none",
+    "coming",
     ];
     NUMPLAYERS =[
         [1,4],
@@ -466,7 +471,8 @@ STATUS = ["coming",
         [1,4],
         [1,4],
         [1,7],
-        [1,4]
+        [1,4],
+        [1,5]
     ];
 COUNT = 0;
 GAMEID = [];
