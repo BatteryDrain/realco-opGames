@@ -73,7 +73,8 @@ LINKS = [
     "https://store.steampowered.com/app/3694600/Humblets/",
     "https://store.steampowered.com/app/2703850/Rooftops__Alleys_The_Parkour_Game/",
     "https://store.steampowered.com/app/1765300/Ultimate_Zombie_Defense_2/",
-    "https://store.steampowered.com/app/3643170/Roadside_Research/"
+    "https://store.steampowered.com/app/3643170/Roadside_Research/",
+    "https://store.steampowered.com/app/1562260/Camping_Simulator_The_Squad/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -149,7 +150,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Humblets", 0, 0, 0, 71, "nf"],
     ["Rooftops & Alleys: The Parkour Game", 1, 0, 0, 72, "nf"],
     ["Ultimate Zombie Defense 2", 1, 0, 0, 73, "nf"],
-    ["Roadside Research", 1, 0, 0, 74, "nf"]
+    ["Roadside Research", 1, 0, 0, 74, "nf"],
+    ["Camping Simulator: The Squad", 1, 0, 0, 75, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -160,6 +162,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Big Walk", 1, 1, 0, 66, "nf"],
     ["Blind Descent", 0, 0, 0, 63, "nf"],
     ["BUS: Bro u Survived", 1, 0, 0, 43, "nf"],
+    ["Camping Simulator: The Squad", 1, 0, 0, 75, "nf"],
     ["Crosswind", 1, 0, 0, 33, "nf"],
     ["Content Warning", 1, 0, 0, 54, "nf"],
     ["CUFFBUST", 1, 0, 0, 40, "nf"],
@@ -301,7 +304,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/Humblets.jpg",
     "assets/Parkour.jpg",
     "assets/UTZ2.jpg",
-    "assets/RR.jpg"
+    "assets/RR.jpg",
+    "assets/campsim.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -377,7 +381,8 @@ STATUS = ["coming",
     "none",
     "full",
     "ex",
-    "coming"
+    "coming",
+    "full"
     ];
     NUMPLAYERS =[
         [1,4],
@@ -454,7 +459,8 @@ STATUS = ["coming",
         [1,4],
         [1,4],
         [1,4],
-        [0,4]
+        [1,4],
+        [1,7]
     ];
 COUNT = 0;
 GAMEID = [];
