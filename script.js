@@ -1,4 +1,5 @@
-LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.steampowered.com/app/3417410/Storebound/",
+LINKS = [
+    "https://store.steampowered.com/app/3417410/Storebound/https://store.steampowered.com/app/3417410/Storebound/",
     "https://store.steampowered.com/app/3179350/Long_Drive_North_CoOp_RV_Simulator/",
     "https://store.steampowered.com/app/3044440/Gas_Station_Manager/",
     "https://store.steampowered.com/app/2752710/WHAT_THE_PAK/",
@@ -70,7 +71,8 @@ LINKS = ["https://store.steampowered.com/app/3417410/Storebound/https://store.st
     "https://store.steampowered.com/app/3527290/PEAK/",
     "https://store.steampowered.com/app/2254990/Permafrost/",
     "https://store.steampowered.com/app/3694600/Humblets/",
-    "https://store.steampowered.com/app/2703850/Rooftops__Alleys_The_Parkour_Game/"
+    "https://store.steampowered.com/app/2703850/Rooftops__Alleys_The_Parkour_Game/",
+    "https://store.steampowered.com/app/1765300/Ultimate_Zombie_Defense_2/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -144,7 +146,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["PEAK", 1, 0, 0, 69, "nf"],
     ["Permafrost", 1, 0, 0, 70, "nf"],
     ["Humblets", 0, 0, 0, 71, "nf"],
-    ["Rooftops & Alleys: The Parkour Game", 1, 0, 0, 72, "nf"]
+    ["Rooftops & Alleys: The Parkour Game", 1, 0, 0, 72, "nf"],
+    ["Ultimate Zombie Defense 2", 1, 0, 0, 73, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -215,6 +218,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Subnautica 2", 1, 0, 0, 25, "nf"],
     ["Survival Machine", 1, 0, 0, 28, "nf"],
     ["The Mound: Omen of Cthulhu", 1, 1, 1, 30, "nf"],
+    ["Ultimate Zombie Defense 2", 1, 0, 0, 73, "nf"],
     ["WHAT THE PAK?!", 1, 0, 0, 3, "f"],
     ["War Thunder", 1, 1, 1, 29, "f"],
     ["Wobbly Life", 1, 0, 0, 52, "nf"],
@@ -292,7 +296,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/PEAK.jpg",
     "assets/Permafrost.jpg",
     "assets/Humblets.jpg",
-    "assets/Parkour.jpg"
+    "assets/Parkour.jpg",
+    "assets/UTZ2.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -366,7 +371,8 @@ STATUS = ["coming",
     "full",
     "coming",
     "none",
-    "full"
+    "full",
+    "ex"
     ];
     NUMPLAYERS =[
         [1,4],
@@ -437,6 +443,7 @@ STATUS = ["coming",
         [1,4],
         [2,"infinity"],
         [1,5],
+        [1,4],
         [1,4],
         [1,4],
         [1,4],
