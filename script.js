@@ -72,7 +72,8 @@ LINKS = [
     "https://store.steampowered.com/app/2254990/Permafrost/",
     "https://store.steampowered.com/app/3694600/Humblets/",
     "https://store.steampowered.com/app/2703850/Rooftops__Alleys_The_Parkour_Game/",
-    "https://store.steampowered.com/app/1765300/Ultimate_Zombie_Defense_2/"
+    "https://store.steampowered.com/app/1765300/Ultimate_Zombie_Defense_2/",
+    "https://store.steampowered.com/app/3643170/Roadside_Research/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -147,7 +148,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Permafrost", 1, 0, 0, 70, "nf"],
     ["Humblets", 0, 0, 0, 71, "nf"],
     ["Rooftops & Alleys: The Parkour Game", 1, 0, 0, 72, "nf"],
-    ["Ultimate Zombie Defense 2", 1, 0, 0, 73, "nf"]
+    ["Ultimate Zombie Defense 2", 1, 0, 0, 73, "nf"],
+    ["Roadside Research", 1, 0, 0, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -205,6 +207,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Regular Human Basketball", 1, 1, 1, 21, "nf"],
     ["REPO", 1, 0, 0, 9, "nf"],
     ["RoadCraft", 1, 0, 0, 35, "nf"],
+    ["Roadside Research", 1, 0, 0, "nf"],
     ["Rooftops & Alleys: The Parkour Game", 1, 0, 0, 72, "nf"],
     ["SAND", 1, 0, 0, 4, "nf"],
     ["Schedule I", 1, 0, 0, 51, "nf"],
@@ -297,7 +300,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/Permafrost.jpg",
     "assets/Humblets.jpg",
     "assets/Parkour.jpg",
-    "assets/UTZ2.jpg"
+    "assets/UTZ2.jpg",
+    "assets/RR.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -372,7 +376,8 @@ STATUS = ["coming",
     "coming",
     "none",
     "full",
-    "ex"
+    "ex",
+    "coming"
     ];
     NUMPLAYERS =[
         [1,4],
@@ -443,6 +448,7 @@ STATUS = ["coming",
         [1,4],
         [2,"infinity"],
         [1,5],
+        [1,4],
         [1,4],
         [1,4],
         [1,4],
