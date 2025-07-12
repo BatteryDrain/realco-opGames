@@ -79,7 +79,8 @@ LINKS = [
     "https://store.steampowered.com/app/2620450/Highreach/",
     "https://store.steampowered.com/app/3247750/Mycopunk/",
     "https://store.steampowered.com/app/1798230/ATMOSFAR/",
-    "https://store.steampowered.com/app/3691910/Free_For_Fall/"
+    "https://store.steampowered.com/app/3691910/Free_For_Fall/",
+    "https://store.steampowered.com/app/1253220/The_Gold_River_Project/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -161,7 +162,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Highreach", 1, 0, 0, 77, "nf"],
     ["Mycopunk", 1, 0, 0, 78, "nf"],
     ["ATMOSFAR", 1, 0, 0, 79, "nf"],
-    ["Free For Fall", 1, 0, 0, 80, "nf"]
+    ["Free For Fall", 1, 0, 0, 80, "nf"],
+    ["The Gold River Project", 1, 0, 0, 81, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -238,6 +240,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Storebound", 1, 0, 0, 0, "nf"],
     ["Subnautica 2", 1, 0, 0, 25, "nf"],
     ["Survival Machine", 1, 0, 0, 28, "nf"],
+    ["The Gold River Project", 1, 0, 0, 81, "nf"],
     ["The Mound: Omen of Cthulhu", 1, 1, 1, 30, "nf"],
     ["Ultimate Zombie Defense 2", 1, 0, 0, 73, "nf"],
     ["WHAT THE PAK?!", 1, 0, 0, 3, "f"],
@@ -325,7 +328,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/Highreach.jpg",
     "assets/Mycopunk.jpg",
     "assets/ATMOSFAR.jpg",
-    "assets/FreeForFall.jpg"
+    "assets/FreeForFall.jpg",
+    "assets/GoldRiver.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -407,7 +411,8 @@ STATUS = ["coming",
     "coming",
     "ex",
     "coming",
-    "coming"
+    "coming",
+    "demo"
     ];
     NUMPLAYERS =[
         [1,4],
@@ -491,6 +496,7 @@ STATUS = ["coming",
         [1,3],
         [1,4],
         [1,"infinity"],
+        [1,4]
     ];
 COUNT = 0;
 GAMEID = [];
