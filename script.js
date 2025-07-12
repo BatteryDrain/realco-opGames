@@ -149,7 +149,7 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Humblets", 0, 0, 0, 71, "nf"],
     ["Rooftops & Alleys: The Parkour Game", 1, 0, 0, 72, "nf"],
     ["Ultimate Zombie Defense 2", 1, 0, 0, 73, "nf"],
-    ["Roadside Research", 1, 0, 0, "nf"]
+    ["Roadside Research", 1, 0, 0, 74, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -207,7 +207,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Regular Human Basketball", 1, 1, 1, 21, "nf"],
     ["REPO", 1, 0, 0, 9, "nf"],
     ["RoadCraft", 1, 0, 0, 35, "nf"],
-    ["Roadside Research", 1, 0, 0, "nf"],
+    ["Roadside Research", 1, 0, 0, 74, "nf"],
     ["Rooftops & Alleys: The Parkour Game", 1, 0, 0, 72, "nf"],
     ["SAND", 1, 0, 0, 4, "nf"],
     ["Schedule I", 1, 0, 0, 51, "nf"],
@@ -454,7 +454,7 @@ STATUS = ["coming",
         [1,4],
         [1,4],
         [1,4],
-        [1,4]
+        [0,4]
     ];
 COUNT = 0;
 GAMEID = [];
