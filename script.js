@@ -76,7 +76,8 @@ LINKS = [
     "https://store.steampowered.com/app/3643170/Roadside_Research/",
     "https://store.steampowered.com/app/1562260/Camping_Simulator_The_Squad/",
     "https://store.steampowered.com/app/3617830/Scary_Cargo/",
-    "https://store.steampowered.com/app/2620450/Highreach/"
+    "https://store.steampowered.com/app/2620450/Highreach/",
+    "https://store.steampowered.com/app/3247750/Mycopunk/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -155,7 +156,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Roadside Research", 1, 0, 0, 74, "nf"],
     ["Camping Simulator: The Squad", 1, 0, 0, 75, "nf"],
     ["Scary Cargo", 1, 0, 0, 76, "nf"],
-    ["Highreach", 1, 0, 0, 77, "nf"]
+    ["Highreach", 1, 0, 0, 77, "nf"],
+    ["Mycopunk", 1, 0, 0, 78, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -197,6 +199,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Midnight Murder Club,", 1, 0, 0, 32, "nf"],
     ["MIMESIS", 1, 0, 0, 58, "nf"],
     ["My Time at sandrock", 1, 0, 0, 39, "nf"],
+    ["Mycopunk", 1, 0, 0, 78, "nf"],
     ["No Man's Sky", 1, 1, 0, 64, "nf"],
     ["Nuclear Nightmare", 1, 0, 0, 8, "nf"],
     ["Oh Deer", 1, 0, 0, 24, "nf"],
@@ -313,7 +316,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/RR.jpg",
     "assets/campsim.jpg",
     "assets/ScaryCargo.jpg",
-    "assets/Highreach.jpg"
+    "assets/Highreach.jpg",
+    "assets/Mycopunk.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -393,6 +397,7 @@ STATUS = ["coming",
     "full",
     "none",
     "coming",
+    "ex"
     ];
     NUMPLAYERS =[
         [1,4],
@@ -472,7 +477,8 @@ STATUS = ["coming",
         [1,4],
         [1,7],
         [1,4],
-        [1,5]
+        [1,5],
+        [1,3]
     ];
 COUNT = 0;
 GAMEID = [];
