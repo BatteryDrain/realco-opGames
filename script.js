@@ -164,7 +164,7 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Mycopunk", 1, 0, 0, 78, "nf"],
     ["ATMOSFAR", 1, 0, 0, 79, "nf"],
     ["Free For Fall", 1, 0, 0, 80, "nf"],
-    ["The Gold River Project", 1, 0, 0, 81, "nf"],.
+    ["The Gold River Project", 1, 0, 0, 81, "nf"],
     ["Grounded 2", 1, 0, 0, 82, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
