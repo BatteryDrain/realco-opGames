@@ -80,7 +80,8 @@ LINKS = [
     "https://store.steampowered.com/app/3247750/Mycopunk/",
     "https://store.steampowered.com/app/1798230/ATMOSFAR/",
     "https://store.steampowered.com/app/3691910/Free_For_Fall/",
-    "https://store.steampowered.com/app/1253220/The_Gold_River_Project/"
+    "https://store.steampowered.com/app/1253220/The_Gold_River_Project/",
+    "https://store.steampowered.com/app/2661300/Grounded_2/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -163,7 +164,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Mycopunk", 1, 0, 0, 78, "nf"],
     ["ATMOSFAR", 1, 0, 0, 79, "nf"],
     ["Free For Fall", 1, 0, 0, 80, "nf"],
-    ["The Gold River Project", 1, 0, 0, 81, "nf"]
+    ["The Gold River Project", 1, 0, 0, 81, "nf"],.
+    ["Grounded 2", 1, 0, 0, 82, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -192,6 +194,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Garry's Mod", 1, 1, 1, 50, "nf"],
     ["Gas Station Manager", 1, 1, 0, 2, "nf"],
     ["Golf With Your Friends", 1, 1, 1, 56, "nf"],
+    ["Grounded 2", 1, 0, 0, 82, "nf"],
     ["Heave Ho", 1, 1, 0, 19, "nf"],
     ["Hidden in Plain Sight", 1, 1, 1, 23, "nf"],
     ["Highreach", 1, 0, 0, 77, "nf"],
@@ -329,7 +332,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/Mycopunk.jpg",
     "assets/ATMOSFAR.jpg",
     "assets/FreeForFall.jpg",
-    "assets/GoldRiver.jpg"
+    "assets/GoldRiver.jpg",
+    "assets/Grounded2.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -412,7 +416,8 @@ STATUS = ["coming",
     "ex",
     "coming",
     "coming",
-    "demo"
+    "demo",
+    "comming"
     ];
     NUMPLAYERS =[
         [1,4],
@@ -496,6 +501,7 @@ STATUS = ["coming",
         [1,3],
         [1,4],
         [1,"infinity"],
+        [1,4],
         [1,4]
     ];
 COUNT = 0;
@@ -664,10 +670,10 @@ function figBuilderAZ(i){
         div.classList.add("playernumber");
         p = document.createElement('p');
             if(NUMPLAYERS[i][1] == null){
-                p.textContent= NUMPLAYERS[NAMESAZ[i][4]][0] + " players";
+                p.textContent = NUMPLAYERS[NAMESAZ[i][4]][0] + " players";
             }
             else{
-                p.textContent= NUMPLAYERS[NAMESAZ[i][4]][0] + " - " + NUMPLAYERS[NAMESAZ[i][4]][1] + " players";
+                p.textContent = NUMPLAYERS[NAMESAZ[i][4]][0] + " - " + NUMPLAYERS[NAMESAZ[i][4]][1] + " players";
             }
             div.appendChild(p);
             fig.appendChild(div);
