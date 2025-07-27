@@ -81,7 +81,8 @@ LINKS = [
     "https://store.steampowered.com/app/1798230/ATMOSFAR/",
     "https://store.steampowered.com/app/3691910/Free_For_Fall/",
     "https://store.steampowered.com/app/1253220/The_Gold_River_Project/",
-    "https://store.steampowered.com/app/2661300/Grounded_2/"
+    "https://store.steampowered.com/app/2661300/Grounded_2/",
+    "https://store.steampowered.com/app/3253530/PIT_OF_GOBLIN/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -165,7 +166,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["ATMOSFAR", 1, 0, 0, 79, "nf"],
     ["Free For Fall", 1, 0, 0, 80, "nf"],
     ["The Gold River Project", 1, 0, 0, 81, "nf"],
-    ["Grounded 2", 1, 0, 0, 82, "nf"]
+    ["Grounded 2", 1, 0, 0, 82, "nf"],
+    ["PIT OF GOBLIN", 1, 0, 0, 83, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -223,6 +225,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["PEAK", 1, 0, 0, 69, "nf"],
     ["Permafrost", 1, 0, 0, 70, "nf"],
     ["PICO PARK 2", 1, 1, 0, 22, "nf"],
+    ["PIT OF GOBLIN", 1, 0, 0, 83, "nf"],
     ["Prop Hunt", 1, 0, 0, 49, "nf"],
     ["Raft", 1, 0, 0, 53, "nf"],
     ["Railborn", 1, 0, 0, 68, "nf"],
@@ -333,7 +336,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/ATMOSFAR.jpg",
     "assets/FreeForFall.jpg",
     "assets/GoldRiver.jpg",
-    "assets/Grounded2.jpg"
+    "assets/Grounded2.jpg",
+    "assets/PIT.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -417,7 +421,8 @@ STATUS = ["coming",
     "coming",
     "coming",
     "demo",
-    "comming"
+    "comming",
+    "full"
     ];
     NUMPLAYERS =[
         [1,4],
@@ -502,7 +507,8 @@ STATUS = ["coming",
         [1,4],
         [1,"infinity"],
         [1,4],
-        [1,4]
+        [1,4],
+        [2,4]
     ];
 COUNT = 0;
 GAMEID = [];
