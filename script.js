@@ -82,7 +82,8 @@ LINKS = [
     "https://store.steampowered.com/app/3691910/Free_For_Fall/",
     "https://store.steampowered.com/app/1253220/The_Gold_River_Project/",
     "https://store.steampowered.com/app/2661300/Grounded_2/",
-    "https://store.steampowered.com/app/3253530/PIT_OF_GOBLIN/"
+    "https://store.steampowered.com/app/3253530/PIT_OF_GOBLIN/",
+    "https://store.steampowered.com/app/1625450/Muck/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -167,7 +168,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Free For Fall", 1, 0, 0, 80, "nf"],
     ["The Gold River Project", 1, 0, 0, 81, "nf"],
     ["Grounded 2", 1, 0, 0, 82, "nf"],
-    ["PIT OF GOBLIN", 1, 0, 0, 83, "nf"]
+    ["PIT OF GOBLIN", 1, 0, 0, 83, "nf"],
+    ["Muck", 1, 1, 1, 84, "f"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -211,6 +213,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Medieval Dynasty", 1, 0, 0, 65, "nf"],
     ["Midnight Murder Club,", 1, 0, 0, 32, "nf"],
     ["MIMESIS", 1, 0, 0, 58, "nf"],
+    ["Muck", 1, 1, 1, 84, "f"],
     ["My Time at sandrock", 1, 0, 0, 39, "nf"],
     ["Mycopunk", 1, 0, 0, 78, "nf"],
     ["No Man's Sky", 1, 1, 0, 64, "nf"],
@@ -337,7 +340,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/FreeForFall.jpg",
     "assets/GoldRiver.jpg",
     "assets/Grounded2.jpg",
-    "assets/PIT.jpg"
+    "assets/PIT.jpg",
+    "assets/Muck.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -422,6 +426,7 @@ STATUS = ["coming",
     "coming",
     "demo",
     "comming",
+    "full",
     "full"
     ];
     NUMPLAYERS =[
@@ -508,7 +513,8 @@ STATUS = ["coming",
         [1,"infinity"],
         [1,4],
         [1,4],
-        [2,4]
+        [2,4],
+        [1,8]
     ];
 COUNT = 0;
 GAMEID = [];
