@@ -345,7 +345,7 @@ IMGS = ["assets/storebound.jpg",
     "assets/Grounded2.jpg",
     "assets/PIT.jpg",
     "assets/Muck.jpg",
-    "assets/WorldInTheAbyss"
+    "assets/WorldInTheAbyss.jpg"
     ];
 STATUS = ["coming",
     "coming",
