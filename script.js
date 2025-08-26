@@ -87,6 +87,7 @@ LINKS = [
     "https://store.steampowered.com/app/3676080/World_In_The_Abyss/",
     "https://store.steampowered.com/app/2145460/Foodslingers/",
     "https://store.steampowered.com/app/3834090/YAPYAP/",
+    "https://store.steampowered.com/app/2686630/Voyagers_of_Nera/",
     "https://store.steampowered.com/app/3915840/Steel_Ark/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
