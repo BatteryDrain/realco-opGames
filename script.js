@@ -88,7 +88,8 @@ LINKS = [
     "https://store.steampowered.com/app/2145460/Foodslingers/",
     "https://store.steampowered.com/app/3834090/YAPYAP/",
     "https://store.steampowered.com/app/2686630/Voyagers_of_Nera/",
-    "https://store.steampowered.com/app/3915840/Steel_Ark/"
+    "https://store.steampowered.com/app/3915840/Steel_Ark/",
+    "https://store.steampowered.com/app/477160/Human_Fall_Flat/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -179,7 +180,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Foodslingers", 1, 1, 0, 86, "nf"],
     ["YAPYAP", 1, 0, 0, 87, "nf"],
     ["Voyagers of Nera", 1, 0, 0, 88, "nf"],
-    ["Steel Ark", 1, 0, 0, 89, "nf"]
+    ["Steel Ark", 1, 0, 0, 89, "nf"],
+    ["Human Fall Flat", 1, 1, 0, 90, "nf"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -213,6 +215,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Heave Ho", 1, 1, 0, 19, "nf"],
     ["Hidden in Plain Sight", 1, 1, 1, 23, "nf"],
     ["Highreach", 1, 0, 0, 77, "nf"],
+    ["Human Fall Flat", 1, 1, 0, 90, "nf"],
     ["Humblets", 0, 0, 0, 71, "nf"],
     ["Jump Space", 1, 0, 0, 14, "nf"],
     ["Lethal Company", 1, 0, 0, 48, "nf"],
@@ -361,7 +364,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/Foodslingers.jpg",
     "assets/YAPYAP.jpg",
     "assets/Nera.jpg",
-    "assets/Steel.jpg"
+    "assets/Steel.jpg",
+    "assets/Human.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -452,7 +456,8 @@ STATUS = ["coming",
     "full",
     "coming",
     "coming",
-    "coming"
+    "coming",
+    "full"
     ];
     NUMPLAYERS =[
         [1,4],
@@ -544,7 +549,8 @@ STATUS = ["coming",
         [1,4],
         [1,4],
         [1,10],
-        [1,4]
+        [1,4],
+        [1,8]
     ];
 COUNT = 0;
 GAMEID = [];
