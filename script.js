@@ -699,6 +699,7 @@ function figBuilderAZ(i){
     for(j = 1; j < 4; j++){
         if(NAMESAZ[i][j] === 1){
             supimg = document.createElement('img');
+            supimg.setAttribute("onclick", "goToLink(" + NAMESAZ[i][4] + ")");
             supimg.src = ICONS[j - 1];
             supimg.alt = "Platform Icon";
             div.classList.add("icon");
@@ -767,6 +768,7 @@ function figBuilderdate(i){
     //console.log(NAMES[i][0]);
 
     image = document.createElement('img');
+    image.setAttribute("onclick", "goToLink(" + NAMES[i][4] + ")");
     image.src = IMGS[NAMES[i][4]];
     image.alt = "picture of " + NAMES[i][0] + " gameplay or thumbnail";
     fig.appendChild(image);
@@ -840,9 +842,6 @@ function figBuilderdate(i){
         setcount();
     }
 }
-
-
-
 
 function goToLink(number){
     console.log("button " + number + " clicked");
