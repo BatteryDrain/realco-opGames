@@ -89,7 +89,8 @@ LINKS = [
     "https://store.steampowered.com/app/3834090/YAPYAP/",
     "https://store.steampowered.com/app/2686630/Voyagers_of_Nera/",
     "https://store.steampowered.com/app/3915840/Steel_Ark/",
-    "https://store.steampowered.com/app/477160/Human_Fall_Flat/"
+    "https://store.steampowered.com/app/477160/Human_Fall_Flat/",
+    "https://store.steampowered.com/app/3809440/Cheese_Rolling/"
     ];
 NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["Long Drive North", 1, 0, 0, 1, "nf"],
@@ -181,7 +182,8 @@ NAMES = [["Storebound", 1, 0, 0, 0, "nf"],
     ["YAPYAP", 1, 0, 0, 87, "nf"],
     ["Voyagers of Nera", 1, 0, 0, 88, "nf"],
     ["Steel Ark", 1, 0, 0, 89, "nf"],
-    ["Human Fall Flat", 1, 1, 0, 90, "nf"]
+    ["Human Fall Flat", 1, 1, 0, 90, "nf"],
+    ["Cheese Rolling", 1, 1, 0, 91, "f"]
     ]; // name, windows, apple, linux, link/picture/status index, free? ("f","nf")
 NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Another Try 2", 1, 0, 0, 47, "nf"],
@@ -194,6 +196,7 @@ NAMESAZ = [["Aloft", 1, 0, 0, 36, "nf"],
     ["Blind Descent", 0, 0, 0, 63, "nf"],
     ["BUS: Bro u Survived", 1, 0, 0, 43, "nf"],
     ["Camping Simulator: The Squad", 1, 0, 0, 75, "nf"],
+    ["Cheese Rolling", 1, 1, 0, 91, "f"],
     ["Crosswind", 1, 0, 0, 33, "nf"],
     ["Content Warning", 1, 0, 0, 54, "nf"],
     ["CUFFBUST", 1, 0, 0, 40, "nf"],
@@ -365,7 +368,8 @@ IMGS = ["assets/storebound.jpg",
     "assets/YAPYAP.jpg",
     "assets/Nera.jpg",
     "assets/Steel.jpg",
-    "assets/Human.jpg"
+    "assets/Human.jpg",
+    "assets/Cheese.jpg"
     ];
 STATUS = ["coming",
     "coming",
@@ -457,6 +461,7 @@ STATUS = ["coming",
     "coming",
     "coming",
     "coming",
+    "full",
     "full"
     ];
     NUMPLAYERS =[
@@ -550,6 +555,7 @@ STATUS = ["coming",
         [1,4],
         [1,10],
         [1,4],
+        [1,8],
         [1,8]
     ];
 COUNT = 0;
